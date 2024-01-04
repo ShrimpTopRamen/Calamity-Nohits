@@ -220,7 +220,7 @@ h3.MasterDeath{
 
 
 #bossIconsContainer {
-    background-color: white;
+    background-color: #F9F6EE;
     border-radius: 5px; /* Add rounded corners */
     margin-bottom: 50px;
     text-align: center;
@@ -252,7 +252,7 @@ h3.MasterDeath{
 
 .boss-container{
     padding-top: 20px;
-    background-color: white;
+    background-color: #F9F6EE;
     border-radius: 5px;
 }
 
