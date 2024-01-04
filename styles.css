@@ -1,0 +1,259 @@
+
+@font-face {
+    font-family: 'TerrariaFont';
+    src: url('Andy Bold.ttf') format('truetype');
+}
+
+
+/* Start of Index.html styling*/
+body.index{
+    background-image: url('HomePageImages/wp2233486.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'TerrariaFont', sans-serif;
+
+}
+
+body.MasterDeath{
+    background-image: url('MasterDeathImages/MDBG.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'TerrariaFont', sans-serif;
+
+}
+
+body.Infernum{
+    background-image: url('InfernumImages/InfernumBG.webp');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'TerrariaFont', sans-serif;
+
+}
+
+.header-text{
+    font-size:  75px;
+}
+
+.bossContainerMsg{
+    font-size:  50px;
+}
+
+#header{
+    height: 10%;
+    background-color: #fefefefe;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    font-size: 300px;
+}
+
+.btn::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 36px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Style for the Master Death button image */
+.master-death-btn::before {
+    background-image: url('MasterDeathImages/Death_Indicator.png');
+    background-size: contain;
+    width: 30px;
+    height: 36px;
+
+}
+
+/* Styles for the Scroll to Top Button */
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 25px 30px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #0056b3;
+  }
+  
+
+/* Style for the Infernum button image */
+.infernum-btn::before {
+    background-image: url('InfernumImages/InfernumIcon.png');
+    background-size: contain;
+    width: 30px;
+    height: 32px;
+}
+
+/* End of Index.html styling*/
+
+/* Navbar styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    padding: 10px 15px;
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+}
+
+.navbar-brand:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+.navbar-nav {
+    margin-inline: auto;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link {
+    /* Edit text inside NavBar */
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#active {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+h3.MasterDeath{
+    font-size: 150px;
+
+}
+
+.bossIcons{
+    width: 5%;
+    height: auto;
+    transition: filter 0.3s ease;
+}
+/*
+.Armour {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+}
+*/
+
+.head{
+    width: 45%;
+    height: auto;
+    justify-content: center;
+
+}
+
+.chest {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+}
+
+.legs{
+    width: 35%;
+    height: auto;
+    justify-content: center;
+}
+
+.weapons{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.accessories{
+    width: 10%;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.containerTitle{
+    font-size: 50px;
+    border-bottom-style: dotted;
+}
+
+.Title{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.Desc{
+
+    font-size: 40px;
+}
+
+
+
+#bossIconsContainer {
+    background-color: white;
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+#bossIconsContainer a{
+    text-decoration: none;
+    text-outline: none;
+    outline: none;
+}
+
+#bossIconsContainer a:hover{
+    text-decoration: none;
+}
+
+#bossIconsContainer .bossIcons{
+    transition: filter 0.3s ease; /* Adding a smooth transition effect */
+    margin: 10px;
+    text-decoration: none;
+}
+
+#bossIconsContainer .bossIcons:hover{
+    height: auto;
+    filter: brightness(0.8); /* Darkens the image on hover */
+    text-decoration: none;
+}
+
+
+.boss-container{
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
