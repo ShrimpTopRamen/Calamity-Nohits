@@ -155,6 +155,15 @@ h3.MasterDeath{
     font-size: 150px;
 
 }
+.descHeader{
+    height: 10%;
+    background-color: #d60000fe;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    font-size: 300px;
+
+}
 
 .bossIcons{
     width: 5%;
