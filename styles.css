@@ -61,6 +61,7 @@ body.Infernum{
     padding: 10px;
     font-size: 300px;
     justify-content: center;
+    word-wrap: break-word;
 }
 
 .btn::before {
@@ -152,17 +153,12 @@ body.Infernum{
     color: #000000;
   }
 
-h3.MasterDeath{
-    font-size: 150px;
-
-}
-.descHeader{
-    height: 10%;
-    background-color: #d60000fe;
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-    font-size: 300px;
+  .descHeader{
+    
+    font-size: 71px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    word-wrap: break-word;
 
 }
 
