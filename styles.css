@@ -60,6 +60,7 @@ body.Infernum{
     margin: 0;
     padding: 10px;
     font-size: 300px;
+    justify-content: center;
 }
 
 .btn::before {
