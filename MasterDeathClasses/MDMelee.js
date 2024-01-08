@@ -254,6 +254,97 @@ var bossesData = [
     met: "Met = True",
     comments: "now ft. Toasty's Calamity QoL Mod",
   },
+
+  {
+    bossId: "Crabulon",
+    bossName: "Crabulon",
+    bossIcon: "../bossIcons/Resize/Crabulon_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Platinum_Helmet.png",
+            itemName: "Platinum Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Platinum_Chainmail.png",
+            itemName: "Platinum Chainmail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Platinum_Greaves.png",
+            itemName: "Platinum Greaves",
+          },
+        ],
+        armorName: "Platinum Armour",
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Blade_of_Grass_(old).png",
+            itemName: "Blade of Grass",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Teardrop_Cleaver.png",
+            itemName: "Teardrop Cleaver",
+          },
+
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Feral_Claws.png",
+            itemName: "Feral Claws",
+
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fungal_Symbiote.png",
+            itemName: "Fungal Symbiote",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Jar.png",
+            itemName: "Fart in a Jar",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frostspark_Boots.png",
+            itemName: "Frostspark Boots",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/rqDe5ZGxim8",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 45 seconds",
+    mnl: "MNL = 45 seconds",
+    met: "Met = True",
+    comments: "barely met the MNL lol",
+  },
 ];
 
 function renderBosses() {
