@@ -23,7 +23,6 @@ var bossesData = [
             itemName: "Gold Greaves",
           },
         ],
-        armorName: "Gold Armour",
       },
       {
         categoryName: "Weapon(s)",
@@ -107,7 +106,6 @@ var bossesData = [
             itemName: "Platinum Greaves",
           },
         ],
-        armorName: "Platinum Armour",
       },
       {
         categoryName: "Weapon(s)",
@@ -194,7 +192,6 @@ var bossesData = [
             itemName: "Platinum Greaves",
           },
         ],
-        armorName: "Platinum Armour",
       },
       {
         categoryName: "Weapon(s)",
@@ -277,7 +274,6 @@ var bossesData = [
             itemName: "Platinum Greaves",
           },
         ],
-        armorName: "Platinum Armour",
       },
       {
         categoryName: "Weapon(s)",
