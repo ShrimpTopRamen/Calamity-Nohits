@@ -210,11 +210,9 @@ var bossesData = [
         categoryName: "Accessories",
         items: [
           {
-
             cssClass: "accessories",
             imageUrl: "../accessories/final/Feral_Claws.png",
             itemName: "Feral Claws",
-
           },
           {
             cssClass: "accessories",
@@ -252,7 +250,7 @@ var bossesData = [
     timeTaken: "Time Taken: 1:05",
     mnl: "MNL = 45 seconds",
     met: "Met = True",
-    comments: "now ft. Toasty's Calamity QoL Mod",
+    comments: "Comments: now ft. Toasty's Calamity QoL Mod",
   },
 
   {
@@ -294,18 +292,15 @@ var bossesData = [
             imageUrl: "../weapons/final/Teardrop_Cleaver.png",
             itemName: "Teardrop Cleaver",
           },
-
         ],
       },
       {
         categoryName: "Accessories",
         items: [
           {
-
             cssClass: "accessories",
             imageUrl: "../accessories/final/Feral_Claws.png",
             itemName: "Feral Claws",
-
           },
           {
             cssClass: "accessories",
@@ -343,7 +338,7 @@ var bossesData = [
     timeTaken: "Time Taken: 45 seconds",
     mnl: "MNL = 45 seconds",
     met: "Met = True",
-    comments: "barely met the MNL lol",
+    comments: "Comments: barely met the MNL lol",
   },
 ];
 
