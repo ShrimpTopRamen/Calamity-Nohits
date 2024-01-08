@@ -331,7 +331,7 @@ var bossesData = [
         },
       ],
       moreInformationHeader: "More Information",
-      videoSrc: "https://www.youtube.com/embed/rqDe5ZGxim8?si=ajsEap0gW1ZHn4NQ",
+      videoSrc: "https://www.youtube.com/embed/rqDe5ZGxim8?si=lxffm1fG2w4hpZ2a&amp;start=83",
       videoCaption: "YouTube Video",
       calamityVersion: "Calamity Version: 2.0.1.3",
       terrariaVersion: "Terraria Version: 1.4.3.6",
