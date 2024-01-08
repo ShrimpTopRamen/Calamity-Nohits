@@ -205,7 +205,7 @@ body.Infernum{
     width: 10%;
     height: auto;
     justify-content: center;
-    padding-bottom: 25px;
+    
 }
 
 .containerTitle{
@@ -226,7 +226,7 @@ body.Infernum{
 
 
 #bossIconsContainer {
-    background-color: #F9F6EE;
+    background-color: #ffffff;
     border-radius: 5px; /* Add rounded corners */
     margin-bottom: 50px;
     text-align: center;
@@ -258,7 +258,7 @@ body.Infernum{
 
 .boss-container{
     padding-top: 20px;
-    background-color: #F9F6EE;
+    background-color: #ffffff;
     border-radius: 5px;
 }
 

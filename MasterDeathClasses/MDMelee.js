@@ -252,7 +252,7 @@ var bossesData = [
     timeTaken: "Time Taken: 1:05",
     mnl: "MNL = 45 seconds",
     met: "Met = True",
-    comments: "no ft. Toasty's Calamity QoL Mod",
+    comments: "now ft. Toasty's Calamity QoL Mod",
   },
 ];
 
