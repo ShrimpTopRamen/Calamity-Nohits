@@ -1,42 +1,425 @@
 <!-- masterdeath.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Master Death</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-<body class="MasterDeath">
+  <head>
+    <title>Master Death Mage</title>
+    <link rel="icon" type="image/x-icon" href="../MasterDeathImages\Death_Indicator.ico">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+    <script src="./MDMage.js"></script>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="MasterDeath">
+    <button id="scrollToTopBtn">Back to Top</button>
+    <div id="header" class="text-center">
+      <h1 class="header-text">Master Death Mage</h1>
+    </div>
 
-<div id = "header" class = "text-center">
-  <h1>Master Death </h1>
-</div>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a id="back-button" class="navbar-brand" href="../index.html">Back</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a  class="nav-link" href="MasterDeathMelee.html">
+                <img
+                  src="../MasterDeathImages/Warrior_Emblem.png"
+                  alt="Melee Emblem"
+                />
+                Melee
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="MasterDeathRanger.html">
+                <img
+                  src="../MasterDeathImages/Ranger_Emblem.webp"
+                  alt="Ranger Emblem"
+                />
+                Ranger
+              </a>
+            </li>
+            <li class="nav-item">
+              <a id="active" class="nav-link" href="MasterDeathMage.html">
+                <img
+                  src="../MasterDeathImages/Sorcerer_Emblem.webp"
+                  alt="Mage Emblem"
+                />
+                Mage
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="MasterDeathSummoner.html">
+                <img
+                  src="../MasterDeathImages/Summoner_Emblem.webp"
+                  alt="Summoner Emblem"
+                />
+                Summoner
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="MasterDeathRogue.html">
+                <img
+                  src="../MasterDeathImages/Ranger_Emblem.webp"
+                  alt="Rogue Emblem"
+                />
+                Rogue
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Nav Bar -->
 
-<!-- Navigation Bar -->
-<div class="navbar">
-  <a id="back-button" href="index.html">Back</a>
-  <a href="MasterDeathClasses/MasterDeathMelee.html">
-    <img src="MasterDeathImages/Warrior_Emblem.png" alt="Melee Emblem"> Melee
-  </a>
-  <a href="MasterDeathClasses/MasterDeathRanger.html">
-    <img src="MasterDeathImages/Ranger_Emblem.webp" alt="Ranger Emblem"> Ranger
-  </a>
-  <a href="MasterDeathClasses/MasterDeathMage.html">
-    <img src="MasterDeathImages/Sorcerer_Emblem.webp" alt="Mage Emblem"> Mage
-  </a>
-  <a href="MasterDeathClasses/MasterDeathSummoner.html">
-    <img src="MasterDeathImages/Summoner_Emblem.webp" alt="Summoner Emblem"> Summoner
-  </a>
-  <a href="MasterDeathClasses/MasterDeathRogue.html">
-    <img src="MasterDeathImages/Ranger_Emblem.webp" alt="Rogue Emblem"> Rogue
-  </a>
+    <!-- Boss Icons -->
+    <section>
+      <div class="container mt-4" id="bossIconsContainer">
+        <h1 class="bossContainerMsg">Select a Boss</h1>
+        <br />
+        <a href="#KingSlime">
+          <img
+            src="../bossIcons/Resize/Map_Icon_King_Slime.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#DesertScourge">
+          <img
+            src="../bossIcons/Resize/Desert_Scourge_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#EoC">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Eye_of_Cthulhu_(first_form).png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Crabulon">
+          <img
+            src="../bossIcons/Resize/Crabulon_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#BoC">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Brain_of_Cthulhu.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#EoW">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Eater_of_Worlds.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#HiveMind">
+          <img
+            src="../bossIcons/Resize/Hive_Mind_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Perf">
+          <img
+            src="../bossIcons/Resize/Perforator_Hive_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#QueenBee">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Queen_Bee.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Deer">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Deerclops.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Skeletron">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Skeletron.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#SlimeGod">
+          <img
+            src="../bossIcons/Resize/Slime_God_Core_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#WoF">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Wall_of_Flesh.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#QueenSlime">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Queen_Slime.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Twins">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Retinazer_(second_form).png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Twins">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Spazmatism_(second_form).png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Brimmy">
+          <img
+            src="../bossIcons/Resize/Brimstone_Elemental_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#SkeletronPrime">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Skeletron_Prime.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Cryogen">
+          <img
+            src="../bossIcons/Resize/Cryogen_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#AquaticScourge">
+          <img
+            src="../bossIcons/Resize/Aquatic_Scourge_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Destroyer">
+          <img
+            src="../bossIcons/Resize/Map_Icon_The_Destroyer.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#CalClone">
+          <img
+            src="../bossIcons/Resize/Calamitas_Clone_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Plantera">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Plantera_(first_form).png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Levi+Ana">
+          <img
+            src="../bossIcons/Resize/Anahita_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Levi+Ana">
+          <img
+            src="../bossIcons/Resize/Leviathan_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#AstrumAurerus">
+          <img
+            src="../bossIcons/Resize/Astrum_Aureus_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Golem">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Golem.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Duke">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Duke_Fishron.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Plague">
+          <img
+            src="../bossIcons/Resize/Plaguebringer_Goliath_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#EoL">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Empress_of_Light.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Ravager">
+          <img
+            src="../bossIcons/Resize/Ravager_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Cultist">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Lunatic_Cultist.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#AstrumDeus">
+          <img
+            src="../bossIcons/Resize/Astrum_Deus_map.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#Astra">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Astrageldon_(Phase_2)_(Catalyst).png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+        <a href="#MoonLord">
+          <img
+            src="../bossIcons/Resize/Map_Icon_Moon_Lord.png"
+            alt=""
+            class="bossIcons"
+          />
+        </a>
+      </div>
+    </section>
+    <!-- End of Boss Icons -->
 
-</div>
+  </body>
 
-<!-- Your page content here -->
+<!-- Boss Container-->
+<script id="boss-template" type="text/x-handlebars-template">
+  <section>
+      <div class="boss-container container">
+          <div class="row mb-4" id="{{bossId}}">
+              <div class="col-12 text-center">
+                  <img
+                      src="{{bossIcon}}"
+                      alt="{{bossName}} Sprite"
+                      class="bossIcons"
+                  />
+                  <h2 class="containerTitle mt-2">{{bossName}}</h2>
+              </div>
 
-</body>
+              {{#each categories}}
+              <div class="col flex-column d-flex align-items-center justify-content-start">
+                  <h5 class="Title">{{categoryName}}</h5>
+
+                  {{#each items}}
+                  <div class="text-center">
+                      <img class="{{cssClass}} mt-5 img-fluid" src="{{imageUrl}}" alt="" loading="lazy" />
+                  </div>
+                  <h3>{{itemName}}</h3>
+                  {{/each}}
+
+              </div>
+              {{/each}}
+
+              <div class="col-12">
+                  <h3 class="descHeader">{{moreInformationHeader}}</h3>
+                  <div style="display: flex; flex-direction: column; align-items: center; height: 800px;">
+                      <iframe src="{{videoSrc}}" allowfullscreen style="width: 100%; height: 100%" loading="lazy"></iframe>
+                      <p style="margin-top: 10px; font-size: 40px">{{videoCaption}}</p>
+                  </div>
+
+                  <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+                      <p class="Desc" style="display: inline-block">{{calamityVersion}}</p>
+                      <p class="Desc" style="display: inline-block">{{terrariaVersion}}</p>
+                  </div>
+
+                  <p class="Desc">{{timeTaken}}</p>
+                  <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+                      <p class="Desc" style="display: inline-block">{{mnl}}</p>
+                      <p class="Desc" style="display: inline-block">{{met}}</p>
+                  </div>
+
+                  <p class="Desc">{{comments}}</p>
+              </div>
+          </div>
+      </div>
+  </section>
+</script>
+
+  <script>
+    const scrollToTopButton = document.getElementById("scrollToTopBtn");
+
+    // Show or hide the button based on the scroll position
+    window.onscroll = function () {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        scrollToTopButton.style.display = "block";
+      } else {
+        scrollToTopButton.style.display = "none";
+      }
+    };
+
+    // Scroll to the top of the page when the button is clicked
+    scrollToTopButton.addEventListener("click", function () {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    });
+
+    renderBosses();
+  </script>
+
 </html>
