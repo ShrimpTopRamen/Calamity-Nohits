@@ -39,12 +39,15 @@
 
   <div class="row">
     <div class="col mt-5">
-      <button id="About" type="button" class="btn btn-light btn-lg  fw-bold main fs-3">About</button>
+      <button id="About" type="button" class="btn btn-light btn-lg  fw-bold main fs-3 about-btn">About</button>
     </div>
   </div>
 
 </div>
 </div>
+
+
+
 </body>
 <script>
   // JavaScript function to redirect to a specific page
@@ -59,6 +62,10 @@
 
   document.getElementById('Infernum').addEventListener('click', function() {
     redirectToPage('Infernum.html');
+  });
+
+  document.getElementById('About').addEventListener('click', function() {
+    redirectToPage('about.html');
   });
 </script>
 </html>
