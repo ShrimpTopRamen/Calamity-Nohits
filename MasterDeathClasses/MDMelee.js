@@ -336,6 +336,93 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: barely met the MNL lol",
   },
+  {
+    bossId: "BoC",
+    bossName: "Brain of Cthulhu",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Brain_of_Cthulhu.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Victide_Shellmet.png",
+            itemName: "Victide Shellmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Victide_Breastplate.png",
+            itemName: "Victide Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Victide_Greaves.png",
+            itemName: "Victide Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Amidias'_Trident.png",
+            itemName: "Amidias' Trident",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Urchin_Flail.png",
+            itemName: "Urchin Flail",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Jar.png",
+            itemName: "Fart in a Jar",
+          },
+          {
+
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frostspark_Boots.png",
+            itemName: "Frostspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Cloud_in_a_Bottle.png",
+            itemName: "Cloud in a Bottle",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/OAkGWFYKuM4?si=83I2yq8PMPBs65l1",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.4",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:16",
+    mnl: "MNL = 45 seconds",
+    met: "Met = True",
+    comments: "Comments: yummy homing",
+  },
 ];
 
 function renderBosses() {
