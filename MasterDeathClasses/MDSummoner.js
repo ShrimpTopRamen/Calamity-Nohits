@@ -282,7 +282,7 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: ",
   },
-
+  //Crabulon
   {
     bossId: "Crabulon",
     bossName: "Crabulon",
@@ -369,6 +369,97 @@ var bossesData = [
     mnl: "MNL = 45 seconds",
     met: "Met = False",
     comments: "Comments: too fast",
+  },
+
+  //BoC
+  {
+    bossId: "BoC",
+    bossName: "Brain of Cthulhu ",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Brain_of_Cthulhu.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Victide_Mask.png",
+            itemName: "Victide Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Victide_Breastplate.png",
+            itemName: "Victide Brestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Victide_Greaves.png",
+            itemName: "Victide Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snapthorn.png",
+            itemName: "Snapthorn",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Brittle_Star_Staff.png",
+            itemName: "Brittle Star Staff (Seabound Staff)",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Spirit_Glyph.png",
+            itemName: "Spirit Glyph",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Jar.png",
+            itemName: "Fart in a Jar",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frostspark_Boots.png",
+            itemName: "Frostspark Boots",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/OAkGWFYKuM4?si=YJr2V93cmyxGGghZ&amp;start=255",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.4",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 54 seconds",
+    mnl: "MNL = 45 seconds",
+    met: "Met = True",
+    comments: "Comments: sprite got updated later i guess",
   },
 ];
 
