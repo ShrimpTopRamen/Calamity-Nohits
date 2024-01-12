@@ -1,3 +1,5 @@
+import * as MD_MNL from "./MDMNL.js";
+
 var bossesData = [
   //King Slime
   {
@@ -83,7 +85,7 @@ var bossesData = [
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
     timeTaken: "Time Taken: 0:45",
-    mnl: "MNL: 0:35",
+    mnl: `MNL: ${MD_MNL.KingSlime}`,
     met: "Met = True",
     comments: "Comments: Like and Subscribe (Rogue Editon)",
   },
@@ -603,7 +605,7 @@ var bossesData = [
   },
 ];
 
-function renderBosses() {
+window.renderBosses = function () {
   var templateScript = document.getElementById("boss-template").innerHTML;
   var template = Handlebars.compile(templateScript);
 
@@ -611,4 +613,4 @@ function renderBosses() {
     var bossHtml = template(boss);
     document.body.insertAdjacentHTML("beforeend", bossHtml);
   });
-}
+};
