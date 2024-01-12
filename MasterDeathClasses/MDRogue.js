@@ -1,4 +1,5 @@
 var bossesData = [
+  //King Slime
   {
     bossId: "KingSlime",
     bossName: "King Slime",
@@ -81,12 +82,12 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 45 seconds",
-    mnl: "MNL = 35 seconds",
+    timeTaken: "Time Taken: 0:45",
+    mnl: "MNL: 0:35",
     met: "Met = True",
     comments: "Comments: Like and Subscribe (Rogue Editon)",
   },
-
+  //Desert Scourge
   {
     bossId: "DesertScourge",
     bossName: "Desert Scourge",
@@ -170,10 +171,11 @@ var bossesData = [
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
     timeTaken: "Time Taken: 1:28",
-    mnl: "MNL = 35 seconds",
+    mnl: "MNL: 0:35",
     met: "Met = True",
     comments: "Comments: slowest i think",
   },
+  //EoC
   {
     bossId: "EoC",
     bossName: "Eye of Cthulhu",
@@ -251,9 +253,9 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 42 seconds",
-    mnl: "MNL = 45 seconds",
-    met: "Met = True",
+    timeTaken: "Time Taken: 0:42",
+    mnl: "MNL: 0:45",
+    met: "Met = False",
     comments: "Comments: stealth strike barely made me miss mnl methinks",
   },
   //Crabulon
@@ -340,7 +342,7 @@ var bossesData = [
     calamityVersion: "Calamity Version: 2.0.1.3",
     terrariaVersion: "Terraria Version: 1.4.3.6",
     timeTaken: "Time Taken: 1:11",
-    mnl: "MNL = 45 seconds",
+    mnl: "MNL: 0:45",
     met: "Met = True",
     comments: "Comments: EoC dead means acid rain event can start",
   },
@@ -427,10 +429,94 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.4",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 49 seconds",
-    mnl: "MNL = 45 seconds",
+    timeTaken: "Time Taken: 0:49",
+    mnl: "MNL: 0:45",
     met: "Met = True",
-    comments: "Comments: ",
+    comments: "Comments: none",
+  },
+  //EoW
+  {
+    bossId: "EoW",
+    bossName: "Eater of Worlds",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Eater_of_Worlds.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Sulphurous_Helmet.png",
+            itemName: "Sulphurous Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Sulphurous_Breastplate.png",
+            itemName: "Sulphurous Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Sulphurous_Leggings.png",
+            itemName: "Sulphurous Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Seafoam_Bomb.png",
+            itemName: "Seafoam Bomb",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sandstorm_in_a_Bottle.png",
+            itemName: "Sandstorm in a Bottle",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Coin_of_Deceit.png",
+            itemName: "Coin of Deceit",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Cloud_in_a_Bottle.png",
+            itemName: "Cloud in a Bottle",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/iE36xKFmp64?si=OPUm-pQAib7rPGHG&amp;start=573",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.4",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:17",
+    mnl: "MNL: 0:45",
+    met: "Met = True",
+    comments:
+      "Comments: i think it's pretty funny how I spent the first 30 seconds standing still",
   },
 ];
 

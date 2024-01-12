@@ -40,6 +40,41 @@ body.Infernum {
   font-family: "TerrariaFont", sans-serif;
 }
 
+.header-text-melee {
+  font-size: 75px;
+  color: #ff0a32;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.header-text-ranger {
+  font-size: 75px;
+  color: #1ecd5a;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.header-text-mage {
+  font-size: 75px;
+  color: #3782ff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.header-text-summoner {
+  font-size: 75px;
+  color: #fa50fa;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.header-text-rogue {
+  font-size: 75px;
+  color: #ff641e;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
 .header-text {
   font-size: 75px;
 }
@@ -258,6 +293,6 @@ body.Infernum {
   border-radius: 5px;
 }
 
-.aboutText{
+.aboutText {
   font-size: 35px;
 }

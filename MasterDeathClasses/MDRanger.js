@@ -1,4 +1,5 @@
 var bossesData = [
+  //King Slime
   {
     bossId: "KingSlime",
     bossName: "King Slime",
@@ -81,12 +82,12 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 33 seconds",
-    mnl: "MNL = 35 seconds",
+    timeTaken: "Time Taken: 0:33",
+    mnl: "MNL: 0:35",
     met: "Met = False",
     comments: "Comments: Like and Subscribe (Ranger Editon)",
   },
-
+  //Desert Scourge
   {
     bossId: "DesertScourge",
     bossName: "Desert Scourge",
@@ -168,11 +169,12 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 35 seconds",
-    mnl: "MNL = 35 seconds",
+    timeTaken: "Time Taken: 0:35",
+    mnl: "MNL: 0:35",
     met: "Met = True",
     comments: "Comments: barely",
   },
+  //EoC
   {
     bossId: "EoC",
     bossName: "Eye of Cthulhu",
@@ -255,8 +257,8 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 51 seconds",
-    mnl: "MNL = 45 seconds",
+    timeTaken: "Time Taken: 0:51",
+    mnl: "MNL: 0:45",
     met: "Met = True",
     comments: "Comments: aaaaaaaaaaaaaaaaaa",
   },
@@ -338,8 +340,8 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.3",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 36 seconds",
-    mnl: "MNL = 45 seconds",
+    timeTaken: "Time Taken: 0:36",
+    mnl: "MNL: 0:45",
     met: "Met = False",
     comments: "Comments: :(",
   },
@@ -431,10 +433,99 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.4",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 46 seconds",
-    mnl: "MNL = 45 seconds",
+    timeTaken: "Time Taken: 0:46",
+    mnl: "MNL: 0:45",
     met: "Met = True",
     comments: "Comments: 1 sec",
+  },
+
+  //EoW
+  {
+    bossId: "EoW",
+    bossName: "Eater of Worlds",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Eater_of_Worlds.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Victide_Coral_Turban.png",
+            itemName: "Victide Coral Turban",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Victide_Breastplate.png",
+            itemName: "Victide Brestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Victide_Greaves.png",
+            itemName: "Victide Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Minishark.png",
+            itemName: "Minishark",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Flash_Round.png",
+            itemName: "Flash Rounds",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sandstorm_in_a_Bottle.png",
+            itemName: "Sandstorm in a Bottle",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rusty_Medallion.png",
+            itemName: "Rusty Medallion",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Cloud_in_a_Bottle.png",
+            itemName: "Cloud in a Bottle",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/iE36xKFmp64?si=qPTtW1Uk0NzXQpYU&amp;start=268",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.4",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:21",
+    mnl: "MNL: 0:45",
+    met: "Met = True",
+    comments: "Comments: much easier",
   },
 ];
 

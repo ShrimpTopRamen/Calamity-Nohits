@@ -1,4 +1,5 @@
 var bossesData = [
+  //King Slime
   {
     bossId: "KingSlime",
     bossName: "King Slime",
@@ -81,13 +82,13 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 59 seconds",
-    mnl: "MNL = 35 seconds",
+    timeTaken: "Time Taken: 0:59",
+    mnl: "MNL: 0:35",
     met: "Met = True",
     comments:
       "Comments: Like and Subscribe (Summoner Editon) Wulfrum armor is pretty cool",
   },
-
+  //Desert Scourge
   {
     bossId: "DesertScourge",
     bossName: "Desert Scourge",
@@ -181,10 +182,11 @@ var bossesData = [
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
     timeTaken: "Time Taken: 1:17",
-    mnl: "MNL = 35 seconds",
+    mnl: "MNL: 0:35",
     met: "Met = True",
     comments: "Comments: none",
   },
+  //EoC
   {
     bossId: "EoC",
     bossName: "Eye of Cthulhu",
@@ -277,8 +279,8 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 50 seconds",
-    mnl: "MNL = 45 seconds",
+    timeTaken: "Time Taken: 0:50",
+    mnl: "MNL: 0:45",
     met: "Met = True",
     comments: "Comments: ",
   },
@@ -365,12 +367,11 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.3",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 34 seconds",
-    mnl: "MNL = 45 seconds",
+    timeTaken: "Time Taken: 0:34",
+    mnl: "MNL: 0:45",
     met: "Met = False",
     comments: "Comments: too fast",
   },
-
   //BoC
   {
     bossId: "BoC",
@@ -456,10 +457,104 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.4",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 54 seconds",
-    mnl: "MNL = 45 seconds",
+    timeTaken: "Time Taken: 0:54",
+    mnl: "MNL: 0:45",
     met: "Met = True",
     comments: "Comments: sprite got updated later i guess",
+  },
+  //EoW
+  {
+    bossId: "EoW",
+    bossName: "Eater of Worlds",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Eater_of_Worlds.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Victide_Mask.png",
+            itemName: "Victide Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Victide_Breastplate.png",
+            itemName: "Victide Brestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Victide_Greaves.png",
+            itemName: "Victide Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snapthorn.png",
+            itemName: "Snapthorn",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Brittle_Star_Staff.png",
+            itemName: "Brittle Star Staff (Seabound Staff)",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Rusty_Beacon_Prototype.png",
+            itemName: "Rusty Beacon Prototype",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sandstorm_in_a_Bottle.png",
+            itemName: "Sandstorm in a Bottle",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Spirit_Glyph.png",
+            itemName: "Spirit Glyph",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Cloud_in_a_Bottle.png",
+            itemName: "Cloud in a Bottle",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/iE36xKFmp64?si=dZ_w-aUiQwvjNCy_&amp;start=483",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.4",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 0:58",
+    mnl: "MNL: 0:45",
+    met: "Met = True",
+    comments: "Comments: none",
   },
 ];
 

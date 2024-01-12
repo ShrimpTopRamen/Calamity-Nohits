@@ -1,4 +1,5 @@
 var bossesData = [
+  //King Slime
   {
     bossId: "KingSlime",
     bossName: "King Slime",
@@ -76,12 +77,12 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 56 seconds",
-    mnl: "MNL = 35 seconds",
+    timeTaken: "Time Taken: 0:56",
+    mnl: "MNL: 0:35",
     met: "Met = True",
     comments: "Comments: Like and Subscribe",
   },
-
+  //Desert Scourge
   {
     bossId: "DesertScourge",
     bossName: "Desert Scourge",
@@ -163,11 +164,12 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 37 seconds",
-    mnl: "MNL = 35 seconds",
+    timeTaken: "Time Taken: 0:37",
+    mnl: "MNL: 0:35",
     met: "Met = True",
     comments: "Comments: uhhhh",
   },
+  //EoC
   {
     bossId: "EoC",
     bossName: "Eye of Cthulhu",
@@ -245,11 +247,11 @@ var bossesData = [
     calamityVersion: "Calamity Version: 2.0.1.003",
     terrariaVersion: "Terraria Version: 1.4.3.6",
     timeTaken: "Time Taken: 1:05",
-    mnl: "MNL = 45 seconds",
+    mnl: "MNL: 0:45",
     met: "Met = True",
     comments: "Comments: now ft. Toasty's Calamity QoL Mod",
   },
-
+  //Crabulon
   {
     bossId: "Crabulon",
     bossName: "Crabulon",
@@ -331,11 +333,12 @@ var bossesData = [
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.1.3",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 45 seconds",
-    mnl: "MNL = 45 seconds",
+    timeTaken: "Time Taken: 0:45",
+    mnl: "MNL: 0:45",
     met: "Met = True",
     comments: "Comments: barely met the MNL lol",
   },
+  //BoC
   {
     bossId: "BoC",
     bossName: "Brain of Cthulhu",
@@ -400,7 +403,6 @@ var bossesData = [
             itemName: "Fart in a Jar",
           },
           {
-
             cssClass: "accessories",
             imageUrl: "../accessories/final/Frostspark_Boots.png",
             itemName: "Frostspark Boots",
@@ -419,9 +421,101 @@ var bossesData = [
     calamityVersion: "Calamity Version: 2.0.1.4",
     terrariaVersion: "Terraria Version: 1.4.3.6",
     timeTaken: "Time Taken: 1:16",
-    mnl: "MNL = 45 seconds",
+    mnl: "MNL: 0:45",
     met: "Met = True",
     comments: "Comments: yummy homing",
+  },
+  //EoW
+  {
+    bossId: "EoW",
+    bossName: "Eater of Worlds",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Eater_of_Worlds.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Victide_Shellmet.png",
+            itemName: "Victide Shellmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Victide_Breastplate.png",
+            itemName: "Victide Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Victide_Greaves.png",
+            itemName: "Victide Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Urchin_Flail.png",
+            itemName: "Urchin Flail",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Amidias'_Trident.png",
+            itemName: "Amidias' Trident",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Enchanted_Sword_(item).png",
+            itemName: "Enchanted Sword",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sandstorm_in_a_Bottle.png",
+            itemName: "Sandstorm in a Bottle",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Feral_Claws.png",
+            itemName: "Feral Claws",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Cloud_in_a_Bottle.png",
+            itemName: "Cloud in a Bottle",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/iE36xKFmp64?si=B9eYwR8KdQNk9xlW",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.4",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 3:54",
+    mnl: "MNL: 0:45",
+    met: "Met = True",
+    comments: "Comments: this took FOREVER",
   },
 ];
 
