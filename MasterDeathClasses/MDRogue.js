@@ -518,6 +518,89 @@ var bossesData = [
     comments:
       "Comments: i think it's pretty funny how I spent the first 30 seconds standing still",
   },
+  //Hive Mind
+  {
+    bossId: "HiveMind",
+    bossName: "The Hive Mind",
+    bossIcon: "../bossIcons/Resize/Hive_Mind_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Sulphurous_Helmet.png",
+            itemName: "Sulphurous Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Sulphurous_Breastplate.png",
+            itemName: "Sulphurous Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Sulphurous_Leggings.png",
+            itemName: "Sulphurous Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Infernal_Kris.png",
+            itemName: "Infernal Kris",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Jar.png",
+            itemName: "Fart in a Jar",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frostspark_Boots.png",
+            itemName: "Frostspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Coin_of_Deceit.png",
+            itemName: "Coin of Deceit",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/TypDtF17EYY?si=WiWjKGm0lGffNkCL&amp;start=553",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.4",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:57",
+    mnl: "MNL: 1:00",
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 function renderBosses() {

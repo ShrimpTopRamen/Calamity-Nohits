@@ -516,6 +516,90 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: pierce",
   },
+  //Hive Mind
+  {
+    bossId: "HiveMind",
+    bossName: "The Hive Mind",
+    bossIcon: "../bossIcons/Resize/Hive_Mind_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Meteor_Helmet.png",
+            itemName: "Meteor Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Meteor_Suit.png",
+            itemName: "Meteor Suit",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Meteor_Leggings.png",
+            itemName: "Meteor Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Flare_Bolt.png",
+            itemName: "Flare Bolt",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Jar.png",
+            itemName: "Fart in a Jar",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frostspark_Boots.png",
+            itemName: "Frostspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/TypDtF17EYY?si=GWgBQphVUhn-qSom&amp;start=278",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:38",
+    mnl: "MNL: 1:00",
+    met: "Met = True",
+    comments: "Comments: I cast fireball and nothing but fireball",
+  },
 ];
 
 function renderBosses() {

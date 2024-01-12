@@ -232,6 +232,25 @@ body.Infernum {
   padding-bottom: 25px;
 }
 
+.weapons-boomer {
+  width: 25%;
+  height: auto;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+.weapons-ammo {
+  width: 15%;
+  height: auto;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.bows {
+  width: 20%;
+  height: auto;
+  justify-content: center;
+  padding-bottom: 25px;
+}
 .accessories {
   width: 10%;
   height: auto;

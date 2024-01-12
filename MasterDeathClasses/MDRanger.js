@@ -34,7 +34,7 @@ var bossesData = [
             itemName: "Minishark",
           },
           {
-            cssClass: "weapons",
+            cssClass: "weapons-ammo",
             imageUrl: "../weapons/final/Flash_Round.png",
             itemName: "Flash Rounds",
           },
@@ -122,7 +122,7 @@ var bossesData = [
             itemName: "Minishark",
           },
           {
-            cssClass: "weapons",
+            cssClass: "weapons-ammo",
             imageUrl: "../weapons/final/Flash_Round.png",
             itemName: "Flash Rounds",
           },
@@ -209,7 +209,7 @@ var bossesData = [
             itemName: "Minishark",
           },
           {
-            cssClass: "weapons",
+            cssClass: "weapons-ammo",
             imageUrl: "../weapons/final/Flash_Round.png",
             itemName: "Flash Rounds",
           },
@@ -386,7 +386,7 @@ var bossesData = [
             itemName: "Minishark",
           },
           {
-            cssClass: "weapons",
+            cssClass: "weapons-ammo",
             imageUrl: "../weapons/final/Flash_Round.png",
             itemName: "Flash Rounds",
           },
@@ -438,7 +438,6 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: 1 sec",
   },
-
   //EoW
   {
     bossId: "EoW",
@@ -474,7 +473,7 @@ var bossesData = [
             itemName: "Minishark",
           },
           {
-            cssClass: "weapons",
+            cssClass: "weapons-ammo",
             imageUrl: "../weapons/final/Flash_Round.png",
             itemName: "Flash Rounds",
           },
@@ -526,6 +525,99 @@ var bossesData = [
     mnl: "MNL: 0:45",
     met: "Met = True",
     comments: "Comments: much easier",
+  },
+  //Hive Mind
+  {
+    bossId: "HiveMind",
+    bossName: "The Hive Mind",
+    bossIcon: "../bossIcons/Resize/Hive_Mind_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Victide_Coral_Turban.png",
+            itemName: "Victide Coral Turban",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Victide_Breastplate.png",
+            itemName: "Victide Brestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Victide_Greaves.png",
+            itemName: "Victide Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Star_Cannon.png",
+            itemName: "Star Cannon",
+          },
+          {
+            cssClass: "bows",
+            imageUrl: "../weapons/final/Molten_Fury.png",
+            itemName: "Molten Fury",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Hellfire_Arrow.png",
+            itemName: "Hellfire Arrows",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Jar.png",
+            itemName: "Fart in a Jar",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frostspark_Boots.png",
+            itemName: "Frostspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rusty_Medallion.png",
+            itemName: "Rusty Medallion",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/TypDtF17EYY?si=ZJQAYGDU3xYBS8Be&amp;start=133",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:50",
+    mnl: "MNL: 1:00",
+    met: "Met = True",
+    comments: "Comments: honestly i forgot i used the star cannon here",
   },
 ];
 
