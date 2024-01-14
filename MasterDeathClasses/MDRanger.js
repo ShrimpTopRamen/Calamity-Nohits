@@ -621,6 +621,89 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: honestly i forgot i used the star cannon here",
   },
+  //Perf
+  {
+    bossId: "Perf",
+    bossName: "The Perforators",
+    bossIcon: "../bossIcons/Resize/Perforator_Hive_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Victide_Coral_Turban.png",
+            itemName: "Victide Coral Turban",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Victide_Breastplate.png",
+            itemName: "Victide Brestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Victide_Greaves.png",
+            itemName: "Victide Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Star_Cannon.png",
+            itemName: "Star Cannon",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Jar.png",
+            itemName: "Fart in a Jar",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frostspark_Boots.png",
+            itemName: "Frostspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rusty_Medallion.png",
+            itemName: "Rusty Medallion",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/FaSdJQY0crA?si=RzMj1EdGuDYyyt6b&amp;start=100",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:15",
+    mnl: `MNL: ${MD_MNL.Perf}`,
+    met: "Met = True",
+    comments: "Comments: man i was really enjoying the star cannon",
+  },
 ];
 
 window.renderBosses = function () {

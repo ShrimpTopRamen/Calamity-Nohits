@@ -606,6 +606,88 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Perf
+  {
+    bossId: "Perf",
+    bossName: "The Perforators",
+    bossIcon: "../bossIcons/Resize/Perforator_Hive_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Molten_Helmet.png",
+            itemName: "Molten Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Molten_Breastplate.png",
+            itemName: "Molten Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Molten_Greaves.png",
+            itemName: "Molten Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Flamarang.png",
+            itemName: "Flamarang",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Jar.png",
+            itemName: "Fart in a Jar",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frostspark_Boots.png",
+            itemName: "Frostspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Feral_Claws.png",
+            itemName: "Feral Claws",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/FaSdJQY0crA?si=J0fBDRF6EjZHgoJh",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:14",
+    mnl: `MNL: ${MD_MNL.Perf}`,
+    met: "Met = True",
+    comments: "Comments: out here looking like a 0/2/3 boomerang monkey",
+  },
 ];
 
 window.renderBosses = function () {

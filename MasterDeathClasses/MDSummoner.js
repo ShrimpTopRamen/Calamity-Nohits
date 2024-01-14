@@ -657,6 +657,110 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: this took a surprisingly long time",
   },
+  //Perf
+  {
+    bossId: "Perf",
+    bossName: "The Perforators",
+    bossIcon: "../bossIcons/Resize/Perforator_Hive_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Obsidian_Outlaw_Hat.png",
+            itemName: "Obsidian Outlaw Hat",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Obsidian_Longcoat.png",
+            itemName: "Obsidian Longcoat",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Obsidian_Pants.png",
+            itemName: "Obsidian Pants",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snapthorn.png",
+            itemName: "Snapthorn",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Cinder_Blossom_Staff.png",
+            itemName: "Cinder Blossom Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Deathstare_Rod.png",
+            itemName: "Deathstare Rod",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Vile_Feeder.png",
+            itemName: "Vile Feeder",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Rusty_Beacon_Prototype.png",
+            itemName: "Rusty Beacon Prototype",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
+            itemName: "Fart in a Balloon",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frostspark_Boots.png",
+            itemName: "Frostspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Spirit_Glyph.png",
+            itemName: "Spirit Glyph",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/FaSdJQY0crA?si=z605DMRhaLBdk81f&amp;start=347",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:47",
+    mnl: `MNL: ${MD_MNL.Perf}`,
+    met: "Met = True",
+    comments: "Comments: crack that whip",
+  },
 ];
 
 window.renderBosses = function () {

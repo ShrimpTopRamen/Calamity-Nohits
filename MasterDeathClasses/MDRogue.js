@@ -603,6 +603,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Perf
+  {
+    bossId: "Perf",
+    bossName: "The Perforators",
+    bossIcon: "../bossIcons/Resize/Perforator_Hive_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Sulphurous_Helmet.png",
+            itemName: "Sulphurous Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Sulphurous_Breastplate.png",
+            itemName: "Sulphurous Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Sulphurous_Leggings.png",
+            itemName: "Sulphurous Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Infested_Clawmerang.png",
+            itemName: "Infested Clawmerang",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Infernal_Kris.png",
+            itemName: "Infernal Kris",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
+            itemName: "Fart in a Balloon",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frostspark_Boots.png",
+            itemName: "Frostspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Coin_of_Deceit.png",
+            itemName: "Coin of Deceit",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/FaSdJQY0crA?si=SZ8xbkkWvHoQy4mt&amp;start=454",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:42",
+    mnl: `MNL: ${MD_MNL.Perf}`,
+    met: "Met = True",
+    comments: "Comments: melting worms is fun",
+  },
 ];
 
 window.renderBosses = function () {
