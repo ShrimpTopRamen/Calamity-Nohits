@@ -1,5 +1,5 @@
 //File for all MNL as of 1/12/2024
-export const KingSlime = "this is inside MDMNL.js";
+export const KingSlime = "0:35";
 export const DesertScourge = "0:35";
 export const EoC = "0:35";
 export const Crabulon = "0:45";
