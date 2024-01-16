@@ -761,6 +761,105 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: crack that whip",
   },
+  //Queen Bee
+  {
+    bossId: "QueenBee",
+    bossName: "Queen Bee",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Queen_Bee.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Aerospec_Helmet.png",
+            itemName: "Aerospec Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Aerospec_Breastplate.png",
+            itemName: "Aerospec Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Aerospec_Leggings.png",
+            itemName: "Aerospec Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snapthorn.png",
+            itemName: "Snapthorn",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Blood_Clot_Staff.png",
+            itemName: "Blood Clot Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Cinder_Blossom_Staff.png",
+            itemName: "Cinder Blossom Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Rusty_Beacon_Prototype.png",
+            itemName: "Rusty Beacon Prototype",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
+            itemName: "Fart in a Balloon",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Spirit_Glyph.png",
+            itemName: "Spirit Glyph",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/ak4_6i7vx24?si=PaRQCvuCZMqZh_o_&amp;start=308",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:13",
+    mnl: `MNL: ${MD_MNL.QueenBee}`,
+    met: "Met = True",
+    comments: "Comments: wtf the bloodclot staff was removed",
+  },
 ];
 
 window.renderBosses = function () {

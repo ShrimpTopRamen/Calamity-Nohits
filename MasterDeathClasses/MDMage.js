@@ -602,7 +602,7 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: I cast fireball and nothing but fireball",
   },
-  //Perf
+  //Queen Bee
   {
     bossId: "Perf",
     bossName: "The Perforators",
@@ -685,6 +685,95 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.Perf}`,
     met: "Met = True",
     comments: "Comments: use adrenaline for worms",
+  },
+  //Perf
+  {
+    bossId: "QueenBee",
+    bossName: "Queen Bee",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Queen_Bee.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Meteor_Helmet.png",
+            itemName: "Meteor Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Meteor_Suit.png",
+            itemName: "Meteor Suit",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Meteor_Leggings.png",
+            itemName: "Meteor Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Tradewinds.png",
+            itemName: "Tradewinds",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Pulse_Pistol.png",
+            itemName: "Pulse Pistol",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
+            itemName: "Fart in a Balloon",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/ak4_6i7vx24?si=ZIshNw18vYeX2B7S&amp;start=225",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 0:52",
+    mnl: `MNL: ${MD_MNL.QueenBee}`,
+    met: "Met = True",
+    comments: "Comments: none",
   },
 ];
 

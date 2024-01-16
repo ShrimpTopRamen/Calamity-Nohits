@@ -704,6 +704,100 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: man i was really enjoying the star cannon",
   },
+  //Queen Bee
+  {
+    bossId: "QueenBee",
+    bossName: "Queen Bee",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Queen_Bee.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Aerospec_Hood.png",
+            itemName: "Aerospec Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Aerospec_Breastplate.png",
+            itemName: "Aerospec Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Aerospec_Leggings.png",
+            itemName: "Aerospec Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Aquashard_Shotgun.png",
+            itemName: "Aquashard Shotgun",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Galeforce.png",
+            itemName: "Galeforce",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Hellfire_Arrow.png",
+            itemName: "Hellfire Arrows",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
+            itemName: "Fart in a Balloon",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rusty_Medallion.png",
+            itemName: "Rusty Medallion",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/ak4_6i7vx24?si=697myHvfF2K3h-Uo&amp;start=111",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:22",
+    mnl: `MNL: ${MD_MNL.QueenBee}`,
+    met: "Met = True",
+    comments:
+      "Comments: assume musket balls/wooden arrows are the default ammo unless said otherwise",
+  },
 ];
 
 window.renderBosses = function () {
