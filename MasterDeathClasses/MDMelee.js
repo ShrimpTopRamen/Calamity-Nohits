@@ -770,10 +770,10 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
-  //Queen Bee
+  //Deer
   {
     bossId: "Deer",
-    bossName: "Deerclops ",
+    bossName: "Deerclops",
     bossIcon: "../bossIcons/Resize/Map_Icon_Deerclops.png",
     categories: [
       {
