@@ -8,6 +8,7 @@ export const BoC = "0:45";
 export const HiveMind = "1:00";
 export const Perf = "1:00";
 export const QueenBee = "0:45";
+export const Deerclops = "0:45";
 export const Skeletron = "1:00";
 export const SlimeGod = "1:20";
 export const WoF = "0:40";

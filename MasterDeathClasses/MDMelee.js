@@ -770,6 +770,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Queen Bee
+  {
+    bossId: "Deer",
+    bossName: "Deerclops ",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Deerclops.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Molten_Helmet.png",
+            itemName: "Molten Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Molten_Breastplate.png",
+            itemName: "Molten Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Molten_Greaves.png",
+            itemName: "Molten Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Broken_Biome_Blade.png",
+            itemName: "Broken Biome Blade",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Flamarang.png",
+            itemName: "Flamarang",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
+            itemName: "Fart in a Balloon",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Feral_Claws.png",
+            itemName: "Feral Claws",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/YLLbT5KRxhI?si=GviQxJNkg3qAb5FF",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:03",
+    mnl: `MNL: ${MD_MNL.Deerclops}`,
+    met: "Met = True",
+    comments:
+      "Comments: deerclops isn't necessary for the nohit journey so I made up the MNL",
+  },
 ];
 
 window.renderBosses = function () {

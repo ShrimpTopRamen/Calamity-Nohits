@@ -860,6 +860,100 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: wtf the bloodclot staff was removed",
   },
+  //Deer
+  {
+    bossId: "Deer",
+    bossName: "Deerclops",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Deerclops.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Aerospec_Helmet.png",
+            itemName: "Aerospec Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Aerospec_Breastplate.png",
+            itemName: "Aerospec Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Aerospec_Leggings.png",
+            itemName: "Aerospec Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snapthorn.png",
+            itemName: "Snapthorn",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Dank_Staff.png",
+            itemName: "Dank Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Rusty_Beacon_Prototype.png",
+            itemName: "Rusty Beacon Prototype",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Aero_Stone.png",
+            itemName: "Aero Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
+            itemName: "Fart in a Balloon",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Feral_Claws.png",
+            itemName: "Feral Claws",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/YLLbT5KRxhI?si=lenDc53VqUOzbtgI&amp;start=308",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:28",
+    mnl: `MNL: ${MD_MNL.Deerclops}`,
+    met: "Met = True",
+    comments: "Comments: same as melee",
+  },
 ];
 
 window.renderBosses = function () {

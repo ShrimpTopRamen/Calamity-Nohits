@@ -774,6 +774,95 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: fun weapon",
   },
+  //Deer
+  {
+    bossId: "Deer",
+    bossName: "Deerclops",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Deerclops.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Aerospec_Headgear.png",
+            itemName: "Aerospec Headgear",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Aerospec_Breastplate.png",
+            itemName: "Aerospec Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Aerospec_Leggings.png",
+            itemName: "Aerospec Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Infested_Clawmerang.png",
+            itemName: "Infested Clawmerang",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Ashen_Stalactite.png",
+            itemName: "Ashen Stalactite",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Aero_Stone.png",
+            itemName: "Aero Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
+            itemName: "Fart in a Balloon",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Coin_of_Deceit.png",
+            itemName: "Coin of Deceit",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/YLLbT5KRxhI?si=FpZQrDTVjCIaXbV-&amp;start=431",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:19",
+    mnl: `MNL: ${MD_MNL.Deerclops}`,
+    met: "Met = True",
+    comments: "Comments: same as melee",
+  },
 ];
 
 window.renderBosses = function () {

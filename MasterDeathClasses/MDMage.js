@@ -602,7 +602,7 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: I cast fireball and nothing but fireball",
   },
-  //Queen Bee
+  //Perf
   {
     bossId: "Perf",
     bossName: "The Perforators",
@@ -686,7 +686,7 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: use adrenaline for worms",
   },
-  //Perf
+  //Queen Bee
   {
     bossId: "QueenBee",
     bossName: "Queen Bee",
@@ -774,6 +774,89 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.QueenBee}`,
     met: "Met = True",
     comments: "Comments: none",
+  },
+  //Deer
+  {
+    bossId: "Deer",
+    bossName: "Deerclops",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Deerclops.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Meteor_Helmet.png",
+            itemName: "Meteor Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Meteor_Suit.png",
+            itemName: "Meteor Suit",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Meteor_Leggings.png",
+            itemName: "Meteor Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Flare_Bolt.png",
+            itemName: "Flare Bolt",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Aero_Stone.png",
+            itemName: "Aero Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
+            itemName: "Fart in a Balloon",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/YLLbT5KRxhI?si=78B2x7UnHOc_TOCF&amp;start=158",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:44",
+    mnl: `MNL: ${MD_MNL.Deerclops}`,
+    met: "Met = True",
+    comments: "Comments: same as melee",
   },
 ];
 

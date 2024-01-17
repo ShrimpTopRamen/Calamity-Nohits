@@ -798,6 +798,90 @@ var bossesData = [
     comments:
       "Comments: assume musket balls/wooden arrows are the default ammo unless said otherwise",
   },
+  //Queen Bee
+  {
+    bossId: "Deer",
+    bossName: "Deerclops",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Deerclops.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Aerospec_Hood.png",
+            itemName: "Aerospec Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Aerospec_Breastplate.png",
+            itemName: "Aerospec Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Aerospec_Leggings.png",
+            itemName: "Aerospec Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Aquashard_Shotgun.png",
+            itemName: "Aquashard Shotgun",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Aero_Stone.png",
+            itemName: "Aero Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
+            itemName: "Fart in a Balloon",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rusty_Medallion.png",
+            itemName: "Rusty Medallion",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/YLLbT5KRxhI?si=xv1u7d-KQJB0F75o&amp;start=78",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 0:51",
+    mnl: `MNL: ${MD_MNL.Deerclops}`,
+    met: "Met = True",
+    comments: "Comments: same as melee",
+  },
 ];
 
 window.renderBosses = function () {
