@@ -798,7 +798,7 @@ var bossesData = [
     comments:
       "Comments: assume musket balls/wooden arrows are the default ammo unless said otherwise",
   },
-  //Queen Bee
+  //Deer
   {
     bossId: "Deer",
     bossName: "Deerclops",
