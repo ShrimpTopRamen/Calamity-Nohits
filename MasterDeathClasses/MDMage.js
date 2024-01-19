@@ -858,6 +858,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: same as melee",
   },
+  //Skeletron
+  {
+    bossId: "Skeletron",
+    bossName: "Skeletron",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Skeletron.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Meteor_Helmet.png",
+            itemName: "Meteor Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Meteor_Suit.png",
+            itemName: "Meteor Suit",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Meteor_Leggings.png",
+            itemName: "Meteor Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Pulse_Pistol.png",
+            itemName: "Pulse Pistol",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Tradewinds.png",
+            itemName: "Tradewinds",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/sPMOk9X8MdA?si=UOjeR8Qvc_pptBI5&amp;start=260",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:14",
+    mnl: `MNL: ${MD_MNL.Skeletron}`,
+    met: "Met = True",
+    comments: "Comments: pulse pistol is fun",
+  },
 ];
 
 window.renderBosses = function () {

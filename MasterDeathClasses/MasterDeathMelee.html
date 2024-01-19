@@ -356,11 +356,19 @@
       <div class="boss-container container">
         <div class="row mb-4" id="{{bossId}}">
           <div class="col-12 text-center">
-            <img
-              src="{{bossIcon}}"
-              alt="{{bossName}} Sprite"
-              class="bossIcons"
-            />
+            {{#if bossIcon}}
+              <img
+                src="{{bossIcon}}"
+                alt="{{bossName}} Sprite"
+                class="bossIcons"
+              />
+            {{/if}}
+            {{#if bossIcon2}}
+              <img src="{{bossIcon2}}" alt=" " class="bossIcons" />
+            {{/if}}
+            {{#if bossIcon3}}
+              <img src="{{bossIcon3}}" alt=" " class="bossIcons" />
+            {{/if}}
             <h2 class="containerTitle mt-2">{{bossName}}</h2>
           </div>
 

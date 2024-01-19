@@ -954,6 +954,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: same as melee",
   },
+  //Skeletron
+  {
+    bossId: "Skeletron",
+    bossName: "Skeletron",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Skeletron.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Obsidian_Outlaw_Hat.png",
+            itemName: "Obsidian Outlaw Hat",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Obsidian_Longcoat.png",
+            itemName: "Obsidian Longcoat",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Obsidian_Pants.png",
+            itemName: "Obsidian Pants",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snapthorn.png",
+            itemName: "Snapthorn",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Blood_Clot_Staff.png",
+            itemName: "BLood Clot Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Deathstare_Rod.png",
+            itemName: "Deathstare Rod",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fledgling_Wings.png",
+            itemName: "Fledgling Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Wulfrum_Battery.png",
+            itemName: "Wulfrum Battery",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/sPMOk9X8MdA?si=G_v0BVA3Lhatq-0e&amp;start=371",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:44",
+    mnl: `MNL: ${MD_MNL.Skeletron}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {
