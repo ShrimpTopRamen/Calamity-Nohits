@@ -1,4 +1,6 @@
 //File for all MNL as of 1/12/2024
+
+//PreHardmode
 export const KingSlime = "0:35";
 export const DesertScourge = "0:35";
 export const EoC = "0:45";
@@ -12,6 +14,8 @@ export const Deerclops = "0:45";
 export const Skeletron = "1:00";
 export const SlimeGod = "1:20";
 export const WoF = "0:40";
+
+//Hardmode
 export const QueenSlime = "1:05";
 export const Cryogen = "1:10";
 export const Destroyer = "1:05";
@@ -32,6 +36,8 @@ export const Cultist = "0:55";
 export const AstrumDeus = "1:30";
 export const Astrageldon = "4:00";
 export const MoonLord = "2:00";
+
+//Post Moonlord
 export const ProfGaurd = "1:10";
 export const Dragonfolly = "1:00";
 export const Providence = "2:00";

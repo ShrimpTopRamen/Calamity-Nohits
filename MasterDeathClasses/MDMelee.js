@@ -945,6 +945,88 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Slime God
+  {
+    bossId: "SlimeGod",
+    bossName: "The Slime God",
+    bossIcon: "../bossIcons/Resize/Slime_God_Core_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Molten_Helmet.png",
+            itemName: "Molten Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Molten_Breastplate.png",
+            itemName: "Molten Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Molten_Greaves.png",
+            itemName: "Molten Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Broken_Biome_Blade.png",
+            itemName: "Broken Biome Blade",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Skyline_Wings.png",
+            itemName: "Skyline Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bloody_Worm_Tooth.png",
+            itemName: "Bloody Worm Tooth",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/1NCjfmLTeQM?si=4OzR9W6Nqa2OnQP2",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:30",
+    mnl: `MNL: ${MD_MNL.SlimeGod}`,
+    met: "Met = True",
+    comments: "Comments: forest attunement",
+  },
 ];
 
 window.renderBosses = function () {

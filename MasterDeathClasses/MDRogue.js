@@ -952,6 +952,95 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Slime God
+  {
+    bossId: "SlimeGod",
+    bossName: "The Slime God",
+    bossIcon: "../bossIcons/Resize/Slime_God_Core_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Aerospec_Headgear.png",
+            itemName: "Aerospec Headgear",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Aerospec_Breastplate.png",
+            itemName: "Aerospec Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Aerospec_Leggings.png",
+            itemName: "Aerospec Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Metal_Monstrosity.png",
+            itemName: "Metal Monstrosity",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lionfish.png",
+            itemName: "Lionfish",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Skyline_Wings.png",
+            itemName: "Skyline Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Coin_of_Deceit.png",
+            itemName: "Coin of Deceit",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/1NCjfmLTeQM?si=VHbB3DXMvPpiigpi&amp;start=714",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:49",
+    mnl: `MNL: ${MD_MNL.SlimeGod}`,
+    met: "Met = True",
+    comments: "Comments: didnt even know this weapon existed",
+  },
 ];
 
 window.renderBosses = function () {

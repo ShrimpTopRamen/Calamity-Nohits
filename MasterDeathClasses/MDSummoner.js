@@ -991,7 +991,7 @@ var bossesData = [
           {
             cssClass: "weapons",
             imageUrl: "../weapons/final/Blood_Clot_Staff.png",
-            itemName: "BLood Clot Staff",
+            itemName: "Blood Clot Staff",
           },
           {
             cssClass: "weapons",
@@ -1046,6 +1046,105 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.Skeletron}`,
     met: "Met = True",
     comments: "Comments: none",
+  },
+  //Slime God
+  {
+    bossId: "SlimeGod",
+    bossName: "The Slime God",
+    bossIcon: "../bossIcons/Resize/Slime_God_Core_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Bee_Headgear.png",
+            itemName: "Bee Headgear",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Bee_Breastplate.png",
+            itemName: "Bee Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Bee_Greaves.png",
+            itemName: "Bee Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Spinal_Tap.png",
+            itemName: "Spinal Tap",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Eye_of_Night.png",
+            itemName: "Eye of Night",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Cinder_Blossom_Staff.png",
+            itemName: "Cinder Blossom Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Houndius_Shootius.png",
+            itemName: "Houndius Shootius",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Skyline_Wings.png",
+            itemName: "Skyline Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Pygmy_Necklace.png",
+            itemName: "Pygmy Necklace",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/1NCjfmLTeQM?si=MYiDdFVzHCErb7pu&amp;start=564",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:56",
+    mnl: `MNL: ${MD_MNL.SlimeGod}`,
+    met: "Met = True",
+    comments:
+      "Comments: in version 2.0.2.001 the recipe was changed to have 10 purifed gel making it post slime god. this video was before that change was made",
   },
 ];
 

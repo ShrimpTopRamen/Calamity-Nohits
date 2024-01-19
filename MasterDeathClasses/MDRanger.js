@@ -976,6 +976,100 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Slime God
+  {
+    bossId: "SlimeGod",
+    bossName: "The Slime God",
+    bossIcon: "../bossIcons/Resize/Slime_God_Core_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Aerospec_Hood.png",
+            itemName: "Aerospec Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Aerospec_Breastplate.png",
+            itemName: "Aerospec Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Aerospec_Leggings.png",
+            itemName: "Aerospec Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Aquashard_Shotgun.png",
+            itemName: "Aquashard Shotgun",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Star_Cannon.png",
+            itemName: "Star Cannon",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Archerfish.png",
+            itemName: "Archerfish",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Skyline_Wings.png",
+            itemName: "Skyline Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rusty_Medallion.png",
+            itemName: "Rusty Medallion",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/1NCjfmLTeQM?si=Kplc_-sD9hv_Qs4s&amp;start=200",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:37",
+    mnl: `MNL: ${MD_MNL.SlimeGod}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

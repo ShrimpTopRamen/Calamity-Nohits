@@ -946,6 +946,89 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: pulse pistol is fun",
   },
+  //Slime God
+  {
+    bossId: "SlimeGod",
+    bossName: "The Slime God",
+    bossIcon: "../bossIcons/Resize/Slime_God_Core_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Meteor_Helmet.png",
+            itemName: "Meteor Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Meteor_Suit.png",
+            itemName: "Meteor Suit",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Meteor_Leggings.png",
+            itemName: "Meteor Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Black_Anurian.png",
+            itemName: "Black Anurian",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Skyline_Wings.png",
+            itemName: "Skyline Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/1NCjfmLTeQM?si=Kplc_-sD9hv_Qs4s&amp;start=389",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:07",
+    mnl: `MNL: ${MD_MNL.SlimeGod}`,
+    met: "Met = True",
+    comments: "Comments: froggers",
+  },
 ];
 
 window.renderBosses = function () {
