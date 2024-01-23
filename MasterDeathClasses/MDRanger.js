@@ -1154,7 +1154,7 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: dreamy",
   },
-  //WoF
+  //Queen Slime
   {
     bossId: "QueenSlime",
     bossName: "Queen Slime",
@@ -1242,6 +1242,102 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.QueenSlime}`,
     met: "Met = True",
     comments: "Comments: i love RoD",
+  },
+  //The Twins
+  {
+    bossId: "Twins",
+    bossName: "The Twins",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Retinazer_(second_form).png",
+    bossIcon2: "../bossIcons/Resize/Map_Icon_Spazmatism_(second_form).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Crystal_Assassin_Hood.png",
+            itemName: "Crystal Assassin Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Crystal_Assassin_Shirt.png",
+            itemName: "Crystal Assassin Shirt",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Crystal_Assassin_Pants.png",
+            itemName: "Crystal Assassin Pants",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Cursed_Capper.png",
+            itemName: "Cursed Capper",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lunic_Eye.png",
+            itemName: "Lunic Eye",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Harpy_Ring.png",
+            itemName: "Harpy Ring",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Putrid_Scent.png",
+            itemName: "Putrid Scent",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amalgamated_Brain.png",
+            itemName: "Amalgamated Brain",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/ydDtKQ2K5Fc?si=LS6pRkM9QYAuYsxV&amp;start=132",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:26",
+    mnl: `MNL: ${MD_MNL.Twins}`,
+    met: "Met = True",
+    comments:
+      "Comments: lunic eye for support, also crystal assassin armor is underrated",
   },
 ];
 

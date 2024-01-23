@@ -1201,47 +1201,30 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: shield was used for killing minions",
   },
-];
-
-window.renderBosses = function () {
-  var templateScript = document.getElementById("boss-template").innerHTML;
-  var template = Handlebars.compile(templateScript);
-
-  bossesData.forEach(function (boss) {
-    var bossHtml = template(boss);
-    document.body.insertAdjacentHTML("beforeend", bossHtml);
-  });
-};
-
-//Demo for 2 bossicons in infocontainer
-/*
-  //TWins
+  //The Twins
   {
     bossId: "Twins",
     bossName: "The Twins",
     bossIcon: "../bossIcons/Resize/Map_Icon_Retinazer_(second_form).png",
     bossIcon2: "../bossIcons/Resize/Map_Icon_Spazmatism_(second_form).png",
-    bossIcon3: "",
-    bossIcon4: "",
-    bossIcon5: "",
     categories: [
       {
         categoryName: "Armour",
         items: [
           {
             cssClass: "head",
-            imageUrl: "../armor/final/Molten_Helmet.png",
-            itemName: "Molten Helmet",
+            imageUrl: "../armor/final/Statigel_Helm.png",
+            itemName: "Statigel Helm",
           },
           {
             cssClass: "chest",
-            imageUrl: "../armor/final/Molten_Breastplate.png",
-            itemName: "Molten Breastplate",
+            imageUrl: "../armor/final/Statigel_Armor.png",
+            itemName: "Statigel Armor",
           },
           {
             cssClass: "legs",
-            imageUrl: "../armor/final/Molten_Greaves.png",
-            itemName: "Molten Greaves",
+            imageUrl: "../armor/final/Statigel_Greaves.png",
+            itemName: "Statigel Greaves",
           },
         ],
       },
@@ -1249,14 +1232,14 @@ window.renderBosses = function () {
         categoryName: "Weapon(s)",
         items: [
           {
-            cssClass: "weapons",
-            imageUrl: "../weapons/final/Broken_Biome_Blade.png",
-            itemName: "Broken Biome Blade",
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Shadowflame_Knife.png",
+            itemName: "Shadowflame Knife",
           },
           {
-            cssClass: "weapons-boomer",
-            imageUrl: "../weapons/final/Flamarang.png",
-            itemName: "Flamarang",
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Caustic_Edge.png",
+            itemName: "Caustic Edge",
           },
         ],
       },
@@ -1265,8 +1248,8 @@ window.renderBosses = function () {
         items: [
           {
             cssClass: "accessories",
-            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
-            itemName: "Shark Tooth Necklace",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
           },
           {
             cssClass: "accessories",
@@ -1275,13 +1258,13 @@ window.renderBosses = function () {
           },
           {
             cssClass: "accessories",
-            imageUrl: "../accessories/final/Fledgling_Wings.png",
-            itemName: "Fledgling Wings",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
           },
           {
             cssClass: "accessories",
-            imageUrl: "../accessories/final/Fart_in_a_Balloon.png",
-            itemName: "Fart in a Balloon",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
           },
           {
             cssClass: "accessories",
@@ -1293,18 +1276,32 @@ window.renderBosses = function () {
             imageUrl: "../accessories/final/Feral_Claws.png",
             itemName: "Feral Claws",
           },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
         ],
       },
     ],
     moreInformationHeader: "More Information",
-    videoSrc: "https://www.youtube.com/embed/YLLbT5KRxhI?si=GviQxJNkg3qAb5FF",
+    videoSrc: "https://www.youtube.com/embed/ydDtKQ2K5Fc?si=eAVi6VIbrFxubKvw",
     videoCaption: "YouTube Video",
-    calamityVersion: "Calamity Version: 2.0.1.5",
+    calamityVersion: "Calamity Version: 2.0.2.3",
     terrariaVersion: "Terraria Version: 1.4.3.6",
-    timeTaken: "Time Taken: 1:03",
-    mnl: `MNL: ${MD_MNL.Deerclops}`,
+    timeTaken: "Time Taken: 1:43",
+    mnl: `MNL: ${MD_MNL.Twins}`,
     met: "Met = True",
-    comments:
-      "Comments: deerclops isn't necessary for the nohit journey so I made up the MNL",
+    comments: "Comments: dash keybind",
   },
-*/
+];
+
+window.renderBosses = function () {
+  var templateScript = document.getElementById("boss-template").innerHTML;
+  var template = Handlebars.compile(templateScript);
+
+  bossesData.forEach(function (boss) {
+    var bossHtml = template(boss);
+    document.body.insertAdjacentHTML("beforeend", bossHtml);
+  });
+};

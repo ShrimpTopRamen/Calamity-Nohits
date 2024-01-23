@@ -1210,6 +1210,100 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: use Poseidon",
   },
+  //Twins
+  {
+    bossId: "Twins",
+    bossName: "The Twins",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Retinazer_(second_form).png",
+    bossIcon2: "../bossIcons/Resize/Map_Icon_Spazmatism_(second_form).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Crystal_Assassin_Hood.png",
+            itemName: "Crystal Assassin Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Crystal_Assassin_Shirt.png",
+            itemName: "Crystal Assassin Shirt",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Crystal_Assassin_Pants.png",
+            itemName: "Crystal Assassin Pants",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Crystal_Serpent.png",
+            itemName: "Crystal Serpent",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lunic_Eye.png",
+            itemName: "Lunic Eye",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Putrid_Scent.png",
+            itemName: "Putrid Scent",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amalgamated_Brain.png",
+            itemName: "Amalgamated Brain",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/ydDtKQ2K5Fc?si=fgOgcR-D4iDhBL3Z&amp;start=316",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:06",
+    mnl: `MNL: ${MD_MNL.Twins}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

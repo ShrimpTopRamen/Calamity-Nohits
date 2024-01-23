@@ -1332,6 +1332,105 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: summoner good",
   },
+  //Queen Slime
+  {
+    bossId: "Twins",
+    bossName: "The Twins",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Retinazer_(second_form).png",
+    bossIcon2: "../bossIcons/Resize/Map_Icon_Spazmatism_(second_form).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Crystal_Assassin_Hood.png",
+            itemName: "Crystal Assassin Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Crystal_Assassin_Shirt.png",
+            itemName: "Crystal Assassin Shirt",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Crystal_Assassin_Pants.png",
+            itemName: "Crystal Assassin Pants",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Slime_Puppet_Staff.png",
+            itemName: "Slime Puppet Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Sanguine_Staff.png",
+            itemName: "Sanguine Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lunic_Eye.png",
+            itemName: "Lunic Eye",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/The_First_Shadowflame.png",
+            itemName: "The First Shadowflame",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Jelly-Charged_Battery.png",
+            itemName: "Jelly-Charged Battery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Spirit_Glyph.png",
+            itemName: "Spirit Glyph",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Pygmy_Necklace.png",
+            itemName: "Pygmy Necklace",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/ydDtKQ2K5Fc?si=SqOlf4NN1Slqy0q7&amp;start=473",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:04",
+    mnl: `MNL: ${MD_MNL.Twins}`,
+    met: "Met = True",
+    comments: "Comments: lots of stuff got resprited",
+  },
 ];
 
 window.renderBosses = function () {
