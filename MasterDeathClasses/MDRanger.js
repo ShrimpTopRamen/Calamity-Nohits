@@ -1154,6 +1154,95 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: dreamy",
   },
+  //WoF
+  {
+    bossId: "QueenSlime",
+    bossName: "Queen Slime",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Queen_Slime.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Statigel_Headgear.png",
+            itemName: "Statigel Headgear",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Statigel_Armor.png",
+            itemName: "Statigel Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Statigel_Greaves.png",
+            itemName: "Statigel Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Needler.png",
+            itemName: "Needler",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rusty_Medallion.png",
+            itemName: "Rusty Medallion",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/nb34iIf-8Vc?si=eMaFuiXxRv0IJJv4&amp;start=150",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.2",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:48",
+    mnl: `MNL: ${MD_MNL.QueenSlime}`,
+    met: "Met = True",
+    comments: "Comments: i love RoD",
+  },
 ];
 
 window.renderBosses = function () {

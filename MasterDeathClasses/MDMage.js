@@ -1112,6 +1112,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: i love frog weapon so much",
   },
+  //Queen Slime
+  {
+    bossId: "QueenSlime",
+    bossName: "Queen Slime",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Queen_Slime.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Statigel_Cap.png",
+            itemName: "Statigel Cap",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Statigel_Armor.png",
+            itemName: "Statigel Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Statigel_Greaves.png",
+            itemName: "Statigel Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Poseidon.png",
+            itemName: "Poseidon",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Crystal_Serpent.png",
+            itemName: "Crystal Serpent",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Golden_Shower.png",
+            itemName: "Golden Shower",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/nb34iIf-8Vc?si=4JpE_B_AzZyWi0h-&amp;start=293",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.2",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:42",
+    mnl: `MNL: ${MD_MNL.QueenSlime}`,
+    met: "Met = True",
+    comments: "Comments: use Poseidon",
+  },
 ];
 
 window.renderBosses = function () {

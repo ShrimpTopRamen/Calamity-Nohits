@@ -1109,6 +1109,98 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: lots of jumping up and down",
   },
+  //Queen Slime
+  {
+    bossId: "QueenSlime",
+    bossName: "Queen Slime",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Queen_Slime.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Statigel_Helm.png",
+            itemName: "Statigel Helm",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Statigel_Armor.png",
+            itemName: "Statigel Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Statigel_Greaves.png",
+            itemName: "Statigel Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Shadowflame_Knife.png",
+            itemName: "Shadowflame Knife",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Sergeant_United_Shield.png",
+            itemName: "Sergeant United Shield",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Feral_Claws.png",
+            itemName: "Feral Claws",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/nb34iIf-8Vc?si=_McpsANr4SLkMtrZ",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.2",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:49",
+    mnl: `MNL: ${MD_MNL.QueenSlime}`,
+    met: "Met = True",
+    comments: "Comments: shield was used for killing minions",
+  },
 ];
 
 window.renderBosses = function () {

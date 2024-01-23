@@ -1146,7 +1146,6 @@ var bossesData = [
     comments:
       "Comments: in version 2.0.2.001 the recipe was changed to have 10 purifed gel making it post slime god. this video was before that change was made",
   },
-
   //WoF
   {
     bossId: "WoF",
@@ -1239,6 +1238,99 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.WoF}`,
     met: "Met = True",
     comments: "Comments: spam the flameburst rod towards the end if needed",
+  },
+  //Queen Slime
+  {
+    bossId: "QueenSlime",
+    bossName: "Queen Slime",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Queen_Slime.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spider_Mask.png",
+            itemName: "Spider Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spider_Breastplate.png",
+            itemName: "Spider Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spider_Greaves.png",
+            itemName: "Spider Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Firecracker.png",
+            itemName: "Firecracker",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Sanguine_Staff.png",
+            itemName: "Sanguine Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Spirit_Glyph.png",
+            itemName: "Spirit Glyph",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Jelly-Charged_Battery.png",
+            itemName: "Jelly-Charged Battery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Pygmy_Necklace.png",
+            itemName: "Pygmy Necklace",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/nb34iIf-8Vc?si=kZfncERpckEVCLRh&amp;start=432",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.2",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:09",
+    mnl: `MNL: ${MD_MNL.QueenSlime}`,
+    met: "Met = True",
+    comments: "Comments: summoner good",
   },
 ];
 

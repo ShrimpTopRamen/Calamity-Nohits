@@ -1125,6 +1125,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Queen Slime
+  {
+    bossId: "QueenSlime",
+    bossName: "Queen Slime",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Queen_Slime.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Titan_Heart_Mask.png",
+            itemName: "Titan Heart Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Titan_Heart_Mantle.png",
+            itemName: "Titan Heart Mantle",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Titan_Heart_Boots.png",
+            itemName: "Titan Heart Boots",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Prismalline.png",
+            itemName: "Prismalline",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Coin_of_Deceit.png",
+            itemName: "Coin of Deceit",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/nb34iIf-8Vc?si=YOv2WoNZRPAciUU4&amp;start=534",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.2",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:42",
+    mnl: `MNL: ${MD_MNL.QueenSlime}`,
+    met: "Met = True",
+    comments: "Comments: use shadow potions. also prismalline got a retexture",
+  },
 ];
 
 window.renderBosses = function () {
