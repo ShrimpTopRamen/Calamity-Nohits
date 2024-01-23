@@ -1029,6 +1029,89 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: froggers",
   },
+  //WoF
+  {
+    bossId: "WoF",
+    bossName: "Wall of Flesh",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Wall_of_Flesh.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Meteor_Helmet.png",
+            itemName: "Meteor Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Meteor_Suit.png",
+            itemName: "Meteor Suit",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Meteor_Leggings.png",
+            itemName: "Meteor Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Black_Anurian.png",
+            itemName: "Black Anurian",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Skyline_Wings.png",
+            itemName: "Skyline Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/FnFBEmBZ0MY?si=hHQVkHcdwccojbg4&amp;start=239",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:20",
+    mnl: `MNL: ${MD_MNL.WoF}`,
+    met: "Met = True",
+    comments: "Comments: i love frog weapon so much",
+  },
 ];
 
 window.renderBosses = function () {

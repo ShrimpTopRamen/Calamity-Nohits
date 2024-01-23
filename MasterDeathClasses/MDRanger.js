@@ -1070,6 +1070,90 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //WoF
+  {
+    bossId: "WoF",
+    bossName: "Wall of Flesh",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Wall_of_Flesh.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Statigel_Headgear.png",
+            itemName: "Statigel Headgear",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Statigel_Armor.png",
+            itemName: "Statigel Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Statigel_Greaves.png",
+            itemName: "Statigel Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Overloaded_Blaster.png",
+            itemName: "Overloaded Blaster",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Skyline_Wings.png",
+            itemName: "Skyline Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/FnFBEmBZ0MY?si=CkhIOpNM_vQ4GOG7&amp;start=100",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:41",
+    mnl: `MNL: ${MD_MNL.WoF}`,
+    met: "Met = True",
+    comments: "Comments: dreamy",
+  },
 ];
 
 window.renderBosses = function () {

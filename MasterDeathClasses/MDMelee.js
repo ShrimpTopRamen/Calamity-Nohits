@@ -1027,6 +1027,88 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: forest attunement",
   },
+  //WoF
+  {
+    bossId: "WoF",
+    bossName: "Wall of Flesh",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Wall_of_Flesh.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Statigel_Helm.png",
+            itemName: "Statigel Helm",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Statigel_Armor.png",
+            itemName: "Statigel Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Statigel_Greaves.png",
+            itemName: "Statigel Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Ball_O'_Fugu.png",
+            itemName: "Ball O' Fugu",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Skyline_Wings.png",
+            itemName: "Skyline Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bloody_Worm_Tooth.png",
+            itemName: "Bloody Worm Tooth",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/FnFBEmBZ0MY?si=WDIZ8b80blSBtLoC",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:09",
+    mnl: `MNL: ${MD_MNL.WoF}`,
+    met: "Met = True",
+    comments: "Comments: lots of jumping up and down",
+  },
 ];
 
 window.renderBosses = function () {

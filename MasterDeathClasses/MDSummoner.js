@@ -1146,6 +1146,100 @@ var bossesData = [
     comments:
       "Comments: in version 2.0.2.001 the recipe was changed to have 10 purifed gel making it post slime god. this video was before that change was made",
   },
+
+  //WoF
+  {
+    bossId: "WoF",
+    bossName: "Wall of Flesh",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Wall_of_Flesh.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Bee_Headgear.png",
+            itemName: "Bee Headgear",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Bee_Breastplate.png",
+            itemName: "Bee Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Bee_Greaves.png",
+            itemName: "Bee Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Spinal_Tap.png",
+            itemName: "Spinal Tap",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Herring_Staff.png",
+            itemName: "Herring Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Flameburst_Rod.png",
+            itemName: "Flameburst Rod",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Skyline_Wings.png",
+            itemName: "Skyline Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Pygmy_Necklace.png",
+            itemName: "Pygmy Necklace",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/FnFBEmBZ0MY?si=rlWL-4MTe1ntoaRo&amp;start=348",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:30",
+    mnl: `MNL: ${MD_MNL.WoF}`,
+    met: "Met = True",
+    comments: "Comments: spam the flameburst rod towards the end if needed",
+  },
 ];
 
 window.renderBosses = function () {

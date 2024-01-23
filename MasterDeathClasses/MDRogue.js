@@ -1041,6 +1041,90 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: didnt even know this weapon existed",
   },
+  //WoF
+  {
+    bossId: "WoF",
+    bossName: "Wall of Flesh",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Wall_of_Flesh.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Statigel_Mask.png",
+            itemName: "Statigel Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Statigel_Armor.png",
+            itemName: "Statigel Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Statigel_Greaves.png",
+            itemName: "Statigel Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Tracking_Disk.png",
+            itemName: "Tracking Disk",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shark_Tooth_Necklace.png",
+            itemName: "Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Skyline_Wings.png",
+            itemName: "Skyline Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bundle_of_Balloons.png",
+            itemName: "Bundle of Balloons",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Coin_of_Deceit.png",
+            itemName: "Coin of Deceit",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/FnFBEmBZ0MY?si=ZTsyB_9RpF4Tmjc-&amp;start=476",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.1.5",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:45",
+    mnl: `MNL: ${MD_MNL.WoF}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {
