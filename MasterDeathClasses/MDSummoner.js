@@ -1332,7 +1332,7 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: summoner good",
   },
-  //Queen Slime
+  //Twins
   {
     bossId: "Twins",
     bossName: "The Twins",
@@ -1430,6 +1430,104 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.Twins}`,
     met: "Met = True",
     comments: "Comments: lots of stuff got resprited",
+  },
+  //Brimmy
+  {
+    bossId: "Brimmy",
+    bossName: "Brimstone Elemental",
+    bossIcon: "../bossIcons/Resize/Brimstone_Elemental_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spider_Mask.png",
+            itemName: "Spider Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spider_Breastplate.png",
+            itemName: "Spider Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spider_Greaves.png",
+            itemName: "Spider Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Firecracker.png",
+            itemName: "Firecracker",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Blade_Staff.png",
+            itemName: "Blade Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lunic_Eye.png",
+            itemName: "Lunic Eye",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/The_First_Shadowflame.png",
+            itemName: "The First Shadowflame",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Jelly-Charged_Battery.png",
+            itemName: "Jelly-Charged Battery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Evasion_Scarf.png",
+            itemName: "Evasion Scarf",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amalgamated_Brain.png",
+            itemName: "Amalgamated Brain",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/dQDP1P3A0gs?si=Wyh5zX-AH17VjH8m&amp;start=457",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:47",
+    mnl: `MNL: ${MD_MNL.Brimmy}`,
+    met: "Met = True",
+    comments: "Comments: none",
   },
 ];
 

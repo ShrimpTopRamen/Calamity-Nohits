@@ -1339,6 +1339,105 @@ var bossesData = [
     comments:
       "Comments: lunic eye for support, also crystal assassin armor is underrated",
   },
+  //Brimmy
+  {
+    bossId: "Brimmy",
+    bossName: "Brimstone Elemental",
+    bossIcon: "../bossIcons/Resize/Brimstone_Elemental_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Mythril_Hat.png",
+            itemName: "Mythril Hat",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Mythril_Chainmail.png",
+            itemName: "Mythril Chainmail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Mythril_Greaves.png",
+            itemName: "Mythril Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Brimstone_Fury.png",
+            itemName: "Brimstone Fury",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Uzi.png",
+            itemName: "Uzi",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Ichor_Bullet.png",
+            itemName: "Ichor Bullets",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stalker's_Quiver.png",
+            itemName: "Stalker's Quiver",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Evasion_Scarf.png",
+            itemName: "Evasion Scarf",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amalgamated_Brain.png",
+            itemName: "Amalgamated Brain",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/dQDP1P3A0gs?si=7SdCFyOp8isJLKAZ&amp;start=148",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:02",
+    mnl: `MNL: ${MD_MNL.Brimmy}`,
+    met: "Met = True",
+    comments: "Comments: uzi was to apply ichor",
+  },
 ];
 
 window.renderBosses = function () {
