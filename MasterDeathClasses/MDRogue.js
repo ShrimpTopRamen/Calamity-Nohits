@@ -1390,6 +1390,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //SkeletronPrime
+  {
+    bossId: "SkeletronPrime",
+    bossName: "Skeletron Prime",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Skeletron_Prime.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Titan_Heart_Mask.png",
+            itemName: "Titan Heart Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Titan_Heart_Mantle.png",
+            itemName: "Titan Heart Mantle",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Titan_Heart_Boots.png",
+            itemName: "Titan Heart Boots",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Prismalline.png",
+            itemName: "Prismalline",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ruin_Medallion.png",
+            itemName: "Ruin Medallion",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amalgamated_Brain.png",
+            itemName: "Amalgamated Brain",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/zgB4kZ-zBsA?si=THIuUs6OUKvjGk_n&amp;start=576",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:33",
+    mnl: `MNL: ${MD_MNL.SkellPrime}`,
+    met: "Met = True",
+    comments: "Comments: mhmm ichor x3",
+  },
 ];
 
 window.renderBosses = function () {

@@ -1438,6 +1438,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: uzi was to apply ichor",
   },
+  //SkeletronPrime
+  {
+    bossId: "SkeletronPrime",
+    bossName: "Skeletron Prime",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Skeletron_Prime.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Mythril_Hat.png",
+            itemName: "Mythril Hat",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Mythril_Chainmail.png",
+            itemName: "Mythril Chainmail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Mythril_Greaves.png",
+            itemName: "Mythril Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Daedalus_Stormbow.png",
+            itemName: "Daedalus Stormbow",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Brimstone_Fury.png",
+            itemName: "Brimstone Fury",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Ichor_Arrow.png",
+            itemName: "Ichor Arrows",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stalker's_Quiver.png",
+            itemName: "Stalker's Quiver",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rusty_Medallion.png",
+            itemName: "Rusty Medallion",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/zgB4kZ-zBsA?si=UpLzmYhHDJ2mFCa0&amp;start=135",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:43",
+    mnl: `MNL: ${MD_MNL.SkellPrime}`,
+    met: "Met = True",
+    comments: "Comments: mhmm ichor x2",
+  },
 ];
 
 window.renderBosses = function () {

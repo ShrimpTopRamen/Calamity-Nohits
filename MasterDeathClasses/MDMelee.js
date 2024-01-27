@@ -1381,6 +1381,93 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: i like hardmode ore armor reworks calamity has",
   },
+  //Skeletron Prime
+  {
+    bossId: "SkeletronPrime",
+    bossName: "Skeletron Prime",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Skeletron_Prime.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Mythril_Helmet.png",
+            itemName: "Mythril Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Mythril_Chainmail.png",
+            itemName: "Mythril Chainmail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Mythril_Greaves.png",
+            itemName: "Mythril Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Shadowflame_Knife.png",
+            itemName: "Shadowflame Knife",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bloody_Worm_Scarf.png",
+            itemName: "Bloody Worm Scarf",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Flame_Wings.png",
+            itemName: "Flame Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Evasion_Scarf.png",
+            itemName: "Evasion Scarf",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amphibian_Boots.png",
+            itemName: "Amphibian Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amalgamated_Brain.png",
+            itemName: "Amalgamated Brain",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/zgB4kZ-zBsA?si=_BMImE7f4TAXKMUb",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:37",
+    mnl: `MNL: ${MD_MNL.SkellPrime}`,
+    met: "Met = True",
+    comments: "Comments: mhmm ichor flask",
+  },
 ];
 
 window.renderBosses = function () {
