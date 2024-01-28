@@ -1485,6 +1485,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: i forgot to use the golden shower",
   },
+  //Cryogen
+  {
+    bossId: "Cryogen",
+    bossName: "Cryogen",
+    bossIcon: "../bossIcons/Resize/Cryogen_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Mythril_Hood.png",
+            itemName: "Mythril Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Mythril_Chainmail.png",
+            itemName: "Mythril Chainmail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Mythril_Greaves.png",
+            itemName: "Mythril Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Spirit_Flame.png",
+            itemName: "Spirit Flame",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Golden_Shower.png",
+            itemName: "Golden Shower",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Butterfly_Wings.png",
+            itemName: "Butterfly Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amalgamated_Brain.png",
+            itemName: "Amalgamated Brain",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/6WVd0tSWWDs?si=-28g88BMAhhEIo5n&amp;start=250",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:27",
+    mnl: `MNL: ${MD_MNL.SkellPrime}`,
+    met: "Met = True",
+    comments: "Comments: i didn't forget to use the golden shower",
+  },
 ];
 
 window.renderBosses = function () {

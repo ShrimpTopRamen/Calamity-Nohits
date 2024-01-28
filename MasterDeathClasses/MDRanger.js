@@ -1536,6 +1536,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: mhmm ichor x2",
   },
+  //Cryogen
+  {
+    bossId: "Cryogen",
+    bossName: "Cryogen",
+    bossIcon: "../bossIcons/Resize/Cryogen_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Mythril_Hat.png",
+            itemName: "Mythril Hat",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Mythril_Chainmail.png",
+            itemName: "Mythril Chainmail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Mythril_Greaves.png",
+            itemName: "Mythril Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Daedalus_Stormbow.png",
+            itemName: "Daedalus Stormbow",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Adamantite_Particle_Accelerator.png",
+            itemName: "Adamantite Particle Accelerator",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Ichor_Arrow.png",
+            itemName: "Ichor Arrows",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stalker's_Quiver.png",
+            itemName: "Stalker's Quiver",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amalgamated_Brain.png",
+            itemName: "Amalgamated Brain",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/6WVd0tSWWDs?si=p1JBklGwdap5_dUF&amp;start=122",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:35",
+    mnl: `MNL: ${MD_MNL.Cryogen}`,
+    met: "Met = True",
+    comments: "Comments: beam",
+  },
 ];
 
 window.renderBosses = function () {

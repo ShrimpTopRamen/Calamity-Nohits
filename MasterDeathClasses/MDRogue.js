@@ -1478,6 +1478,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: mhmm ichor x3",
   },
+  //Cryogen
+  {
+    bossId: "Cryogen",
+    bossName: "Cryogen",
+    bossIcon: "../bossIcons/Resize/Cryogen_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Titan_Heart_Mask.png",
+            itemName: "Titan Heart Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Titan_Heart_Mantle.png",
+            itemName: "Titan Heart Mantle",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Titan_Heart_Boots.png",
+            itemName: "Titan Heart Boots",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Prismalline.png",
+            itemName: "Prismalline",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Brimblade.png",
+            itemName: "Brimblade",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lunic_Eye.png",
+            itemName: "Lunic Eye",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ruin_Medallion.png",
+            itemName: "Ruin Medallion",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Amalgamated_Brain.png",
+            itemName: "Amalgamated Brain",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/6WVd0tSWWDs?si=dsZEzyVnAvyOhcbW&amp;start=513",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:21",
+    mnl: `MNL: ${MD_MNL.Cryogen}`,
+    met: "Met = True",
+    comments: "Comments: forgot i used the brimblade tbh",
+  },
 ];
 
 window.renderBosses = function () {

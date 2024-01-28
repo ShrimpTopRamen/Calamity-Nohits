@@ -1627,6 +1627,105 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: omg Celeste reference",
   },
+  //Cryogen
+  {
+    bossId: "Cryogen",
+    bossName: "Cryogen",
+    bossIcon: "../bossIcons/Resize/Cryogen_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spider_Mask.png",
+            itemName: "Spider Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spider_Breastplate.png",
+            itemName: "Spider Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spider_Greaves.png",
+            itemName: "Spider Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Slime_Puppet_Staff.png",
+            itemName: "Slime Puppet Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Mounted_Scanner.png",
+            itemName: "Mounted Scanner",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lunic_Eye.png",
+            itemName: "Lunic Eye",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/The_First_Shadowflame.png",
+            itemName: "The First Shadowflame",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Jelly-Charged_Battery.png",
+            itemName: "Jelly-Charged Battery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Shield_of_Cthulhu.png",
+            itemName: "Shield of Cthulhu",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Pygmy_Necklace.png",
+            itemName: "Pygmy Necklace",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/6WVd0tSWWDs?si=TC0XZq3QAUXAqgkq&amp;start=375",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:45",
+    mnl: `MNL: ${MD_MNL.Cryogen}`,
+    met: "Met = True",
+    comments: "Comments: this weapon used to be BUSTED",
+  },
 ];
 
 window.renderBosses = function () {
