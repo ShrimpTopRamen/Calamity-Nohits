@@ -1555,6 +1555,93 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: good weapon but kinda a grind to get",
   },
+  //Aquatic Scourge
+  {
+    bossId: "AquaticScourge",
+    bossName: "Aquatic Scourge",
+    bossIcon: "../bossIcons/Resize/Aquatic_Scourge_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Daedalus_Helm.png",
+            itemName: "Daedalus Helm",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Daedalus_Breastplate.png",
+            itemName: "Daedalus Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Daedalus_Leggings.png",
+            itemName: "Daedalus Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Brimlance.png",
+            itemName: "Brimlance",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bloody_Worm_Scarf.png",
+            itemName: "Bloody Worm Scarf",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Berserker's_Glove.png",
+            itemName: "Berserker's Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Starlight_Wings.png",
+            itemName: "Starlight Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frost_Flare.png",
+            itemName: "Frost Flare",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/7yWjWsEC6Xk?si=1X3BSf4U7GIL_7sr",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 0:33",
+    mnl: `MNL: ${MD_MNL.AquaticScourge}`,
+    met: "Met = False",
+    comments: "Comments: flying with the worm is fun",
+  },
 ];
 
 window.renderBosses = function () {

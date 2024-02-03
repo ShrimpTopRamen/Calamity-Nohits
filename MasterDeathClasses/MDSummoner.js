@@ -1726,6 +1726,100 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: this weapon used to be BUSTED",
   },
+  //Aquatic Scourge
+  {
+    bossId: "AquaticScourge",
+    bossName: "Aquatic Scourge",
+    bossIcon: "../bossIcons/Resize/Aquatic_Scourge_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Daedalus_Mask.png",
+            itemName: "Daedalus Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Daedalus_Breastplate.png",
+            itemName: "Daedalus Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Daedalus_Leggings.png",
+            itemName: "Daedalus Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Firecracker.png",
+            itemName: "Firecracker",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Glacial_Embrace.png",
+            itemName: "Glacial Embrace (Cold Divinity)",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/The_First_Shadowflame.png",
+            itemName: "The First Shadowflame",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Jelly-Charged_Battery.png",
+            itemName: "Jelly-Charged Battery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Starlight_Wings.png",
+            itemName: "Starlight Wings",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frost_Flare.png",
+            itemName: "Frost Flare",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/7yWjWsEC6Xk?si=gGmcDFdtvCJRnh0g&amp;start=266",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:19",
+    mnl: `MNL: ${MD_MNL.AquaticScourge}`,
+    met: "Met = True",
+    comments: "Comments: interesting weapon tbh",
+  },
 ];
 
 window.renderBosses = function () {

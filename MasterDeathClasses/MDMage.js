@@ -1574,9 +1574,97 @@ var bossesData = [
     calamityVersion: "Calamity Version: 2.0.2.3",
     terrariaVersion: "Terraria Version: 1.4.3.6",
     timeTaken: "Time Taken: 1:27",
-    mnl: `MNL: ${MD_MNL.SkellPrime}`,
+    mnl: `MNL: ${MD_MNL.Cryogen}`,
     met: "Met = True",
     comments: "Comments: i didn't forget to use the golden shower",
+  },
+  //Aquatic Scourge
+  {
+    bossId: "AquaticScourge",
+    bossName: "Aquatic Scourge",
+    bossIcon: "../bossIcons/Resize/Aquatic_Scourge_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Daedalus_Hood.png",
+            itemName: "*Daedalus Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Daedalus_Breastplate.png",
+            itemName: "Daedalus Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Daedalus_Leggings.png",
+            itemName: "Daedalus Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Meteor_Staff.png",
+            itemName: "Meteor Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Permafrost's_Concoction.png",
+            itemName: "Permafrost's Concoction",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Starlight_Wings.png",
+            itemName: "Starlight Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frost_Flare.png",
+            itemName: "Frost Flare",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/7yWjWsEC6Xk?si=XsKW-43t0F4_KyLv&amp;start=161",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:15",
+    mnl: `MNL: ${MD_MNL.AquaticScourge}`,
+    met: "Met = True",
+    comments: "Comments: *i used the ranger helm in the vid",
   },
 ];
 
