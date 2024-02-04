@@ -1820,6 +1820,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: interesting weapon tbh",
   },
+  //The Destroyer
+  {
+    bossId: "Destroyer",
+    bossName: "The Destroyer",
+    bossIcon: "../bossIcons/Resize/Map_Icon_The_Destroyer.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Obsidian_Outlaw_Hat.png",
+            itemName: "Obsidian Outlaw Hat",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Obsidian_Longcoat.png",
+            itemName: "Obsidian Longcoat",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Obsidian_Pants.png",
+            itemName: "Obsidian Pants",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Cool_Whip.png",
+            itemName: "Cool Whip",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Deepsea_Staff.png",
+            itemName: "Deepsea Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Nuclear_Fuel_Rod.png",
+            itemName: "Nuclear Fuel Rod",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rose_Stone.png",
+            itemName: "Rose Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Demon_Wings.png",
+            itemName: "Demon Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Eye_of_the_Storm.png",
+            itemName: "Eye of the Storm",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/RVYP5TWZN3g?si=wI7KdByrm9_wB5tt&amp;start=277",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 0:31",
+    mnl: `MNL: ${MD_MNL.Destroyer}`,
+    met: "Met = False",
+    comments: "Comments: this boss sucked so much, idc im under MNL",
+  },
 ];
 
 window.renderBosses = function () {

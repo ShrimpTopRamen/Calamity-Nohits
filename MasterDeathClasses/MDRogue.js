@@ -1576,7 +1576,7 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: forgot i used the brimblade tbh",
   },
-  //Cryogen
+  //AquaticScourge
   {
     bossId: "AquaticScourge",
     bossName: "Aquatic Scourge",
@@ -1666,6 +1666,94 @@ var bossesData = [
     terrariaVersion: "Terraria Version: 1.4.3.6",
     timeTaken: "Time Taken: 1:13",
     mnl: `MNL: ${MD_MNL.AquaticScourge}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
+  //Destroyer
+  {
+    bossId: "Destroyer",
+    bossName: "The Destroyer",
+    bossIcon: "../bossIcons/Resize/Map_Icon_The_Destroyer.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Daedalus_Facemask.png",
+            itemName: "Daedalus Facemask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Daedalus_Breastplate.png",
+            itemName: "Daedalus Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Daedalus_Leggings.png",
+            itemName: "Daedalus Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Spent_Fuel_Container.png",
+            itemName: "Spent Fuel Container",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Corrosive_Spine.png",
+            itemName: "Corrosive Spine",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Starlight_Wings.png",
+            itemName: "Starlight Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frost_Flare.png",
+            itemName: "Frost Flare",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/RVYP5TWZN3g?si=wI7KdByrm9_wB5tt&amp;start=339",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:30",
+    mnl: `MNL: ${MD_MNL.Destroyer}`,
     met: "Met = True",
     comments: "Comments: none",
   },

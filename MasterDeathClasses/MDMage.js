@@ -1666,6 +1666,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: *i used the ranger helm in the vid",
   },
+  //The Destroyer
+  {
+    bossId: "Destroyer",
+    bossName: "The Destroyer",
+    bossIcon: "../bossIcons/Resize/Map_Icon_The_Destroyer.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Daedalus_Hood.png",
+            itemName: "Daedalus Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Daedalus_Breastplate.png",
+            itemName: "Daedalus Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Daedalus_Leggings.png",
+            itemName: "Daedalus Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Downpour.png",
+            itemName: "Downpour",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Nimbus_Rod.png",
+            itemName: "Nimbus Rod",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Rainbow_Rod.png",
+            itemName: "Rainbow Rod",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Permafrost's_Concoction.png",
+            itemName: "Permafrost's Concoction",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Terraspark_Boots.png",
+            itemName: "Terraspark Boots",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Starlight_Wings.png",
+            itemName: "Starlight Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frost_Flare.png",
+            itemName: "Frost Flare",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/RVYP5TWZN3g?si=EE_oBchfRHVWKJ7O&amp;start=174",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:10",
+    mnl: `MNL: ${MD_MNL.Destroyer}`,
+    met: "Met = True",
+    comments: "Comments: use RR for probes",
+  },
 ];
 
 window.renderBosses = function () {
