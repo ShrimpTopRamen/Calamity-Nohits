@@ -1757,6 +1757,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //CalClone
+  {
+    bossId: "CalClone",
+    bossName: "Calamitas Clone",
+    bossIcon: "../bossIcons/Resize/Calamitas_Clone_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Daedalus_Facemask.png",
+            itemName: "Daedalus Facemask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Daedalus_Breastplate.png",
+            itemName: "Daedalus Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Daedalus_Leggings.png",
+            itemName: "Daedalus Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Spear_of_Destiny.png",
+            itemName: "Spear of Destiny",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Kelvin_Catalyst.png",
+            itemName: "Kelvin Catalyst",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Corrosive_Spine.png",
+            itemName: "Corrosive Spine",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ruin_Medallion.png",
+            itemName: "Ruin Medallion",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bat_Wings.png",
+            itemName: "Bat Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frost_Flare.png",
+            itemName: "Frost Flare",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Gyg18GrqQCM?si=Ajp9E21v523ivsvG&amp;start=775",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:31",
+    mnl: `MNL: ${MD_MNL.CalClone}`,
+    met: "Met = True",
+    comments: "Comments: spear of dest got reworked :/",
+  },
 ];
 
 window.renderBosses = function () {

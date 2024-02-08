@@ -1729,6 +1729,98 @@ var bossesData = [
     met: "Met = False",
     comments: "Comments: LOL",
   },
+  //CalClone
+  {
+    bossId: "CalClone",
+    bossName: "Calamitas Clone",
+    bossIcon: "../bossIcons/Resize/Calamitas_Clone_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Chlorophyte_Mask.png",
+            itemName: "Chlorophyte Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Chlorophyte_Plate_Mail.png",
+            itemName: "Chlorophyte Plate Mail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Chlorophyte_Greaves.png",
+            itemName: "Chlorophyte Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Biome_Blade.png",
+            itemName: "Biome Blade (Forest Attunement)",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Pwnagehammer.png",
+            itemName: "Pwnagehammer",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bloody_Worm_Scarf.png",
+            itemName: "Bloody Worm Scarf",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Flame_Wings.png",
+            itemName: "Flame Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frost_Flare.png",
+            itemName: "Frost Flare",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/Gyg18GrqQCM?si=_X9anwef5Jh_8TRk",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:30",
+    mnl: `MNL: ${MD_MNL.CalClone}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

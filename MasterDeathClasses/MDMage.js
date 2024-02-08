@@ -1764,6 +1764,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: use RR for probes",
   },
+  //CalClone
+  {
+    bossId: "CalClone",
+    bossName: "Calamitas Clone",
+    bossIcon: "../bossIcons/Resize/Calamitas_Clone_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Forbidden_Mask.png",
+            itemName: "Forbidden Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Forbidden_Robes.png",
+            itemName: "Forbidden Robes",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Forbidden_Treads.png",
+            itemName: "Forbidden Treads",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Valkyrie_Ray.png",
+            itemName: "Valkyrie Ray",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Cryophobia.png",
+            itemName: "Cryophobia",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Emblem.png",
+            itemName: "Celestial Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Butterfly_Wings.png",
+            itemName: "Butterfly Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frost_Flare.png",
+            itemName: "Frost Flare",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Gyg18GrqQCM?si=gct8rrWdWu6Mvioa&amp;start=363",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:59",
+    mnl: `MNL: ${MD_MNL.CalClone}`,
+    met: "Met = True",
+    comments: "Comments: very close",
+  },
 ];
 
 window.renderBosses = function () {

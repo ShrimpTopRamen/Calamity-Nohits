@@ -1913,6 +1913,104 @@ var bossesData = [
     met: "Met = False",
     comments: "Comments: this boss sucked so much, idc im under MNL",
   },
+  //CalClone
+  {
+    bossId: "CalClone",
+    bossName: "Calamitas Clone",
+    bossIcon: "../bossIcons/Resize/Calamitas_Clone_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Obsidian_Outlaw_Hat.png",
+            itemName: "Obsidian Outlaw Hat",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Obsidian_Longcoat.png",
+            itemName: "Obsidian Longcoat",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Obsidian_Pants.png",
+            itemName: "Obsidian Pants",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Durendal.png",
+            itemName: "Durendal",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Deepsea_Staff.png",
+            itemName: "Deepsea Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Vengeful_Sun_Staff.png",
+            itemName: "Vengeful Sun Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/The_First_Shadowflame.png",
+            itemName: "The First Shadowflame",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Jelly-Charged_Battery.png",
+            itemName: "Jelly-Charged Battery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bat_Wings.png",
+            itemName: "Bat Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Hallowed_Rune.png",
+            itemName: "Hallowed Rune",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Gyg18GrqQCM?si=lGOjFTpk77o0Vu59&amp;start=568",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:43",
+    mnl: `MNL: ${MD_MNL.CalClone}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

@@ -1815,6 +1815,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: use flamethrower for probes",
   },
+  //Calc Clone
+  {
+    bossId: "CalClone",
+    bossName: "Calamitas Clone",
+    bossIcon: "../bossIcons/Resize/Calamitas_Clone_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Chlorophyte_Helmet.png",
+            itemName: "Chlorophyte Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Chlorophyte_Plate_Mail.png",
+            itemName: "Chlorophyte Plate Mail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Chlorophyte_Greaves.png",
+            itemName: "Chlorophyte Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Megashark.png",
+            itemName: "Megashark",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Chlorophyte_Bullet.png",
+            itemName: "Chlorophyte Bullets",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Sea's_Searing.png",
+            itemName: "Sea's Searing",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Avenger_Emblem.png",
+            itemName: "Avenger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bat_Wings.png",
+            itemName: "Bat Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frost_Flare.png",
+            itemName: "Frost Flare",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Gyg18GrqQCM?si=IW9A1Xk7Gge8vMex&amp;start=179",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:34",
+    mnl: `MNL: ${MD_MNL.CalClone}`,
+    met: "Met = True",
+    comments: "Comments: use sea's searing for bros + seekers",
+  },
 ];
 
 window.renderBosses = function () {
