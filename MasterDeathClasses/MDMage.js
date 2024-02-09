@@ -1857,6 +1857,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: very close",
   },
+  //Plantera
+  {
+    bossId: "Plantera",
+    bossName: "Plantera",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Plantera_(first_form).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Brimflame_Cowl.png",
+            itemName: "Brimflame Cowl",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Brimflame_Robes.png",
+            itemName: "Brimflame Robes",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Brimflame_Boots.png",
+            itemName: "Brimflame Boots",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Undine's_Retribution.png",
+            itemName: "Undine's Retribution",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Hadal_Urn.png",
+            itemName: "Hadal Urn",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Emblem.png",
+            itemName: "Celestial Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Butterfly_Wings.png",
+            itemName: "Butterfly Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Frost_Flare.png",
+            itemName: "Frost Flare",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/cZgYtVoNuWg?si=8AJ68iNsCwvyQtt7&amp;start=277",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:17",
+    mnl: `MNL: ${MD_MNL.Plantera}`,
+    met: "Met = True",
+    comments: "Comments: very close x2",
+  },
 ];
 
 window.renderBosses = function () {

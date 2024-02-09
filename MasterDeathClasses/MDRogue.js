@@ -1850,6 +1850,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: spear of dest got reworked :/",
   },
+  //Plantera
+  {
+    bossId: "Plantera",
+    bossName: "Plantera",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Plantera_(first_form).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Umbraphile_Hood.png",
+            itemName: "Umbraphile Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Umbraphile_Regalia.png",
+            itemName: "Umbraphile Regalia",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Umbraphile_Boots.png",
+            itemName: "Umbraphile Boots",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Spear_of_Destiny.png",
+            itemName: "Spear of Destiny",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Totality_Breakers.png",
+            itemName: "Totality Breakers",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Corrosive_Spine.png",
+            itemName: "Corrosive Spine",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Vampiric_Talisman.png",
+            itemName: "Vampiric Talisman",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Soul_of_Cryogen.png",
+            itemName: "Soul of Cyrogen",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Avenger_Emblem.png",
+            itemName: "Avenger Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/cZgYtVoNuWg?si=C7YeOeDHWMIP7zRD&amp;start=539",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:23",
+    mnl: `MNL: ${MD_MNL.Plantera}`,
+    met: "Met = True",
+    comments: "Comments: same as above",
+  },
 ];
 
 window.renderBosses = function () {

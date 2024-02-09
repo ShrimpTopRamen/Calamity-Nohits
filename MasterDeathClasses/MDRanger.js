@@ -1913,6 +1913,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: use sea's searing for bros + seekers",
   },
+  //Plantera
+  {
+    bossId: "Plantera",
+    bossName: "Plantera",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Plantera_(first_form).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Frost_Helmet.png",
+            itemName: "Frost Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Frost_Breastplate.png",
+            itemName: "Frost Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Frost_Leggings.png",
+            itemName: "Frost Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Havoc's_Breath.png",
+            itemName: "Havoc's Breath",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Void_of_Calamity.png",
+            itemName: "Void of Calamity",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Soul_of_Cryogen.png",
+            itemName: "Soul of Cryogen",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Cryo_Stone.png",
+            itemName: "Cryo Stone",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/cZgYtVoNuWg?si=q_w2HvKsa6NbJsVF&amp;start=126",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:55",
+    mnl: `MNL: ${MD_MNL.Plantera}`,
+    met: "Met = True",
+    comments: "Comments: weapon got resprited ",
+  },
 ];
 
 window.renderBosses = function () {

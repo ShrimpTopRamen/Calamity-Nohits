@@ -2011,6 +2011,114 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Plantera
+  {
+    bossId: "Plantera",
+    bossName: "Plantera",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Plantera_(first_form).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Fathom_Swarmer_Visage.png",
+            itemName: "Fathom Swarmer Visage",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Fathom_Swarmer_Breastplate.png",
+            itemName: "Fathom Swarmer Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Fathom_Swarmer_Greaves.png",
+            itemName: "Fathom Swarmer Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Cool_Whip.png",
+            itemName: "Cool Whip",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Dreadmine_Staff.png",
+            itemName: "Dreadmine Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Deepsea_Staff.png",
+            itemName: "Deepsea Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Entropy's_Vigil.png",
+            itemName: "Entropy's Vigil",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Vengeful_Sun_Staff.png",
+            itemName: "Vengeful Sun Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Jelly-Charged_Battery.png",
+            itemName: "Jelly-Charged Battery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Soul_of_Cryogen.png",
+            itemName: "Soul of Crogen",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ornate_Shield.png",
+            itemName: "Ornate Shield",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Nuclear_Fuel_Rod.png",
+            itemName: "Nuclear Fuel Rod",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/cZgYtVoNuWg?si=lAb3NcUNa5aIkHxn&amp;start=387",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:47",
+    mnl: `MNL: ${MD_MNL.Plantera}`,
+    met: "Met = True",
+    comments: "Comments: spamming the dreadmine staff is good for phase 2",
+  },
 ];
 
 window.renderBosses = function () {
