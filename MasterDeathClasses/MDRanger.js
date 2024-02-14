@@ -2001,6 +2001,105 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: weapon got resprited ",
   },
+  //Levi+Ana
+  {
+    bossId: "Levi+Ana",
+    bossName: "Leviathan and Anahita",
+    bossIcon: "../bossIcons/Resize/Leviathan_map.png",
+    bossIcon2: "../bossIcons/Resize/Anahita_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Shroomite_Helmet.png",
+            itemName: "Shroomite Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Shroomite_Breastplate.png",
+            itemName: "Shroomite Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Shroomite_Leggings.png",
+            itemName: "Shroomite Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Elf_Melter.png",
+            itemName: "Havoc's Breath",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snowman_Cannon.png",
+            itemName: "Snowman Cannon",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Mini_Nuke_I.png",
+            itemName: "Mini Nuke I",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Hoverboard.png",
+            itemName: "Hoverboard",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Avenger_Emblem.png",
+            itemName: "Avenger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Nj6a-ZTVjd0?si=hP3A_UT_J8r2_bcZ&amp;start=134",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:03",
+    mnl: `MNL: ${MD_MNL.LeviandAna}`,
+    met: "Met = True",
+    comments: "Comments: i love the snowman cannon",
+  },
 ];
 
 window.renderBosses = function () {

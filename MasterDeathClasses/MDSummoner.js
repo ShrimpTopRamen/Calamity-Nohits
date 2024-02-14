@@ -2119,6 +2119,110 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: spamming the dreadmine staff is good for phase 2",
   },
+  //Levi+Ana
+  {
+    bossId: "Levi+Ana",
+    bossName: "Leviathan and Anahita",
+    bossIcon: "../bossIcons/Resize/Leviathan_map.png",
+    bossIcon2: "../bossIcons/Resize/Anahita_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spooky_Helmet.png",
+            itemName: "Spooky Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spooky_Breastplate.png",
+            itemName: "Spooky Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spooky_Leggings.png",
+            itemName: "Spooky Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Dark_Harvest.png",
+            itemName: "Dark Harvest",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Deepsea_Staff.png",
+            itemName: "Deepsea Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Vengeful_Sun_Staff.png",
+            itemName: "Vengeful Sun Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Caustic_Staff.png",
+            itemName: "Caustic Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Blessing.png",
+            itemName: "Statis' Blessing",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Spooky_Wings.png",
+            itemName: "Spooky Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Necromantic_Scroll.png",
+            itemName: "Necromantic Scroll",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/cZgYtVoNuWg?si=lAb3NcUNa5aIkHxn&amp;start=387",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:49",
+    mnl: `MNL: ${MD_MNL.LeviandAna}`,
+    met: "Met = True",
+    comments: "Comments: caustic staff for support",
+  },
 ];
 
 window.renderBosses = function () {

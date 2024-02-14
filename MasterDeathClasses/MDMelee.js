@@ -1913,6 +1913,100 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: pwnagehamer for phase 2",
   },
+  //Levi+Ana
+  {
+    bossId: "Levi+Ana",
+    bossName: "Leviathan and Anahita",
+    bossIcon: "../bossIcons/Resize/Leviathan_map.png",
+    bossIcon2: "../bossIcons/Resize/Anahita_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Chlorophyte_Mask.png",
+            itemName: "Chlorophyte Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Chlorophyte_Plate_Mail.png",
+            itemName: "Chlorophyte Plate Mail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Chlorophyte_Greaves.png",
+            itemName: "Chlorophyte Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Hellion_Flower_Spear.png",
+            itemName: "Hellion Flower Spear",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Blighted_Cleaver.png",
+            itemName: "Blighted Cleaver (Tyrant Yharim's Ultisword)",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bloody_Worm_Scarf.png",
+            itemName: "Bloody Worm Scarf",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Tattered_Fairy_Wings.png",
+            itemName: "Tattered Fairy Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Avenger_Emblem.png",
+            itemName: "Avenger Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/Nj6a-ZTVjd0?si=CxgNHhZhH2hQQXBV",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:43 ",
+    mnl: `MNL: ${MD_MNL.LeviandAna}`,
+    met: "Met = True",
+    comments:
+      "Comments: Blighted Cleaver sounds so lame compared to the previous name",
+  },
 ];
 
 window.renderBosses = function () {

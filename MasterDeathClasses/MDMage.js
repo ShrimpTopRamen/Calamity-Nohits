@@ -1950,6 +1950,100 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: very close x2",
   },
+  //Levi+Ana
+  {
+    bossId: "Levi+Ana",
+    bossName: "Leviathan and Anahita",
+    bossIcon: "../bossIcons/Resize/Leviathan_map.png",
+    bossIcon2: "../bossIcons/Resize/Anahita_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Brimflame_Cowl.png",
+            itemName: "Brimflame Cowl",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Brimflame_Robes.png",
+            itemName: "Brimflame Robes",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Brimflame_Boots.png",
+            itemName: "Brimflame Boots",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Terra_Ray.png",
+            itemName: "Terra Ray",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Everglade_Spray.png",
+            itemName: "Everglade Spray",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Emblem.png",
+            itemName: "Celestial Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Tattered_Fairy_Wings.png",
+            itemName: "Tattered Fairy Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Avenger_Emblem.png",
+            itemName: "Avenger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Nj6a-ZTVjd0?si=YPzComT94KKgzONb&amp;start=296",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:43",
+    mnl: `MNL: ${MD_MNL.LeviandAna}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

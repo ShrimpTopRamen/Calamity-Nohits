@@ -1943,6 +1943,100 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: same as above",
   },
+  //Levi+Ana
+  {
+    bossId: "Levi+Ana",
+    bossName: "Leviathan and Anahita",
+    bossIcon: "../bossIcons/Resize/Leviathan_map.png",
+    bossIcon2: "../bossIcons/Resize/Anahita_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Umbraphile_Hood.png",
+            itemName: "Umbraphile Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Umbraphile_Regalia.png",
+            itemName: "Umbraphile Regalia",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Umbraphile_Boots.png",
+            itemName: "Umbraphile Boots",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Deep_Wounder.png",
+            itemName: "Deep Wounder",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Defective_Sphere.png",
+            itemName: "Defective Sphere",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Vampiric_Talisman.png",
+            itemName: "Vampiric Talisman",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Precision.png",
+            itemName: "Glove of Precision",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Tattered_Fairy_Wings.png",
+            itemName: "Tattered Fairy Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Corrosive_Spine.png",
+            itemName: "Corrosive Spine",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Nj6a-ZTVjd0?si=bBMeKc73e-wqQF2b&amp;start=578",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:00",
+    mnl: `MNL: ${MD_MNL.LeviandAna}`,
+    met: "Met = True",
+    comments: "Comments: sphere is surprisingly good",
+  },
 ];
 
 window.renderBosses = function () {
