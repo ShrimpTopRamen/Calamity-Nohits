@@ -2044,6 +2044,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Levi+Ana
+  {
+    bossId: "AstrumAureus",
+    bossName: "Astrum Aureus",
+    bossIcon: "../bossIcons/Resize/Astrum_Aureus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Brimflame_Cowl.png",
+            itemName: "Brimflame Cowl",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Brimflame_Robes.png",
+            itemName: "Brimflame Robes",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Brimflame_Boots.png",
+            itemName: "Brimflame Boots",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Blizzard_Staff.png",
+            itemName: "Blizzard Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Terra_Ray.png",
+            itemName: "Terra Ray",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Everglade_Spray.png",
+            itemName: "Everglade Spray",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Emblem.png",
+            itemName: "Celestial Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Butterfly_Wings.png",
+            itemName: "Butterfly Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Avenger_Emblem.png",
+            itemName: "Avenger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/eOqq12XavRw?si=niaLNs-6Bzy9gstb&amp;start=279",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:15",
+    mnl: `MNL: ${MD_MNL.AstrumAureus}`,
+    met: "Met = True",
+    comments: "Comments: terra ray for asteroids",
+  },
 ];
 
 window.renderBosses = function () {

@@ -2037,6 +2037,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: sphere is surprisingly good",
   },
+  //AstrumAureus
+  {
+    bossId: "AstrumAureus",
+    bossName: "AstrumAureus",
+    bossIcon: "../bossIcons/Resize/Astrum_Aureus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Umbraphile_Hood.png",
+            itemName: "Umbraphile Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Umbraphile_Regalia.png",
+            itemName: "Umbraphile Regalia",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Umbraphile_Boots.png",
+            itemName: "Umbraphile Boots",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Terra_Disk.png",
+            itemName: "Terra Disk",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Vampiric_Talisman.png",
+            itemName: "Vampiric Talisman",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Tattered_Fairy_Wings.png",
+            itemName: "Tattered Fairy Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ruin_Medallion.png",
+            itemName: "Ruin Medallion",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Void_of_Calamity.png",
+            itemName: "Void of Calamity",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/eOqq12XavRw?si=6FcDVh2yJGvqRlfV&amp;start=494",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:32",
+    mnl: `MNL: ${MD_MNL.AstrumAureus}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

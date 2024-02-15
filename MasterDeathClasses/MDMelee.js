@@ -2007,6 +2007,98 @@ var bossesData = [
     comments:
       "Comments: Blighted Cleaver sounds so lame compared to the previous name",
   },
+  //AstrumAureus
+  {
+    bossId: "AstrumAureus",
+    bossName: "Astrum Aureus",
+    bossIcon: "../bossIcons/Resize/Astrum_Aureus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Chlorophyte_Mask.png",
+            itemName: "Chlorophyte Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Chlorophyte_Plate_Mail.png",
+            itemName: "Chlorophyte Plate Mail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Chlorophyte_Greaves.png",
+            itemName: "Chlorophyte Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Christmas_Tree_Sword.png",
+            itemName: "Christmas Tree Sword",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Blighted_Cleaver.png",
+            itemName: "Blighted Cleaver (Tyrant Yharim's Ultisword)",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bloody_Worm_Scarf.png",
+            itemName: "Bloody Worm Scarf",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Tattered_Fairy_Wings.png",
+            itemName: "Tattered Fairy Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Avenger_Emblem.png",
+            itemName: "Avenger Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/eOqq12XavRw?si=WBfgxRUI2StdpFOK",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:46 ",
+    mnl: `MNL: ${MD_MNL.AstrumAureus}`,
+    met: "Met = True",
+    comments: "Comments: the rework for the christmas tree sword is neat",
+  },
 ];
 
 window.renderBosses = function () {

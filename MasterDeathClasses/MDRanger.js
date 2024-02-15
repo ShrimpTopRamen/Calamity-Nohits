@@ -2034,7 +2034,7 @@ var bossesData = [
           {
             cssClass: "weapons",
             imageUrl: "../weapons/final/Elf_Melter.png",
-            itemName: "Havoc's Breath",
+            itemName: "Elf Melter",
           },
           {
             cssClass: "weapons",
@@ -2099,6 +2099,104 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.LeviandAna}`,
     met: "Met = True",
     comments: "Comments: i love the snowman cannon",
+  },
+  //AstrumAureus
+  {
+    bossId: "AstrumAureus",
+    bossName: "Astrum Aureus",
+    bossIcon: "../bossIcons/Resize/Astrum_Aureus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Shroomite_Headgear.png",
+            itemName: "Shroomite Headgear",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Shroomite_Breastplate.png",
+            itemName: "Shroomite Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Shroomite_Leggings.png",
+            itemName: "Shroomite Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Blossom_Flux.png",
+            itemName: "Blossom Flux",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Tactical_Shotgun.png",
+            itemName: "Tactical Shotgun",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Ichor_Bullet.png",
+            itemName: "Ichor Bullets ",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stalker's_Quiver.png",
+            itemName: "Stalker's Quiver",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Hoverboard.png",
+            itemName: "Hoverboard",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sand_Shark_Tooth_Necklace.png",
+            itemName: "Sand Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Nj6a-ZTVjd0?si=hP3A_UT_J8r2_bcZ&amp;start=134",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:51",
+    mnl: `MNL: ${MD_MNL.AstrumAureus}`,
+    met: "Met = True",
+    comments: "Comments: apply ichor frequently",
   },
 ];
 

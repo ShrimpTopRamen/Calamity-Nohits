@@ -2214,7 +2214,7 @@ var bossesData = [
     ],
     moreInformationHeader: "More Information",
     videoSrc:
-      "https://www.youtube.com/embed/cZgYtVoNuWg?si=lAb3NcUNa5aIkHxn&amp;start=387",
+      "https://www.youtube.com/embed/Nj6a-ZTVjd0?si=nIxImXr2KBbJKYpw&amp;start=430",
     videoCaption: "YouTube Video",
     calamityVersion: "Calamity Version: 2.0.2.3",
     terrariaVersion: "Terraria Version: 1.4.3.6",
@@ -2222,6 +2222,104 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.LeviandAna}`,
     met: "Met = True",
     comments: "Comments: caustic staff for support",
+  },
+  //AstrumAureus
+  {
+    bossId: "AstrumAureus",
+    bossName: "Astrum Aureus",
+    bossIcon: "../bossIcons/Resize/Astrum_Aureus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spooky_Helmet.png",
+            itemName: "Spooky Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spooky_Breastplate.png",
+            itemName: "Spooky Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spooky_Leggings.png",
+            itemName: "Spooky Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Dark_Harvest.png",
+            itemName: "Dark Harvest",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Gastric_Belcher_Staff.png",
+            itemName: "Gastric Belcher Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Caustic_Staff.png",
+            itemName: "Caustic Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Blessing.png",
+            itemName: "Statis' Blessing",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Nuclear_Fuel_Rod.png",
+            itemName: "Nuclear Fuel Rod",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Spooky_Wings.png",
+            itemName: "Spooky Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/eOqq12XavRw?si=JL-Q3_zrC5s7LKGa&amp;start=384",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:17",
+    mnl: `MNL: ${MD_MNL.AstrumAureus}`,
+    met: "Met = True",
+    comments: "Comments: hulk sperm cells",
   },
 ];
 
