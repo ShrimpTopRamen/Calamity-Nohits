@@ -2040,7 +2040,7 @@ var bossesData = [
   //AstrumAureus
   {
     bossId: "AstrumAureus",
-    bossName: "AstrumAureus",
+    bossName: "Astrum Aureus",
     bossIcon: "../bossIcons/Resize/Astrum_Aureus_map.png",
     categories: [
       {
@@ -2124,6 +2124,99 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.AstrumAureus}`,
     met: "Met = True",
     comments: "Comments: none",
+  },
+  //Golem
+  {
+    bossId: "Golem",
+    bossName: "Golem",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Golem.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Umbraphile_Hood.png",
+            itemName: "Umbraphile Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Umbraphile_Regalia.png",
+            itemName: "Umbraphile Regalia",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Umbraphile_Boots.png",
+            itemName: "Umbraphile Boots",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Stellar_Knife.png",
+            itemName: "Stellar Knife",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Auroradical_Throw.png",
+            itemName: "Auroradical Throw",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Void_of_Calamity.png",
+            itemName: "Void of Calamity",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sand_Shark_Tooth_Necklace.png",
+            itemName: "Sand Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Recklessness.png",
+            itemName: "Glove of Recklessness",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Tattered_Fairy_Wings.png",
+            itemName: "Tattered Fairy Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Avenger_Emblem.png",
+            itemName: "Avenger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/y6PbQwnOfGY?si=JQeqOGGGXtHfhlHG&amp;start=348",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:24",
+    mnl: `MNL: ${MD_MNL.Golem}`,
+    met: "Met = True",
+    comments: "Comments: featherfall potions helped a ton",
   },
 ];
 

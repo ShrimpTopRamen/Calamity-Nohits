@@ -1,16 +1,16 @@
-//File for all MNL as of 1/12/2024
+//File for all MNL as of 2/27/2024
 
 //PreHardmode
 export const KingSlime = "0:35";
 export const DesertScourge = "0:35";
 export const EoC = "0:45";
 export const Crabulon = "0:45";
-export const EoW = "0:45";
-export const BoC = "0:45";
+export const EoW = "0:50";
+export const BoC = "0:50";
 export const HiveMind = "1:00";
 export const Perf = "1:00";
 export const QueenBee = "0:45";
-export const Deerclops = "0:45";
+export const Deerclops = "0:55";
 export const Skeletron = "1:00";
 export const SlimeGod = "1:20";
 export const WoF = "0:40";
@@ -39,13 +39,13 @@ export const MoonLord = "2:00";
 
 //Post Moonlord
 export const ProfGaurd = "1:10";
-export const Dragonfolly = "1:00";
+export const Dragonfolly = "1:05";
 export const Providence = "2:00";
 export const StormWeaver = "0:55";
 export const Void = "1:25";
 export const Signus = "0:55";
 export const Polter = "1:25";
-export const OldDuke = "1:10";
+export const OldDuke = "1:20";
 export const DoG = "2:10";
 export const Yharon = "2:00";
 export const ExoMechs = "2:30";

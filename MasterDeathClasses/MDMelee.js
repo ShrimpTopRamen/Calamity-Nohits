@@ -2099,6 +2099,93 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: the rework for the christmas tree sword is neat",
   },
+  //Golem
+  {
+    bossId: "Golem",
+    bossName: "Golem",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Golem.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Chlorophyte_Mask.png",
+            itemName: "Chlorophyte Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Chlorophyte_Plate_Mail.png",
+            itemName: "Chlorophyte Plate Mail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Chlorophyte_Greaves.png",
+            itemName: "Chlorophyte Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Blighted_Cleaver.png",
+            itemName: "Blighted Cleaver (Tyrant Yharim's Ultisword)",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Bloody_Worm_Scarf.png",
+            itemName: "Bloody Worm Scarf",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Soul_of_Cryogen.png",
+            itemName: "Soul of Cryogen",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/The_Community.png",
+            itemName: "The Community",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/y6PbQwnOfGY?si=W9YZS-xYQQ1y3v1P",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:14",
+    mnl: `MNL: ${MD_MNL.Golem}`,
+    met: "Met = True",
+    comments: "Comments: community is at astrum aureus power",
+  },
 ];
 
 window.renderBosses = function () {

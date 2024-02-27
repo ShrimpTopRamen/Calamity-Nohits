@@ -2198,6 +2198,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: apply ichor frequently",
   },
+  //Golem
+  {
+    bossId: "Golem",
+    bossName: "Golem",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Golem.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Shroomite_Helmet.png",
+            itemName: "Shroomite Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Shroomite_Breastplate.png",
+            itemName: "Shroomite Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Shroomite_Leggings.png",
+            itemName: "Shroomite Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snowman_Cannon.png",
+            itemName: "Snowman Cannon",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Mini_Nuke_I.png",
+            itemName: "Mini Nuke I",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Void_of_Calamity.png",
+            itemName: "Void of Calamity",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Hoverboard.png",
+            itemName: "Hoverboard",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sand_Shark_Tooth_Necklace.png",
+            itemName: "Sand Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/y6PbQwnOfGY?si=q5uAJcCgRuWuSteD&amp;start=107",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:13",
+    mnl: `MNL: ${MD_MNL.Golem}`,
+    met: "Met = True",
+    comments: "Comments: nothing",
+  },
 ];
 
 window.renderBosses = function () {
