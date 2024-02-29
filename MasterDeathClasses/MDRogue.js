@@ -2218,6 +2218,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: featherfall potions helped a ton",
   },
+  //Duke Fishron
+  {
+    bossId: "Duke",
+    bossName: "Duke Fishron",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Duke_Fishron.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Hydrothermic_Hood.png",
+            itemName: "Hydrothermic Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Hydrothermic_Armor.png",
+            itemName: "Hydrothermic Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Hydrothermic_Subligar.png",
+            itemName: "Hydrothermic Subligar",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Epidemic_Shredder.png",
+            itemName: "Epidemic Shredder",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ethereal_Extorter.png",
+            itemName: "Ethereal Extorter",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Recklessness.png",
+            itemName: "Glove of Recklessness",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Void_of_Extinction.png",
+            itemName: "Void of Extinction",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Hadal_Mantle.png",
+            itemName: "Hadal Mantle",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/agg3iEi5nWo?si=Io_a-k_7JBwv46mS&amp;start=419",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:24",
+    mnl: `MNL: ${MD_MNL.Duke}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

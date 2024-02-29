@@ -2291,6 +2291,105 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: nothing",
   },
+  //Duke Fishron
+  {
+    bossId: "Duke",
+    bossName: "Duke Fishron",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Duke_Fishron.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Plague_Reaper_Mask.png",
+            itemName: "Plague Reaper Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Plague_Reaper_Vest.png",
+            itemName: "Plague Reaper Vest",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Plague_Reaper_Striders.png",
+            itemName: "Plague Reaper Striders",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snowman_Cannon.png",
+            itemName: "Snowman Cannon",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lunic_Eye.png",
+            itemName: "Lunic Eye",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Mini_Nuke_I.png",
+            itemName: "Mini Nuke I",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Alchemical_Flask.png",
+            itemName: "Alchemical Flask",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Tattered_Fairy_Wings.png",
+            itemName: "Tattered Fairy Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/agg3iEi5nWo?si=mnfGoc6jrBH5u_P1&amp;start=103",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:17",
+    mnl: `MNL: ${MD_MNL.Duke}`,
+    met: "Met = True",
+    comments: "Comments: mhmm snowman cannon",
+  },
 ];
 
 window.renderBosses = function () {

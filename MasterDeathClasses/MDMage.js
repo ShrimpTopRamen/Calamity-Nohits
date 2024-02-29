@@ -2240,6 +2240,98 @@ var bossesData = [
     met: "Met = False",
     comments: "Comments: cryophobia + adrenaline",
   },
+  //Duke Fishron
+  {
+    bossId: "Duke",
+    bossName: "Duke Fishron",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Duke_Fishron.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spectre_Mask.png",
+            itemName: "Spectre Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spectre_Robe.png",
+            itemName: "Spectre Robe",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spectre_Pants.png",
+            itemName: "Spectre Pants",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Laser_Machinegun.png",
+            itemName: "Laser Machinegun",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Everglade_Spray.png",
+            itemName: "Everglade Spray",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Emblem.png",
+            itemName: "Celestial Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Spectre_Wings.png",
+            itemName: "Spectre Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/agg3iEi5nWo?si=rVonm3D0X0AUtgE9",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:19",
+    mnl: `MNL: ${MD_MNL.Duke}`,
+    met: "Met = True",
+    comments: "Comments: never used this weapon before lmao",
+  },
 ];
 
 window.renderBosses = function () {

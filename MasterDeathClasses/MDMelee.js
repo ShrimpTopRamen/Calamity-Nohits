@@ -2186,6 +2186,98 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: community is at astrum aureus power",
   },
+  //Duke Fishron
+  {
+    bossId: "Duke",
+    bossName: "Duke Fishron",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Duke_Fishron.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Beetle_Helmet.png",
+            itemName: "Beetle Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Beetle_Scale_Mail.png",
+            itemName: "Beetle Scale Mail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Beetle_Leggings.png",
+            itemName: "Beetle Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Hellfire_Flamberge.png",
+            itemName: "Hellfire Flamberge",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lunic_Eye.png",
+            itemName: "Lunic Eye",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Beetle_Wings.png",
+            itemName: "Beetle Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Shell.png",
+            itemName: "Celestial Shell",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/agg3iEi5nWo?si=WIWLqvQQwC1cpGvU",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:21",
+    mnl: `MNL: ${MD_MNL.Duke}`,
+    met: "Met = True",
+    comments: "Comments: pre melee speed nerf",
+  },
 ];
 
 window.renderBosses = function () {
