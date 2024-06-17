@@ -2399,6 +2399,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //EoL
+  {
+    bossId: "EoL",
+    bossName: "Empress of Light",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Empress_of_Light.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Hydrothermic_Hood.png",
+            itemName: "Hydrothermic Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Hydrothermic_Armor.png",
+            itemName: "Hydrothermic Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Hydrothermic_Subligar.png",
+            itemName: "Hydrothermic Subligar",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../weapons/final/Malachite.png",
+            itemName: "Malachite",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lunic_Eye.png",
+            itemName: "Lunic Eye",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ethereal_Extorter.png",
+            itemName: "Ethereal Extorter",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Precision.png",
+            itemName: "Glove of Precision",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/prATulrXb-k?si=MupQCTECkFYg0DQS&amp;start=536",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 3:14",
+    mnl: `MNL: ${MD_MNL.EoL}`,
+    met: "Met = True",
+    comments: "Comments: long ahh fight",
+  },
 ];
 
 window.renderBosses = function () {

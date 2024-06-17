@@ -2425,6 +2425,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //EoL
+  {
+    bossId: "EoL",
+    bossName: "Empress of Light",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Empress_of_Light.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spectre_Mask.png",
+            itemName: "Spectre Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spectre_Robe.png",
+            itemName: "Spectre Robe",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spectre_Pants.png",
+            itemName: "Spectre Pants",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Gatling_Laser.png",
+            itemName: "Gatling Laser",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Everglade_Spray.png",
+            itemName: "Everglade Spray",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Emblem.png",
+            itemName: "Celestial Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/prATulrXb-k?si=bIqH7S3acDHH8QGH&amp;start=284",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:52",
+    mnl: `MNL: ${MD_MNL.EoL}`,
+    met: "Met = True",
+    comments: "Comments: fun weapon",
+  },
 ];
 
 window.renderBosses = function () {

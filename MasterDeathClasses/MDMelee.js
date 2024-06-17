@@ -2365,6 +2365,98 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: pre melee speed nerf",
   },
+  //EoL
+  {
+    bossId: "EoL",
+    bossName: "Empress of Light",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Empress_of_Light.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Beetle_Helmet.png",
+            itemName: "Beetle Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Beetle_Scale_Mail.png",
+            itemName: "Beetle Scale Mail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Beetle_Leggings.png",
+            itemName: "Beetle Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Aegis_Blade.png",
+            itemName: "Aegis Blade",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Briny_Baron.png",
+            itemName: "Briny Baron",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Shell.png",
+            itemName: "Celestial Shell",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Beetle_Wings.png",
+            itemName: "Beetle Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/prATulrXb-k?si=ferS-S2AezorAhO6",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:08",
+    mnl: `MNL: ${MD_MNL.EoL}`,
+    met: "Met = True",
+    comments: "Comments: use ichor",
+  },
 ];
 
 window.renderBosses = function () {

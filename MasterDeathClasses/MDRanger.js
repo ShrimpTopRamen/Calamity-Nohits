@@ -2484,6 +2484,105 @@ var bossesData = [
     comments:
       "Comments: this was before mini nukes were post moon lord (use rocket 3 instead)",
   },
+  //EoL
+  {
+    bossId: "EoL",
+    bossName: "Empress of Light",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Empress_of_Light.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Plague_Reaper_Mask.png",
+            itemName: "Plague Reaper Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Plague_Reaper_Vest.png",
+            itemName: "Plague Reaper Vest",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Plague_Reaper_Striders.png",
+            itemName: "Plague Reaper Striders",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snowman_Cannon.png",
+            itemName: "Snowman Cannon",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lunic_Eye.png",
+            itemName: "Lunic Eye",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Mini_Nuke_I.png",
+            itemName: "Mini Nuke I",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Alchemical_Flask.png",
+            itemName: "Alchemical Flask",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/prATulrXb-k?si=isgrw0MsfdTbNuBC&amp;start=158",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:39",
+    mnl: `MNL: ${MD_MNL.EoL}`,
+    met: "Met = True",
+    comments:
+      "Comments: this was before mini nukes were post moon lord (use rocket 3 instead)",
+  },
 ];
 
 window.renderBosses = function () {
