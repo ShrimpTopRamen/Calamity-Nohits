@@ -2723,6 +2723,109 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: betsy's for mobility",
   },
+  //Ravager
+  {
+    bossId: "Ravager",
+    bossName: "Ravager",
+    bossIcon: "../bossIcons/Resize/Ravager_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Plaguebringer_Visor.png",
+            itemName: "Plaguebringer Visor",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Plaguebringer_Carapace.png",
+            itemName: "Plaguebringer Carapace",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Plaguebringer_Pistons.png",
+            itemName: "Plaguebringer Pistons",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Resurrection_Butterfly.png",
+            itemName: "Resurrection Butterfly",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Wither_Blossoms_Staff.png",
+            itemName: "Wither Blossoms Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Hive_Pod.png",
+            itemName: "Hive Pod",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Blessing.png",
+            itemName: "Statis' Blessing",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Berserker's_Glove.png",
+            itemName: "Berserker's Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/6bBdWifGxiw?si=StyBVB0ZP_coR0K0&amp;start=352",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:07",
+    mnl: `MNL: ${MD_MNL.Ravager}`,
+    met: "Met = False",
+    comments: "Comments: 3 seconds to early",
+  },
 ];
 
 window.renderBosses = function () {

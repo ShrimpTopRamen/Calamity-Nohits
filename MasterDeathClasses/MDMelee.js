@@ -2457,6 +2457,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: use ichor",
   },
+  //Ravager
+  {
+    bossId: "Ravager",
+    bossName: "Ravager",
+    bossIcon: "../bossIcons/Resize/Ravager_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Beetle_Helmet.png",
+            itemName: "Beetle Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Beetle_Scale_Mail.png",
+            itemName: "Beetle Scale Mail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Beetle_Leggings.png",
+            itemName: "Beetle Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Aegis_Blade.png",
+            itemName: "Aegis Blade",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Virulence.png",
+            itemName: "Virulence",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Shell.png",
+            itemName: "Celestial Shell",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Beetle_Wings.png",
+            itemName: "Beetle Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Stone.png",
+            itemName: "Celestial Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/6bBdWifGxiw?si=OhShPYLvkix-jUEd",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:09",
+    mnl: `MNL: ${MD_MNL.Ravager}`,
+    met: "Met = False",
+    comments:
+      "Comments: barely didn't meet MNL. also i have no idea why i decided to use the celestial stone lmao",
+  },
 ];
 
 window.renderBosses = function () {

@@ -2583,6 +2583,99 @@ var bossesData = [
     comments:
       "Comments: this was before mini nukes were post moon lord (use rocket 3 instead)",
   },
+  //Ravager
+  {
+    bossId: "Ravager",
+    bossName: "Ravager",
+    bossIcon: "../bossIcons/Resize/Ravager_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Plague_Reaper_Mask.png",
+            itemName: "Plague Reaper Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Plague_Reaper_Vest.png",
+            itemName: "Plague Reaper Vest",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Plague_Reaper_Striders.png",
+            itemName: "Plague Reaper Striders",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Snowman_Cannon.png",
+            itemName: "Snowman Cannon",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Mini_Nuke_I.png",
+            itemName: "Mini Nuke I",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Void_of_Extinction.png",
+            itemName: "Void of Extinction",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/6bBdWifGxiw?si=6K0zUe_FOGRjTSGA&amp;start=99",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:46",
+    mnl: `MNL: ${MD_MNL.Ravager}`,
+    met: "Met = True",
+    comments: "Comments: snowman cannon the GOAT",
+  },
 ];
 
 window.renderBosses = function () {

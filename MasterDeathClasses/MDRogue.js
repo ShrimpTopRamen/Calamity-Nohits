@@ -2492,6 +2492,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: long ahh fight",
   },
+  //Ravager
+  {
+    bossId: "Ravager",
+    bossName: "Ravager",
+    bossIcon: "../bossIcons/Resize/Ravager_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Hydrothermic_Hood.png",
+            itemName: "Hydrothermic Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Hydrothermic_Armor.png",
+            itemName: "Hydrothermic Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Hydrothermic_Subligar.png",
+            itemName: "Hydrothermic Subligar",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Plaguenade.png",
+            itemName: "Plaguenade(s)",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../weapons/final/Malachite.png",
+            itemName: "Malachite",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Recklessness.png",
+            itemName: "Glove of Recklessness",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Alchemical_Flask.png",
+            itemName: "Alchemical Flask",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Hadal_Mantle.png",
+            itemName: "Hadal Mantle",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/6bBdWifGxiw?si=Q18Lb4JlroDJzh-t&amp;start=461",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:07",
+    mnl: `MNL: ${MD_MNL.Ravager}`,
+    met: "Met = True",
+    comments: "Comments: nades for AOE, malachite for single target",
+  },
 ];
 
 window.renderBosses = function () {
