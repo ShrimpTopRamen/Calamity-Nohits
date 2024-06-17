@@ -2522,6 +2522,104 @@ var bossesData = [
     met: "Met = False",
     comments: "Comments: whoops",
   },
+  //Plague
+  {
+    bossId: "Plague",
+    bossName: "Plaguebringer Goliath",
+    bossIcon: "../bossIcons/Resize/Plaguebringer_Goliath_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spooky_Helmet.png",
+            itemName: "Spooky Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spooky_Breastplate.png",
+            itemName: "Spooky Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spooky_Leggings.png",
+            itemName: "Spooky Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Borealis_Bomber.png",
+            itemName: "Borealis Bomber",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Resurrection_Butterfly.png",
+            itemName: "Resurrection Butterfly",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Wither_Blossoms_Staff.png",
+            itemName: "Wither Blossoms Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Blessing.png",
+            itemName: "Statis' Blessing",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Spooky_Wings.png",
+            itemName: "Spooky Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/r5v44bKYuvo?si=JOmaN_g1RDRyQ1T6&amp;start=460",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:30",
+    mnl: `MNL: ${MD_MNL.Plague}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {
