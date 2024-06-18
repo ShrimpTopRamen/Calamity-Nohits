@@ -2585,6 +2585,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: nades for AOE, malachite for single target",
   },
+  //Cultist
+  {
+    bossId: "Cultist",
+    bossName: "Lunatic Cultist",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Lunatic_Cultist.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Hydrothermic_Hood.png",
+            itemName: "Hydrothermic Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Hydrothermic_Armor.png",
+            itemName: "Hydrothermic Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Hydrothermic_Subligar.png",
+            itemName: "Hydrothermic Subligar",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Stellar_Knife.png",
+            itemName: "Stellar Knife",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Recklessness.png",
+            itemName: "Glove of Recklessness",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ethereal_Extorter.png",
+            itemName: "Ethereal Extorter",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Hadal_Mantle.png",
+            itemName: "Hadal Mantle",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/x8u2KnPDie8?si=i28PELumvjxsAOV9&amp;start=279",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:03",
+    mnl: `MNL: ${MD_MNL.Cultist}`,
+    met: "Met = True",
+    comments: "Comments: only class that passed the MNL",
+  },
 ];
 
 window.renderBosses = function () {
