@@ -2673,6 +2673,95 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: only class that passed the MNL",
   },
+  //AstrumDeus
+  {
+    bossId: "AstrumDeus",
+    bossName: "Astrum Deus",
+    bossIcon: "../bossIcons/Resize/Astrum_Deus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Hydrothermic_Hood.png",
+            itemName: "Hydrothermic Hood",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Hydrothermic_Armor.png",
+            itemName: "Hydrothermic Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Hydrothermic_Subligar.png",
+            itemName: "Hydrothermic Subligar",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Subduction_Slicer.png",
+            itemName: "Subduction Slicer",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Precision.png",
+            itemName: "Glove of Precision",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ethereal_Extorter.png",
+            itemName: "Ethereal Extorter",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/d14DmYmslCc?si=SCXwI3sZRt8A9UB5&amp;start=555",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:11",
+    mnl: `MNL: ${MD_MNL.AstrumDeus}`,
+    met: "Met = False",
+    comments: "Comments: really good weapon against worm bosses",
+  },
 ];
 
 window.renderBosses = function () {

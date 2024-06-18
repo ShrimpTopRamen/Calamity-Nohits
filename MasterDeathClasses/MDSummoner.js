@@ -2924,6 +2924,100 @@ var bossesData = [
     met: "Met = False",
     comments: "Comments: none",
   },
+  //AstrumDeus
+  {
+    bossId: "AstrumDeus",
+    bossName: "Astrum Deus",
+    bossIcon: "../bossIcons/Resize/Astrum_Deus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Plaguebringer_Visor.png",
+            itemName: "Plaguebringer Visor",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Plaguebringer_Carapace.png",
+            itemName: "Plaguebringer Carapace",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Plaguebringer_Pistons.png",
+            itemName: "Plaguebringer Pistons",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Stardust_Dragon_Staff.png",
+            itemName: "Stardust Dragon Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Curse.png",
+            itemName: "Statis' Curse",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Necromantic_Scroll.png",
+            itemName: "Necromantic Scroll",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Berserker's_Glove.png",
+            itemName: "Berserker's Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/d14DmYmslCc?si=JJhmI7lzJjOmmuUj&amp;start=459",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:06",
+    mnl: `MNL: ${MD_MNL.AstrumDeus}`,
+    met: "Met = False",
+    comments:
+      "Comments: dragons got nerfed against this boss so idk if this is still a good weapon",
+  },
 ];
 
 window.renderBosses = function () {

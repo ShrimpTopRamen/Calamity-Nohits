@@ -2637,6 +2637,93 @@ var bossesData = [
     met: "Met = False",
     comments: "Comments: none",
   },
+  //Astrum Deus
+  {
+    bossId: "AstrumDeus",
+    bossName: "Astrum Deus",
+    bossIcon: "../bossIcons/Resize/Astrum_Deus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Beetle_Helmet.png",
+            itemName: "Beetle Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Beetle_Scale_Mail.png",
+            itemName: "Beetle Scale Mail",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Beetle_Leggings.png",
+            itemName: "Beetle Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Storm_Ruler.png",
+            itemName: "Storm Ruler",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Shell.png",
+            itemName: "Celestial Shell",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/d14DmYmslCc?si=hYXCGeCifKVZaNSg",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 1:32",
+    mnl: `MNL: ${MD_MNL.AstrumDeus}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

@@ -2769,6 +2769,89 @@ var bossesData = [
     met: "Met = False",
     comments: "Comments: snowman cannon the GOAT x2",
   },
+  //AstrumDeus
+  {
+    bossId: "AstrumDeus",
+    bossName: "Astrum Deus",
+    bossIcon: "../bossIcons/Resize/Astrum_Deus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Plague_Reaper_Mask.png",
+            itemName: "Plague Reaper Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Plague_Reaper_Vest.png",
+            itemName: "Plague Reaper Vest",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Plague_Reaper_Striders.png",
+            itemName: "Plague Reaper Striders",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Malevolence.png",
+            itemName: "Malevolence",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stalker's_Quiver.png",
+            itemName: "Stalker's Quiver",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/d14DmYmslCc?si=aQ0AstdAMOvtVmR5&amp;start=130",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.2.3",
+    terrariaVersion: "Terraria Version: 1.4.3.6",
+    timeTaken: "Time Taken: 2:17",
+    mnl: `MNL: ${MD_MNL.AstrumDeus}`,
+    met: "Met = True",
+    comments: "Comments: underrated weapon",
+  },
 ];
 
 window.renderBosses = function () {
