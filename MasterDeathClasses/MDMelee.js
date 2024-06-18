@@ -2724,6 +2724,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Astrageldon
+  {
+    bossId: "Astra",
+    bossName: "Astrageldon",
+    bossIcon:
+      "../bossIcons/Resize/Map_Icon_Astrageldon_(Phase_2)_(Catalyst).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Astral_Helm.png",
+            itemName: "Astral Helm",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Astral_Breastplate.png",
+            itemName: "Astral Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Astral_Leggings.png",
+            itemName: "Astral Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Daybreak.png",
+            itemName: "Daybreak",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Entropic_Claymore.png",
+            itemName: "Entropic Claymore",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Shell.png",
+            itemName: "Celestial Shell",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/RXSFf_P0Lh0?si=aKXzfN3DP6tMYFqy",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.6",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 4:25",
+    mnl: `MNL: ${MD_MNL.Astrageldon}`,
+    met: "Met = True",
+    comments: "Comments: daybreak for phase 1, claymore for phase 2",
+  },
 ];
 
 window.renderBosses = function () {

@@ -2792,6 +2792,100 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: zap",
   },
+  //Astrageldon
+  {
+    bossId: "Astra",
+    bossName: "Astrageldon",
+    bossIcon:
+      "../bossIcons/Resize/Map_Icon_Astrageldon_(Phase_2)_(Catalyst).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Astral_Helm.png",
+            itemName: "Astral Helm",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Astral_Breastplate.png",
+            itemName: "Astral Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Astral_Leggings.png",
+            itemName: "Astral Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/The_Swarmer.png",
+            itemName: "The Swarmer",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Lazhar.png",
+            itemName: "Lazhar",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Emblem.png",
+            itemName: "Celestial Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/RXSFf_P0Lh0?si=0xLfyUC6wTNVK5pV&amp;start=621",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.6",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 4:16",
+    mnl: `MNL: ${MD_MNL.Astrageldon}`,
+    met: "Met = True",
+    comments: "Comments: lazhar for phase 1, swarmer for phase 2",
+  },
 ];
 
 window.renderBosses = function () {

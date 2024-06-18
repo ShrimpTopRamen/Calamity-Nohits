@@ -3018,6 +3018,105 @@ var bossesData = [
     comments:
       "Comments: dragons got nerfed against this boss so idk if this is still a good weapon",
   },
+  //Astrageldon
+  {
+    bossId: "Astra",
+    bossName: "Astrageldon",
+    bossIcon:
+      "../bossIcons/Resize/Map_Icon_Astrageldon_(Phase_2)_(Catalyst).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spooky_Helmet.png",
+            itemName: "Spooky Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spooky_Breastplate.png",
+            itemName: "Spooky Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spooky_Leggings.png",
+            itemName: "Spooky Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Stardust_Cell_Staff.png",
+            itemName: "Stardust Cell Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Eye_of_Magnus.png",
+            itemName: "Eye of Magnus",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Curse.png",
+            itemName: "Statis' Curse",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Necromantic_Scroll.png",
+            itemName: "Necromantic Scroll",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/RXSFf_P0Lh0?si=uUYLWPETjtoIpfvO&amp;start=935",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.6",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 4:13",
+    mnl: `MNL: ${MD_MNL.Astrageldon}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

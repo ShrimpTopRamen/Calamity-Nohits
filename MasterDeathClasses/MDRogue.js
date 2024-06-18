@@ -2762,6 +2762,100 @@ var bossesData = [
     met: "Met = False",
     comments: "Comments: really good weapon against worm bosses",
   },
+  //Astrageldon
+  {
+    bossId: "Astra",
+    bossName: "Astrageldon",
+    bossIcon:
+      "../bossIcons/Resize/Map_Icon_Astrageldon_(Phase_2)_(Catalyst).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Astral_Helm.png",
+            itemName: "Astral Helm",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Astral_Breastplate.png",
+            itemName: "Astral Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Astral_Leggings.png",
+            itemName: "Astral Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Regulus_Riot.png",
+            itemName: "Regulus Riot",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Radiant_Star.png",
+            itemName: "Radiant Star",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ethereal_Extorter.png",
+            itemName: "Ethereal Extorter",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Precision.png",
+            itemName: "Glove of Precision",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/RXSFf_P0Lh0?si=nd1G2pE7DYDdRpC5&amp;start=1261",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.6",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 4:27",
+    mnl: `MNL: ${MD_MNL.Astrageldon}`,
+    met: "Met = True",
+    comments: "Comments: radiant star for minions, riot for everything else",
+  },
 ];
 
 window.renderBosses = function () {

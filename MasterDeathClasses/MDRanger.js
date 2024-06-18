@@ -2852,6 +2852,111 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: underrated weapon",
   },
+  //Astrageldon
+  {
+    bossId: "Astra",
+    bossName: "Astrageldon",
+    bossIcon:
+      "../bossIcons/Resize/Map_Icon_Astrageldon_(Phase_2)_(Catalyst).png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Shroomite_Headgear.png",
+            itemName: "Shroomite Headgear",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Shroomite_Breastplate.png",
+            itemName: "Shroomite Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Shroomite_Leggings.png",
+            itemName: "Shroomite Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Phantasm.png",
+            itemName: "Phantasm",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Scorpio.png",
+            itemName: "Scorpio",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Sprouting_Arrow.png",
+            itemName: "Sprouting Arrow (Terra Arrows)",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Mini_Nuke_I.png",
+            itemName: "Mini Nuke I",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/RXSFf_P0Lh0?si=UrlkcbStf2RftPZf&amp;start=313",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.6",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 4:10",
+    mnl: `MNL: ${MD_MNL.Astrageldon}`,
+    met: "Met = True",
+    comments:
+      "Comments: scorpio for minions + when the boss is moving too much",
+  },
 ];
 
 window.renderBosses = function () {
