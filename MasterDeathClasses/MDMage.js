@@ -2886,6 +2886,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: lazhar for phase 1, swarmer for phase 2",
   },
+  //Moon Lord
+  {
+    bossId: "MoonLord",
+    bossName: "Moon Lord",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Moon_Lord.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spectre_Mask.png",
+            itemName: "Spectre Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spectre_Robe.png",
+            itemName: "Spectre Robe",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spectre_Pants.png",
+            itemName: "Spectre Pants",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/The_Swarmer.png",
+            itemName: "The Swarmer",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Emblem.png",
+            itemName: "Celestial Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/H4oIfPwrVLU?si=Qrav21jR04SHuKbd&amp;start=333",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.8",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:03",
+    mnl: `MNL: ${MD_MNL.MoonLord}`,
+    met: "Met = True",
+    comments: "Comments: bees",
+  },
 ];
 
 window.renderBosses = function () {

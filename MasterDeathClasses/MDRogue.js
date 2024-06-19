@@ -2856,6 +2856,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: radiant star for minions, riot for everything else",
   },
+  //MoonLord
+  {
+    bossId: "MoonLord",
+    bossName: "Moon Lord",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Moon_Lord.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Astral_Helm.png",
+            itemName: "Astral Helm",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Astral_Breastplate.png",
+            itemName: "Astral Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Astral_Leggings.png",
+            itemName: "Astral Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Regulus_Riot.png",
+            itemName: "Regulus Riot",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Matter_Sheath.png",
+            itemName: "Dark Matter Sheath",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ethereal_Extorter.png",
+            itemName: "Ethereal Extorter",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Precision.png",
+            itemName: "Glove of Precision",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/H4oIfPwrVLU?si=MqBPf_jpI9WRt6ep&amp;start=644",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.8",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:05",
+    mnl: `MNL: ${MD_MNL.MoonLord}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

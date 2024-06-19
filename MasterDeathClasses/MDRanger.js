@@ -2957,6 +2957,99 @@ var bossesData = [
     comments:
       "Comments: scorpio for minions + when the boss is moving too much",
   },
+  //MoonLord
+  {
+    bossId: "MoonLord",
+    bossName: "Moon Lord",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Moon_Lord.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Plague_Reaper_Mask.png",
+            itemName: "Plague Reaper Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Plague_Reaper_Vest.png",
+            itemName: "Plague Reaper Vest",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Plague_Reaper_Striders.png",
+            itemName: "Plague Reaper Striders",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Phantasm.png",
+            itemName: "Phantasm",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Sprouting_Arrow.png",
+            itemName: "Sprouting Arrow (Terra Arrows)",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/H4oIfPwrVLU?si=tH9dlzTDiQwTBrSO&amp;start=166",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.8",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:11",
+    mnl: `MNL: ${MD_MNL.MoonLord}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

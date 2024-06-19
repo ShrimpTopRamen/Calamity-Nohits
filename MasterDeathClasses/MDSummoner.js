@@ -3117,6 +3117,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Moon Lord
+  {
+    bossId: "MoonLord",
+    bossName: "Moon Lord",
+    bossIcon: "../bossIcons/Resize/Map_Icon_Moon_Lord.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "head",
+            imageUrl: "../armor/final/Spooky_Helmet.png",
+            itemName: "Spooky Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Spooky_Breastplate.png",
+            itemName: "Spooky Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Spooky_Leggings.png",
+            itemName: "Spooky Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Stardust_Cell_Staff.png",
+            itemName: "Stardust Cell Staff",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Terraprisma.png",
+            itemName: "Terraprisma",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Betsy's_Wings.png",
+            itemName: "Betsy's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Curse.png",
+            itemName: "Statis' Curse",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Necromantic_Scroll.png",
+            itemName: "Necromantic Scroll",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/H4oIfPwrVLU?si=2AZ5MjRrj0v7fo1X&amp;start=487",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.8",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:58",
+    mnl: `MNL: ${MD_MNL.MoonLord}`,
+    met: "Met = False",
+    comments: "Comments: off by 2 seconds",
+  },
 ];
 
 window.renderBosses = function () {
