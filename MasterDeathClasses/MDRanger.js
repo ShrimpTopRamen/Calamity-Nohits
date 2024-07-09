@@ -3140,6 +3140,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Dragonfolly
+  {
+    bossId: "Birb",
+    bossName: "Dragonfolly",
+    bossIcon: "../bossIcons/Resize/Dragonfolly_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Vortex_Helmet.png",
+            itemName: "Vortex Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Vortex_Breastplate.png",
+            itemName: "Vortex Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Vortex_Leggings.png",
+            itemName: "Vortex Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Elemental_Blaster.png",
+            itemName: "Elemental Blaster",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Elemental_Eruption.png",
+            itemName: "Elemental Eruption",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sand_Shark_Tooth_Necklace.png",
+            itemName: "Sand Shark Tooth Necklace",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/WUOutVs7qOc?si=5F2V1TBPJkodvyjR&amp;start=137",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:13",
+    mnl: `MNL: ${MD_MNL.Dragonfolly}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

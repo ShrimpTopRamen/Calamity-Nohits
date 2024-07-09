@@ -3315,6 +3315,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Dragonfolly
+  {
+    bossId: "Birb",
+    bossName: "Dragonfolly",
+    bossIcon: "../bossIcons/Resize/Dragonfolly_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Stardust_Helmet.png",
+            itemName: "Stardust Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Stardust_Plate.png",
+            itemName: "Stardust Plate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Stardust_Leggings.png",
+            itemName: "Stardust Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Elemental_Axe.png",
+            itemName: "Elemental Axe",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Flowers_of_Mortality.png",
+            itemName: "Flowers of Mortality",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Curse.png",
+            itemName: "Statis' Curse",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Necromantic_Scroll.png",
+            itemName: "Necromantic Scroll",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/WUOutVs7qOc?si=LpGFkxD6WAvPR-gl&amp;start=356",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:05",
+    mnl: `MNL: ${MD_MNL.Dragonfolly}`,
+    met: "Met = True",
+    comments: "Comments: exactly on time",
+  },
 ];
 
 window.renderBosses = function () {

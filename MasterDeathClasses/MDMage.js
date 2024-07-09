@@ -3069,6 +3069,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: bubbles",
   },
+  //Dragonfolly
+  {
+    bossId: "Birb",
+    bossName: "Dragonfolly",
+    bossIcon: "../bossIcons/Resize/Dragonfolly_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Nebula_Helmet.png",
+            itemName: "Nebula Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Nebula_Breastplate.png",
+            itemName: "Nebula Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Nebula_Leggings.png",
+            itemName: "Nebula Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Nuclear_Fury.png",
+            itemName: "Nuclear Fury",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sand_Shark_Tooth_Necklace.png",
+            itemName: "Sand Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/WUOutVs7qOc?si=grmg2R6KHLaAZlQb&amp;start=243",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:16",
+    mnl: `MNL: ${MD_MNL.Dragonfolly}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

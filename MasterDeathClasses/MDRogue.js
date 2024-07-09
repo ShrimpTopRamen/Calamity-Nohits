@@ -3035,6 +3035,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Dragonfolly
+  {
+    bossId: "Birb",
+    bossName: "Dragonfolly",
+    bossIcon: "../bossIcons/Resize/Dragonfolly_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Mask.png",
+            itemName: "Empyrean Mask",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Cloak.png",
+            itemName: "Empyrean Cloak",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Cuisses.png",
+            itemName: "Empyrean Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Lunar_Kunai.png",
+            itemName: "Lunar Kunai",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Recklessness.png",
+            itemName: "Glove of Recklessness",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Matter_Sheath.png",
+            itemName: "Dark Matter Sheath",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Moonstone_Crown.png",
+            itemName: "Moonstone Crown",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sand_Shark_Tooth_Necklace.png",
+            itemName: "Sand Shark Tooth Necklace",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/WUOutVs7qOc?si=eYSRKBYww6c24QN5&amp;start=456",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:45",
+    mnl: `MNL: ${MD_MNL.Dragonfolly}`,
+    met: "Met = True",
+    comments: "Comments: stealth strike + lunar kunai",
+  },
 ];
 
 window.renderBosses = function () {

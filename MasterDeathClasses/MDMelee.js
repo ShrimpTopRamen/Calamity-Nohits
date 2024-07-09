@@ -2993,6 +2993,98 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: normality relocator good",
   },
+  //Dragonfolly
+  {
+    bossId: "Birb",
+    bossName: "Dragonfolly",
+    bossIcon: "../bossIcons/Resize/Dragonfolly_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Solar_Flare_Helmet.png",
+            itemName: "Solar Flare Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Solar_Flare_Breastplate.png",
+            itemName: "Solar Flare Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Solar_Flare_Leggings.png",
+            itemName: "Solar Flare Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Elemental_Shiv.png",
+            itemName: "Elemental Shiv",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Stellar_Striker.png",
+            itemName: "Stellar Striker",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warbanner_of_the_Sun.png",
+            itemName: "Warbanner of the Sun",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/WUOutVs7qOc?si=wcxWwhRC4rnEZD98",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:35",
+    mnl: `MNL: ${MD_MNL.Dragonfolly}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {
