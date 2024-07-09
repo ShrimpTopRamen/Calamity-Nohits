@@ -3123,6 +3123,100 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: stealth strike + lunar kunai",
   },
+  //Providence
+  {
+    bossId: "Providence",
+    bossName: "Providence, the Profaned Goddess",
+    bossIcon5: "../bossIcons/Resize/Providence_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Mask.png",
+            itemName: "Empyrean Mask",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Cloak.png",
+            itemName: "Empyrean Cloak",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Cuisses.png",
+            itemName: "Empyrean Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Lunar_Kunai.png",
+            itemName: "Lunar Kunai",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Utensil_Poker.png",
+            itemName: "Utensil Poker",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Exodus_Wings.png",
+            itemName: "Exodus Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Blunder_Booster.png",
+            itemName: "Blunder Booster",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Matter_Sheath.png",
+            itemName: "Dark Matter Sheath",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/goCcV2qaWr4?si=iOIZNLdwxon9cqZ6&amp;start=803",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:37",
+    mnl: `MNL: ${MD_MNL.Providence}`,
+    met: "Met = True",
+    comments:
+      "Comments: when she's in her cocoon build up stealth for the utensil poker",
+  },
 ];
 
 window.renderBosses = function () {

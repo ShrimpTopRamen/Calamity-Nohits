@@ -3233,6 +3233,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Providence
+  {
+    bossId: "Providence",
+    bossName: "Providence, the Profaned Goddess",
+    bossIcon5: "../bossIcons/Resize/Providence_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Vortex_Helmet.png",
+            itemName: "Vortex Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Vortex_Breastplate.png",
+            itemName: "Vortex Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Vortex_Leggings.png",
+            itemName: "Vortex Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Onyx_Chain_Blaster.png",
+            itemName: "Onyx Chain Blaster",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Holy_Fire_Bullet.png",
+            itemName: "Holy Fire Bullet",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Vortex_Booster.png",
+            itemName: "Vortex Booster",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sand_Shark_Tooth_Necklace.png",
+            itemName: "Sand Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/goCcV2qaWr4?si=OmKErRduJ3KGUkrc&amp;start=157",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:52",
+    mnl: `MNL: ${MD_MNL.Providence}`,
+    met: "Met = True",
+    comments: "Comments: never fight her in hell, it's an absolute pain",
+  },
 ];
 
 window.renderBosses = function () {

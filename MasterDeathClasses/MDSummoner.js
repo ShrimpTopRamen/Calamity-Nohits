@@ -3413,6 +3413,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: exactly on time",
   },
+  //Providence
+  {
+    bossId: "Providence",
+    bossName: "Providence, the Profaned Goddess",
+    bossIcon5: "../bossIcons/Resize/Providence_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Stardust_Helmet.png",
+            itemName: "Stardust Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Stardust_Plate.png",
+            itemName: "Stardust Plate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Stardust_Leggings.png",
+            itemName: "Stardust Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Eye_of_Magnus.png",
+            itemName: "Eye of Magnus",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Elemental_Axe.png",
+            itemName: "Elemental Axe",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Stardust_Wings.png",
+            itemName: "Stardust Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Curse.png",
+            itemName: "Statis' Curse",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Necromantic_Scroll.png",
+            itemName: "Necromantic Scroll",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/goCcV2qaWr4?si=j1QB_jSGpqgbF4H3&amp;start=661",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:47",
+    mnl: `MNL: ${MD_MNL.Providence}`,
+    met: "Met = False",
+    comments: "Comments: wanted to do this at night but the DR was so bad",
+  },
 ];
 
 window.renderBosses = function () {

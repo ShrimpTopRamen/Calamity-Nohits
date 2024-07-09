@@ -3157,6 +3157,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Providence
+  {
+    bossId: "Providence",
+    bossName: "Providence, the Profaned Goddess",
+    bossIcon5: "../bossIcons/Resize/Providence_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Nebula_Helmet.png",
+            itemName: "Nebula Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Nebula_Breastplate.png",
+            itemName: "Nebula Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Nebula_Leggings.png",
+            itemName: "Nebula Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Effervescence.png",
+            itemName: "Effervescence",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Ultra_Liquidator.png",
+            itemName: "Ultra Liquidator",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Nebula_Mantle.png",
+            itemName: "Nebula Mantle",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/goCcV2qaWr4?si=ER2Tjv9VsTXX92GA&amp;start=373",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 4:04",
+    mnl: `MNL: ${MD_MNL.Providence}`,
+    met: "Met = True",
+    comments: "Comments: damn this took a long time",
+  },
 ];
 
 window.renderBosses = function () {

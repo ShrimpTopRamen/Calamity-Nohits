@@ -200,6 +200,12 @@ body.Infernum {
   transition: filter 0.3s ease;
 }
 
+.bossIcons5 {
+  width: 8%;
+  height: auto;
+  transition: filter 0.3s ease;
+}
+
 /*
 .Armour {
     width: 50%;

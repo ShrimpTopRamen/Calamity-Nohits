@@ -3083,7 +3083,100 @@ var bossesData = [
     timeTaken: "Time Taken: 1:35",
     mnl: `MNL: ${MD_MNL.Dragonfolly}`,
     met: "Met = True",
-    comments: "Comments: none",
+    comments:
+      "Comments: when boss is stationary try getting in a few hits with the stellar striker",
+  },
+  //Providence
+  {
+    bossId: "Providence",
+    bossName: "Providence, the Profaned Goddess",
+    bossIcon5: "../bossIcons/Resize/Providence_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Solar_Flare_Helmet.png",
+            itemName: "Solar Flare Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Solar_Flare_Breastplate.png",
+            itemName: "Solar Flare Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Solar_Flare_Leggings.png",
+            itemName: "Solar Flare Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Elemental_Shiv.png",
+            itemName: "Elemental Shiv",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Swordsplosion.png",
+            itemName: "Swordsplosion",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Solar_Wings.png",
+            itemName: "Solar Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warbanner_of_the_Sun.png",
+            itemName: "Warbanner of the Sun",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/goCcV2qaWr4?si=1yX0awbvVFj-cfu8",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:00",
+    mnl: `MNL: ${MD_MNL.Providence}`,
+    met: "Met = True",
+    comments: "Comments: right on time",
   },
 ];
 
