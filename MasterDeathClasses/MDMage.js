@@ -2974,6 +2974,101 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: bees",
   },
+  //The Profaned Guardians
+  {
+    bossId: "Nuggets",
+    bossName: "The Profaned Guardians",
+    bossIcon: "../bossIcons/Resize/Guardian_Healer_map.png",
+    bossIcon2: "../bossIcons/Resize/Guardian_Defender_map.png",
+    bossIcon3: "../bossIcons/Resize/Guardian_Commander_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Nebula_Helmet.png",
+            itemName: "Nebula Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Nebula_Breastplate.png",
+            itemName: "Nebula Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Nebula_Leggings.png",
+            itemName: "Nebula Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Effervescence.png",
+            itemName: "Effervescence",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Ultra_Liquidator.png",
+            itemName: "Ultra Liquidator",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Emblem.png",
+            itemName: "Celestial Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/97W2aubteSw?si=ntUMTl7U33UKKu8E&amp;start=273",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.8",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:46",
+    mnl: `MNL: ${MD_MNL.ProfGaurd}`,
+    met: "Met = True",
+    comments: "Comments: bubbles",
+  },
 ];
 
 window.renderBosses = function () {

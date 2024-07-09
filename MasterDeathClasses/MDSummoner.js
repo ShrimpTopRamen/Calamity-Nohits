@@ -3215,6 +3215,106 @@ var bossesData = [
     met: "Met = False",
     comments: "Comments: off by 2 seconds",
   },
+  //The Profaned Guardians
+  {
+    bossId: "Nuggets",
+    bossName: "The Profaned Guardians",
+    bossIcon: "../bossIcons/Resize/Guardian_Healer_map.png",
+    bossIcon2: "../bossIcons/Resize/Guardian_Defender_map.png",
+    bossIcon3: "../bossIcons/Resize/Guardian_Commander_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Stardust_Helmet.png",
+            itemName: "Stardust Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Stardust_Plate.png",
+            itemName: "Stardust Plate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Stardust_Leggings.png",
+            itemName: "Stardust Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Tactical_Plague_Engine.png",
+            itemName: "Tactical Plague Engine",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Flowers_of_Mortality.png",
+            itemName: "Flowers of Mortality",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Curse.png",
+            itemName: "Statis' Curse",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Necromantic_Scroll.png",
+            itemName: "Necromantic Scroll",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/97W2aubteSw?si=ewMrNJPGmnEixYdI&amp;start=422",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.8",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:18",
+    mnl: `MNL: ${MD_MNL.ProfGaurd}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

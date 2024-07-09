@@ -2944,6 +2944,97 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //The Profaned Guardians
+  {
+    bossId: "Nuggets",
+    bossName: "The Profaned Guardians",
+    bossIcon: "../bossIcons/Resize/Guardian_Healer_map.png",
+    bossIcon2: "../bossIcons/Resize/Guardian_Defender_map.png",
+    bossIcon3: "../bossIcons/Resize/Guardian_Commander_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Mask.png",
+            itemName: "Empyrean Mask",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Cloak.png",
+            itemName: "Empyrean Cloak",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Cuisses.png",
+            itemName: "Empyrean Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Lunar_Kunai.png",
+            itemName: "Lunar Kunai",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ethereal_Extorter.png",
+            itemName: "Ethereal Extorter",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Electrician's_Glove.png",
+            itemName: "Electrician's Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Matter_Sheath.png",
+            itemName: "Dark Matter Sheath",
+          },
+
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Recklessness.png",
+            itemName: "Glove of Recklessness",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Moonstone_Crown.png",
+            itemName: "Moonstone Crown",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/97W2aubteSw?si=MToBdGcE8YTkgbHM&amp;start=548",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.8",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:00",
+    mnl: `MNL: ${MD_MNL.ProfGaurd}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

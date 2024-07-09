@@ -3050,6 +3050,96 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //The Profaned Guardians
+  {
+    bossId: "Nuggets",
+    bossName: "The Profaned Guardians",
+    bossIcon: "../bossIcons/Resize/Guardian_Healer_map.png",
+    bossIcon2: "../bossIcons/Resize/Guardian_Defender_map.png",
+    bossIcon3: "../bossIcons/Resize/Guardian_Commander_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Vortex_Helmet.png",
+            itemName: "Vortex Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Vortex_Breastplate.png",
+            itemName: "Vortex Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Vortex_Leggings.png",
+            itemName: "Vortex Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Planetary_Annihilation.png",
+            itemName: "Planetary Annihilation",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgard's_Valor.png",
+            itemName: "Asgard's Valor",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stalker's_Quiver.png",
+            itemName: "Stalker's Quiver",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/97W2aubteSw?si=OqheDvhVaWO2L29R&amp;start=145",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.8",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:33",
+    mnl: `MNL: ${MD_MNL.ProfGaurd}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {
