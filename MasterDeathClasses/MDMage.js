@@ -3346,7 +3346,7 @@ var bossesData = [
   //Ceaseless Void
   {
     bossId: "CVoid",
-    bossName: "Ceaseless Void ",
+    bossName: "Ceaseless Void",
     bossIcon5: "../bossIcons/Resize/Ceaseless_Void_map.png",
     categories: [
       {
@@ -3435,6 +3435,99 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.Void}`,
     met: "Met = True",
     comments: "Comments: use nuclear fury for orbs",
+  },
+  //Storm Weaver
+  {
+    bossId: "StormWeaver",
+    bossName: "Storm Weaver",
+    bossIcon: "../bossIcons/Resize/Storm_Weaver_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Nebula_Helmet.png",
+            itemName: "Nebula Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Nebula_Breastplate.png",
+            itemName: "Nebula Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Nebula_Leggings.png",
+            itemName: "Nebula Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Sanguine_Flare.png",
+            itemName: "Sanguine Flare",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Plasma_Rifle.png",
+            itemName: "Plasma Rifle",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/9pGY4Zq6fdc?si=U-Qi3A1ZPPXJa4yT&amp;start=255",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:05",
+    mnl: `MNL: ${MD_MNL.StormWeaver}`,
+    met: "Met = True",
+    comments: "Comments: sanguine flare for phase 1",
   },
 ];
 

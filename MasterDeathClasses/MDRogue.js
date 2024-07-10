@@ -3398,6 +3398,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: wave pounder for orbs",
   },
+  //Storm Weaver
+  {
+    bossId: "StormWeaver",
+    bossName: "Storm Weaver",
+    bossIcon: "../bossIcons/Resize/Storm_Weaver_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Mask.png",
+            itemName: "Empyrean Mask",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Cloak.png",
+            itemName: "Empyrean Cloak",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Cuisses.png",
+            itemName: "Empyrean Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Wave_Pounder.png",
+            itemName: "Wave Pounder",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Shattered_Sun.png",
+            itemName: "Shattered Sun",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Glove_of_Precision.png",
+            itemName: "Glove of Precision",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Blunder_Booster.png",
+            itemName: "Blunder Booster",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Matter_Sheath.png",
+            itemName: "Dark Matter Sheath",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/9pGY4Zq6fdc?si=yftkxxLBtoODrdLC&amp;start=457",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:15",
+    mnl: `MNL: ${MD_MNL.StormWeaver}`,
+    met: "Met = True",
+    comments: "Comments: shattered sun for phase 1, pounder for phase 2",
+  },
 ];
 
 window.renderBosses = function () {
