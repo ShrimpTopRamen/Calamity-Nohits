@@ -3178,6 +3178,98 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: right on time",
   },
+  //Signus
+  {
+    bossId: "Signus",
+    bossName: "Signus, Envoy of the Devourer",
+    bossIcon: "../bossIcons/Resize/Signus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Solar_Flare_Helmet.png",
+            itemName: "Solar Flare Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Solar_Flare_Breastplate.png",
+            itemName: "Solar Flare Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Solar_Flare_Leggings.png",
+            itemName: "Solar Flare Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Galactus_Blade.png",
+            itemName: "Galactus Blade",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Seeking_Scorcher.png",
+            itemName: "Seeking Scorcher",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Badge_of_Bravery.png",
+            itemName: "Badge of Bravery",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warbanner_of_the_Sun.png",
+            itemName: "Warbanner of the Sun",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Mechanical_Glove.png",
+            itemName: "Mechanical Glove",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/oMSZdrZsNdM?si=ozh2sR7TeHJWp2uB",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:12",
+    mnl: `MNL: ${MD_MNL.Signus}`,
+    met: "Met = True",
+    comments: "Comments: what the sigma",
+  },
 ];
 
 window.renderBosses = function () {

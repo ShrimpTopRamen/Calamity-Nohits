@@ -3250,6 +3250,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: damn this took a long time",
   },
+  //Signus
+  {
+    bossId: "Signus",
+    bossName: "Signus, Envoy of the Devourer",
+    bossIcon: "../bossIcons/Resize/Signus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Nebula_Helmet.png",
+            itemName: "Nebula Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Nebula_Breastplate.png",
+            itemName: "Nebula Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Nebula_Leggings.png",
+            itemName: "Nebula Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Divine_Retribution.png",
+            itemName: "Divine Retribution",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Ultra_Liquidator.png",
+            itemName: "Ultra Liquidator",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sand_Shark_Tooth_Necklace.png",
+            itemName: "Sand Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/oMSZdrZsNdM?si=KZGZJRKMJkO5hno8&amp;start=213",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:50",
+    mnl: `MNL: ${MD_MNL.Signus}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

@@ -3511,6 +3511,104 @@ var bossesData = [
     met: "Met = False",
     comments: "Comments: wanted to do this at night but the DR was so bad",
   },
+  //Signus
+  {
+    bossId: "Signus",
+    bossName: "Signus, Envoy of the Devourer",
+    bossIcon: "../bossIcons/Resize/Signus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Stardust_Helmet.png",
+            itemName: "Stardust Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Stardust_Plate.png",
+            itemName: "Stardust Plate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Stardust_Leggings.png",
+            itemName: "Stardust Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Dazzling_Stabber_Staff.png",
+            itemName: "Dazzling Stabber Staff",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Dragonblood_Disgorger.png",
+            itemName: "Dragon Disgorger",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Curse.png",
+            itemName: "Statis' Curse",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Necromantic_Scroll.png",
+            itemName: "Necromantic Scroll",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/oMSZdrZsNdM?si=uFD9YDiZUkeoOVVX&amp;start=354",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 0:43",
+    mnl: `MNL: ${MD_MNL.Signus}`,
+    met: "Met = False",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

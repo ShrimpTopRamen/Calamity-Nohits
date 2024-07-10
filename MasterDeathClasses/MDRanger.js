@@ -3326,6 +3326,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: never fight her in hell, it's an absolute pain",
   },
+  //Signus
+  {
+    bossId: "Signus",
+    bossName: "Signus, Envoy of the Devourer",
+    bossIcon: "../bossIcons/Resize/Signus_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Vortex_Helmet.png",
+            itemName: "Vortex Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Vortex_Breastplate.png",
+            itemName: "Vortex Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Vortex_Leggings.png",
+            itemName: "Vortex Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Freedom_Star.png",
+            itemName: "Freedom Star",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sand_Shark_Tooth_Necklace.png",
+            itemName: "Sand Shark Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/oMSZdrZsNdM?si=fFU8NqZhFVVF88rj&amp;start=104",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:12",
+    mnl: `MNL: ${MD_MNL.Signus}`,
+    met: "Met = True",
+    comments: "Comments: this feels like a mage weapon",
+  },
 ];
 
 window.renderBosses = function () {
