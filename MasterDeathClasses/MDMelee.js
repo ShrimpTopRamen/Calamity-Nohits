@@ -3270,6 +3270,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: what the sigma",
   },
+  //Ceaseless Void
+  {
+    bossId: "CVoid",
+    bossName: "Ceaseless Void",
+    bossIcon5: "../bossIcons/Resize/Ceaseless_Void_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Solar_Flare_Helmet.png",
+            itemName: "Solar Flare Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Solar_Flare_Breastplate.png",
+            itemName: "Solar Flare Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Solar_Flare_Leggings.png",
+            itemName: "Solar Flare Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Pulse_Dragon.png",
+            itemName: "Pulse Dragon",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Seeking_Scorcher.png",
+            itemName: "Seeking Scorcher",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Wings.png",
+            itemName: "Elysian Wings",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Badge_of_Bravery.png",
+            itemName: "Badge of Bravery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warbanner_of_the_Sun.png",
+            itemName: "Warbanner of the Sun",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Shell.png",
+            itemName: "Celestial Shell",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/abnxSayC02M?si=rVJxqvjwChMbSjpA",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:56",
+    mnl: `MNL: ${MD_MNL.Void}`,
+    met: "Met = True",
+    comments:
+      "Comments: had to redo this because i deleted the footage the 1st time",
+  },
 ];
 
 window.renderBosses = function () {
