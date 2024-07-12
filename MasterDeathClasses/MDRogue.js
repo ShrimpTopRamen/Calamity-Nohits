@@ -3491,6 +3491,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: shattered sun for phase 1, pounder for phase 2",
   },
+  //Polterghast
+  {
+    bossId: "Polterghast",
+    bossName: "Polterghast",
+    bossIcon: "../bossIcons/Resize/Polterghast_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Mask.png",
+            itemName: "Empyrean Mask",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Cloak.png",
+            itemName: "Empyrean Cloak",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Empyrean_Cuisses.png",
+            itemName: "Empyrean Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Molten_Amputator.png",
+            itemName: "Molten Amputator",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Reality_Rupture.png",
+            itemName: "Reality Rupture",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Blunder_Booster.png",
+            itemName: "Blunder Booster",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Matter_Sheath.png",
+            itemName: "Dark Matter Sheath",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/7X1M6JWrWxk?si=3cRHrma73GTOisYR&amp;start=685",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:02",
+    mnl: `MNL: ${MD_MNL.Polter}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

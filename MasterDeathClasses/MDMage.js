@@ -3529,6 +3529,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: sanguine flare for phase 1",
   },
+  //Polterghast
+  {
+    bossId: "Polterghast",
+    bossName: "Polterghast",
+    bossIcon: "../bossIcons/Resize/Polterghast_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Prismatic_Helmet.png",
+            itemName: "Prismatic Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Prismatic_Regalia.png",
+            itemName: "Prismatic Regalia",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Prismatic_Greaves.png",
+            itemName: "Prismatic Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Divine_Retribution.png",
+            itemName: "Divine Retribution",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Thunderstorm_(weapon).png",
+            itemName: "Thunderstorm",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sorcerer_Emblem.png",
+            itemName: "Sorcerer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/7X1M6JWrWxk?si=Bl9jBJDX58QrU7uY&amp;start=367",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:26",
+    mnl: `MNL: ${MD_MNL.Polter}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

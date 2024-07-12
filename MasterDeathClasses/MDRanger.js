@@ -3572,7 +3572,7 @@ var bossesData = [
             itemName: "Recon Scope",
           },
           {
-            cssClass: "weapons-ammo",
+            cssClass: "accessories",
             imageUrl: "../accessories/final/Stress_Pills.png",
             itemName: "Stress Pills",
           },
@@ -3592,6 +3592,99 @@ var bossesData = [
     terrariaVersion: "Terraria Version: 1.4.4.9",
     timeTaken: "Time Taken: 1:42",
     mnl: `MNL: ${MD_MNL.StormWeaver}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
+  //Polterghast
+  {
+    bossId: "Polterghast",
+    bossName: "Polterghast",
+    bossIcon: "../bossIcons/Resize/Polterghast_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Vortex_Helmet.png",
+            itemName: "Vortex Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Vortex_Breastplate.png",
+            itemName: "Vortex Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Vortex_Leggings.png",
+            itemName: "Vortex Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Arterial_Assault.png",
+            itemName: "Arterial Assault",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Elysian_Arrow.png",
+            itemName: "Elysian Arrow",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stalker's_Quiver.png",
+            itemName: "Stalker's Quiver",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stress_Pills.png",
+            itemName: "Stress Pills",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ranger_Emblem.png",
+            itemName: "Ranger Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/7X1M6JWrWxk?si=5Zya3lPxEkV0R9Zq&amp;start=178",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:29",
+    mnl: `MNL: ${MD_MNL.Polter}`,
     met: "Met = True",
     comments: "Comments: none",
   },

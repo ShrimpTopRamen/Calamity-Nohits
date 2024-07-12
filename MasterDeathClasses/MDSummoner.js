@@ -3795,6 +3795,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Polterghast
+  {
+    bossId: "Polterghast",
+    bossName: "Polterghast",
+    bossIcon: "../bossIcons/Resize/Polterghast_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Stardust_Helmet.png",
+            itemName: "Stardust Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Stardust_Plate.png",
+            itemName: "Stardust Plate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Stardust_Leggings.png",
+            itemName: "Stardust Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Snake_Eyes.png",
+            itemName: "Snake Eyes",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Void_Concentration_Staff.png",
+            itemName: "Void Concentration Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Curse.png",
+            itemName: "Statis' Curse",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Summoner_Emblem.png",
+            itemName: "Summoner Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Necromantic_Scroll.png",
+            itemName: "Necromantic Scroll",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/7X1M6JWrWxk?si=5OnXkqKIuC7T2Nll&amp;start=550",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:38",
+    mnl: `MNL: ${MD_MNL.Polter}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

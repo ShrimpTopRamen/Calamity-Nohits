@@ -3455,6 +3455,98 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: holy collider for phase 1",
   },
+  //Polterghast
+  {
+    bossId: "Polterghast",
+    bossName: "Polterghast",
+    bossIcon: "../bossIcons/Resize/Polterghast_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Tarragon_Helm.png",
+            itemName: "Tarragon Helm",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Tarragon_Breastplate.png",
+            itemName: "Tarragon Breastplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Tarragon_Leggings.png",
+            itemName: "Tarragon Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Galactus_Blade.png",
+            itemName: "Galactus Blade",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Defiled_Greatsword.png",
+            itemName: "Defiled Greatsword",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Badge_of_Bravery.png",
+            itemName: "Badge of Bravery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warbanner_of_the_Sun.png",
+            itemName: "Warbanner of the Sun",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/7X1M6JWrWxk?si=yOF8zZnY2BmXegDG",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:21",
+    mnl: `MNL: ${MD_MNL.Polter}`,
+    met: "Met = True",
+    comments: "Comments: tarragon cause solar flare kept messing up my dash",
+  },
 ];
 
 window.renderBosses = function () {
