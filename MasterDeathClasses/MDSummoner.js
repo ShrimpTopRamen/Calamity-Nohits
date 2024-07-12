@@ -4079,6 +4079,104 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Yharon
+  {
+    bossId: "Yharon",
+    bossName: "Yharon, Dragon of Rebirth",
+    bossIcon: "../bossIcons/Resize/Yharon_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Silva_Horned_Hood.png",
+            itemName: "Silva Horned Hood",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Silva_Armor.png",
+            itemName: "Silva Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Silva_Leggings.png",
+            itemName: "Silva Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../weapons/final/Cosmic_Viper_Engine.png",
+            itemName: "Cosmic Viper Engine",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/God_Slayer_Slug.png",
+            itemName: "God Slayer Slug",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Silva_Wings.png",
+            itemName: "Silva Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Nucleogenesis.png",
+            itemName: "Nucleogenesis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Sun_Ring.png",
+            itemName: "Dark Sun Ring",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Papyrus_Scarab.png",
+            itemName: "Papyrus Scarab",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/wa3nOopiSRM?si=ppov_U0otscm1p1n&amp;start=692",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.2",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:13",
+    mnl: `MNL: ${MD_MNL.Yharon}`,
+    met: "Met = True",
+    comments: "Comments: their victory stirs below your skin",
+  },
 ];
 
 window.renderBosses = function () {

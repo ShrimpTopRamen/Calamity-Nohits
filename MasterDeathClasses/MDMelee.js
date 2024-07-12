@@ -3721,6 +3721,93 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: guess this weapon got nerfed /shrug",
   },
+  //Yharon
+  {
+    bossId: "Yharon",
+    bossName: "Yharon, Dragon of Rebirth",
+    bossIcon: "../bossIcons/Resize/Yharon_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Helmet.png",
+            itemName: "Omega Blue Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Chestplate.png",
+            itemName: "Omega Blue Chestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Omega_Blue_Tentacles.png",
+            itemName: "Omega Blue Tentacles",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Cosmic_Shiv.png",
+            itemName: "Cosmic Shiv",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Silva_Wings.png",
+            itemName: "Silva Wings",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Elemental_Gauntlet.png",
+            itemName: "Elemental Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/wa3nOopiSRM?si=y14h1kUYct5U--IW",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.2",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:01",
+    mnl: `MNL: ${MD_MNL.Yharon}`,
+    met: "Met = True",
+    comments: "Comments: this is my message to my master",
+  },
 ];
 
 window.renderBosses = function () {

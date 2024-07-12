@@ -3808,6 +3808,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: phantasmal fury for final phase",
   },
+  //Yharon
+  {
+    bossId: "Yharon",
+    bossName: "Yharon, Dragon of Rebirth",
+    bossIcon: "../bossIcons/Resize/Yharon_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Silva_Masked_Cap.png",
+            itemName: "Silva Masked Cap",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Silva_Armor.png",
+            itemName: "Silva Armor",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Silva_Leggings.png",
+            itemName: "Silva Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Nebulous_Cataclysm.png",
+            itemName: "Nebulous Cataclysm",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Silva_Wings.png",
+            itemName: "Silva Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ethereal_Talisman.png",
+            itemName: "Ethereal Talisman",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/wa3nOopiSRM?si=wtb-F4rDGbFfFFDO&amp;start=467",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.2",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:56",
+    mnl: `MNL: ${MD_MNL.Yharon}`,
+    met: "Met = True",
+    comments: "Comments: i think that past your great disasters",
+  },
 ];
 
 window.renderBosses = function () {

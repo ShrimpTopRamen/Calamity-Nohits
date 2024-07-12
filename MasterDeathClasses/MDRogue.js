@@ -3765,6 +3765,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: really good weapon",
   },
+  //Yharon
+  {
+    bossId: "Yharon",
+    bossName: "Yharon, Dragon of Rebirth",
+    bossIcon: "../bossIcons/Resize/Yharon_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/God_Slayer_Mask.png",
+            itemName: "God Slayer Mask",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/God_Slayer_Chestplate.png",
+            itemName: "God Slayer Chestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/God_Slayer_Leggings.png",
+            itemName: "God Slayer Leggings",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Gods'_Paranoia.png",
+            itemName: "Gods' Paranoia",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Silva_Wings.png",
+            itemName: "Silva Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Nanotech.png",
+            itemName: "Nanotech",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Venerated_Locket.png",
+            itemName: "Venerated Locket",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Eclipse_Mirror.png",
+            itemName: "Eclipse Mirror",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/wa3nOopiSRM?si=hPQifvM4bYko5wDu&amp;start=936",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.2",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:30",
+    mnl: `MNL: ${MD_MNL.Yharon}`,
+    met: "Met = True",
+    comments: "Comments: if you proceed I will not blame you",
+  },
 ];
 
 window.renderBosses = function () {

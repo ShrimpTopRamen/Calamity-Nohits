@@ -3874,6 +3874,109 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Yharon
+  {
+    bossId: "Yharon",
+    bossName: "Yharon, Dragon of Rebirth",
+    bossIcon: "../bossIcons/Resize/Yharon_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Helmet.png",
+            itemName: "Omega Blue Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Chestplate.png",
+            itemName: "Omega Blue Chestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Omega_Blue_Tentacles.png",
+            itemName: "Omega Blue Tentacles",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Phangasm.png",
+            itemName: "Phangasm",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Vanquisher_Arrow.png",
+            itemName: "Vanquisher Arrow",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/The_Pack.png",
+            itemName: "The Pack",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../weapons/final/Mini_Nuke_I.png",
+            itemName: "Mini Nuke I",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Silva_Wings.png",
+            itemName: "Silva Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Elemental_Quiver.png",
+            itemName: "Elemental Quiver",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/wa3nOopiSRM?si=PEXACTG6Hyl67s75&amp;start=230",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.2",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:05",
+    mnl: `MNL: ${MD_MNL.Yharon}`,
+    met: "Met = True",
+    comments: "Comments: this is a fight you cannot win",
+  },
 ];
 
 window.renderBosses = function () {
