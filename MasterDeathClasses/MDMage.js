@@ -3622,6 +3622,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Old Duke
+  {
+    bossId: "OldDuke",
+    bossName: "The Old Duke",
+    bossIcon: "../bossIcons/Resize/The_Old_Duke_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Prismatic_Helmet.png",
+            itemName: "Prismatic Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Prismatic_Regalia.png",
+            itemName: "Prismatic Regalia",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Prismatic_Greaves.png",
+            itemName: "Prismatic Greaves",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Ghastly_Visage.png",
+            itemName: "Ghastly Visage",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Everglade_Spray.png",
+            itemName: "Everglade Spray",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/TtZDbt8uIws?si=Q3wGca9uFra3bnSw&amp;start=297",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:43",
+    mnl: `MNL: ${MD_MNL.OldDuke}`,
+    met: "Met = True",
+    comments: "Comments: spray spray",
+  },
 ];
 
 window.renderBosses = function () {

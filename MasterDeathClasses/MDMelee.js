@@ -3547,6 +3547,93 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: tarragon cause solar flare kept messing up my dash",
   },
+  //OldDuke
+  {
+    bossId: "OldDuke",
+    bossName: "The Old Duke",
+    bossIcon: "../bossIcons/Resize/The_Old_Duke_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Helmet.png",
+            itemName: "Omega Blue Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Chestplate.png",
+            itemName: "Omega Blue Chestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Omega_Blue_Tentacles.png",
+            itemName: "Omega Blue Tentacles",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Death's_Ascension.png",
+            itemName: "Death's Ascension",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Badge_of_Bravery.png",
+            itemName: "Badge of Bravery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Shell.png",
+            itemName: "Celestial Shell",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warrior_Emblem.png",
+            itemName: "Warrior Emblem",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/TtZDbt8uIws?si=0lAXCBzBw5qUhQUS",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:27",
+    mnl: `MNL: ${MD_MNL.OldDuke}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

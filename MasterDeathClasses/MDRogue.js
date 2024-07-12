@@ -3584,6 +3584,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //Old Duke
+  {
+    bossId: "OldDuke",
+    bossName: "The Old Duke",
+    bossIcon: "../bossIcons/Resize/The_Old_Duke_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Helmet.png",
+            itemName: "Omega Blue Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Chestplate.png",
+            itemName: "Omega Blue Chestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Omega_Blue_Tentacles.png",
+            itemName: "Omega Blue Tentacles",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Valediction.png",
+            itemName: "Valediction",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Time_Bolt.png",
+            itemName: "Time Bolt",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Celestial_Tracers.png",
+            itemName: "Celestial Tracers",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ethereal_Extorter.png",
+            itemName: "Etheral Extorter",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Blunder_Booster.png",
+            itemName: "Blunder Booster",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Destroyer_Emblem.png",
+            itemName: "Destroyer Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Matter_Sheath.png",
+            itemName: "Dark Matter Sheath",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/TtZDbt8uIws?si=dSxAMgLpYEXuBFrF&amp;start=572",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 1:58",
+    mnl: `MNL: ${MD_MNL.OldDuke}`,
+    met: "Met = True",
+    comments: "Comments: use time bolt when duke is tired",
+  },
 ];
 
 window.renderBosses = function () {
