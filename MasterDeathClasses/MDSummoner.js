@@ -3986,6 +3986,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //DoG
+  {
+    bossId: "DoG",
+    bossName: "The Devourer of Gods",
+    bossIcon: "../bossIcons/Resize/Devourer_of_Gods_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Bloodflare_Wyvern_Helm.png",
+            itemName: "Bloodflare Wyvern Helm",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Bloodflare_Body_Armor.png",
+            itemName: "Bloodflare Body Armor",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Bloodflare_Cuisses.png",
+            itemName: "Bloodflare Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../weapons/final/Dazzling_Stabber_Staff.png",
+            itemName: "Dazzling Stabber STaff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Wings.png",
+            itemName: "Elysian Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Star-Tainted_Generator.png",
+            itemName: "Star-Tainted Generator",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Statis'_Curse.png",
+            itemName: "Statis' Curse",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Profaned_Soul_Artifact.png",
+            itemName: "Profaned Soul Artifact",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/TMJSA2Rprfs?si=2Pay6g8Nfflctb7T&amp;start=643",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:12",
+    mnl: `MNL: ${MD_MNL.DoG}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

@@ -3786,6 +3786,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: none",
   },
+  //DoG
+  {
+    bossId: "DoG",
+    bossName: "The Devourer of Gods",
+    bossIcon: "../bossIcons/Resize/Devourer_of_Gods_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Helmet.png",
+            itemName: "Omega Blue Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Chestplate.png",
+            itemName: "Omega Blue Chestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Omega_Blue_Tentacles.png",
+            itemName: "Omega Blue Tentacles",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Monsoon.png",
+            itemName: "Monsoon",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Wings.png",
+            itemName: "Elysian Wings",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Deadshot_Brooch.png",
+            itemName: "Deadshot Brooch",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Stalker's_Quiver.png",
+            itemName: "Stalker's Quiver",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Recon_Scope.png",
+            itemName: "Recon Scope",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/TMJSA2Rprfs?si=RDVQL_peXTYZFhIC&amp;start=204",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:26",
+    mnl: `MNL: ${MD_MNL.DoG}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

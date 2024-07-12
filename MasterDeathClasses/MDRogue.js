@@ -3677,6 +3677,94 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: use time bolt when duke is tired",
   },
+  //DoG
+  {
+    bossId: "DoG",
+    bossName: "The Devourer of Gods",
+    bossIcon: "../bossIcons/Resize/Devourer_of_Gods_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Helmet.png",
+            itemName: "Omega Blue Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Chestplate.png",
+            itemName: "Omega Blue Chestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Omega_Blue_Tentacles.png",
+            itemName: "Omega Blue Tentacles",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/The_Old_Reaper.png",
+            itemName: "The Old Reaper",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Wings.png",
+            itemName: "Elysian Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Blunder_Booster.png",
+            itemName: "Blunder Booster",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Rogue_Emblem.png",
+            itemName: "Rogue Emblem",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Matter_Sheath.png",
+            itemName: "Dark Matter Sheath",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/TMJSA2Rprfs?si=GsKKQc3WgJmaGc7H&amp;start=888",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:37",
+    mnl: `MNL: ${MD_MNL.DoG}`,
+    met: "Met = True",
+    comments: "Comments: really good weapon",
+  },
 ];
 
 window.renderBosses = function () {

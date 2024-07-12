@@ -3715,6 +3715,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: spray spray",
   },
+  //DoG
+  {
+    bossId: "DoG",
+    bossName: "The Devourer of Gods",
+    bossIcon: "../bossIcons/Resize/Devourer_of_Gods_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Helmet.png",
+            itemName: "Omega Blue Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Chestplate.png",
+            itemName: "Omega Blue Chestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Omega_Blue_Tentacles.png",
+            itemName: "Omega Blue Tentacles",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Dark_Spark.png",
+            itemName: "Dark Spark",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Phantasmal_Fury.png",
+            itemName: "Phantasmal Fury",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Wings.png",
+            itemName: "Elysian Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Magnet_Flower.png",
+            itemName: "Magnet Flower",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/TMJSA2Rprfs?si=KZ151ZTVM1M8nZXe&amp;start=393",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:11",
+    mnl: `MNL: ${MD_MNL.DoG}`,
+    met: "Met = True",
+    comments: "Comments: phantasmal fury for final phase",
+  },
 ];
 
 window.renderBosses = function () {

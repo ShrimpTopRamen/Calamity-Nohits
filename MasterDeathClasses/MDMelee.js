@@ -3597,7 +3597,7 @@ var bossesData = [
             itemName: "Badge of Bravery",
           },
           {
-            cssClass: "accessories",
+            cssClass: "weapons-ammo",
             imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
             itemName: "Reaper Tooth Necklace",
           },
@@ -3633,6 +3633,93 @@ var bossesData = [
     mnl: `MNL: ${MD_MNL.OldDuke}`,
     met: "Met = True",
     comments: "Comments: none",
+  },
+  //DoG
+  {
+    bossId: "DoG",
+    bossName: "The Devourer of Gods",
+    bossIcon: "../bossIcons/Resize/Devourer_of_Gods_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Helmet.png",
+            itemName: "Omega Blue Helmet",
+          },
+          {
+            cssClass: "chest",
+            imageUrl: "../armor/final/Omega_Blue_Chestplate.png",
+            itemName: "Omega Blue Chestplate",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Omega_Blue_Tentacles.png",
+            itemName: "Omega Blue Tentacles",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Insidious_Impaler.png",
+            itemName: "Insidious Impaler",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Wings.png",
+            itemName: "Elysian Wings",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Fire_Gauntlet.png",
+            itemName: "Fire Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Celestial_Shell.png",
+            itemName: "Celestial Shell",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Elysian_Aegis.png",
+            itemName: "Elysian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warbanner_of_the_Sun.png",
+            itemName: "Warbanner of the Sun",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/TMJSA2Rprfs?si=CtdyTI2X967RytDl",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.3.9",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 2:34",
+    mnl: `MNL: ${MD_MNL.DoG}`,
+    met: "Met = True",
+    comments: "Comments: guess this weapon got nerfed /shrug",
   },
 ];
 
