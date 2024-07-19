@@ -3896,6 +3896,103 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: i think that past your great disasters",
   },
+  //Exo Mechs
+  {
+    bossId: "ExoMechs",
+    bossName: "The Exo Mechs",
+    bossIcon1: "../bossIcons/Resize/Apollo_Phase_1_map.png",
+    bossIcon2: "../bossIcons/Resize/Thanatos_Head_map.png",
+    bossIcon3: "../bossIcons/Resize/Ares_map.png",
+    bossIcon5: "../bossIcons/Resize/Artemis_Phase_1_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Wire-Hemmed_Visage.png",
+            itemName: "Auric Telsa Wire-Hemmed Visage",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Body_Armor.png",
+            itemName: "Auric Tesla Body Armor",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Auric_Tesla_Cuisses.png",
+            itemName: "Auric Tesla Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Aetherflux_Cannon.png",
+            itemName: "Aetherflux Cannon",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Void_Vortex.png",
+            itemName: "Void Vortex",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Drew's_Wings.png",
+            itemName: "Drew's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Ethereal_Talisman.png",
+            itemName: "Ethereal Talisman",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Sigil_of_Calamitas.png",
+            itemName: "Sigil of Calamitas",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/LF2lCfDE41A?si=7DpCUopRAgVdoLWr&amp;start=512",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.3",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:36",
+    mnl: `MNL: ${MD_MNL.ExoMechs}`,
+    met: "Met = True",
+    comments:
+      "Comments: reminder that donald duck is one of the most powerful mages in kingdom hearts",
+  },
 ];
 
 window.renderBosses = function () {

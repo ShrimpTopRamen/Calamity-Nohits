@@ -4177,6 +4177,112 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: their victory stirs below your skin",
   },
+  //ExoMechs
+  {
+    bossId: "ExoMechs",
+    bossName: "The Exo Mechs",
+    bossIcon1: "../bossIcons/Resize/Apollo_Phase_1_map.png",
+    bossIcon2: "../bossIcons/Resize/Thanatos_Head_map.png",
+    bossIcon3: "../bossIcons/Resize/Ares_map.png",
+    bossIcon5: "../bossIcons/Resize/Artemis_Phase_1_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Space_Helmet.png",
+            itemName: "Auric Telsa Space Helmet",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Body_Armor.png",
+            itemName: "Auric Tesla Body Armor",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Auric_Tesla_Cuisses.png",
+            itemName: "Auric Tesla Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Kaleidoscope.png",
+            itemName: "Kaleidoscope",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Pole_Warper.png",
+            itemName: "Pole Warper",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Eye_of_Magnus.png",
+            itemName: "Eye of Magnus",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Yharon's_Kindle_Staff.png",
+            itemName: "Yharon's Kindle Staff",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Drew's_Wings.png",
+            itemName: "Drew's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Nucleogenesis.png",
+            itemName: "Nucleogenesis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Sun_Ring.png",
+            itemName: "Dark Sun Ring",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/LF2lCfDE41A?si=r9-lzJeS76zESaBa&amp;start=797",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.3",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:23",
+    mnl: `MNL: ${MD_MNL.ExoMechs}`,
+    met: "Met = True",
+    comments: "Comments: kindle staff for artemis/apollo phase",
+  },
 ];
 
 window.renderBosses = function () {

@@ -3808,6 +3808,101 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: this is my message to my master",
   },
+  //Exo Mechs
+  {
+    bossId: "ExoMechs",
+    bossName: "The Exo Mechs",
+    bossIcon1: "../bossIcons/Resize/Apollo_Phase_1_map.png",
+    bossIcon2: "../bossIcons/Resize/Thanatos_Head_map.png",
+    bossIcon3: "../bossIcons/Resize/Ares_map.png",
+    bossIcon5: "../bossIcons/Resize/Artemis_Phase_1_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Royal_Helm.png",
+            itemName: "Auric Tesla Royal Helm",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Body_Armor.png",
+            itemName: "Auric Tesla Body Armor",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Auric_Tesla_Cuisses.png",
+            itemName: "Auric Tesla Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Zenith.png",
+            itemName: "Zenith",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Nadir.png",
+            itemName: "Nadir",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Drew's_Wings.png",
+            itemName: "Drew's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Elemental_Gauntlet.png",
+            itemName: "Elemental Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Badge_of_Bravery.png",
+            itemName: "Badge of Bravery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Warbanner_of_the_Sun.png",
+            itemName: "Warbanner of the Sun",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/LF2lCfDE41A?si=ywqFJLrI4eUWlYWu",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.3",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:15",
+    mnl: `MNL: ${MD_MNL.ExoMechs}`,
+    met: "Met = True",
+    comments: "Comments: nadir for thanatos",
+  },
 ];
 
 window.renderBosses = function () {

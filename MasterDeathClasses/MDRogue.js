@@ -3853,6 +3853,102 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: if you proceed I will not blame you",
   },
+  //ExoMechs
+  {
+    bossId: "ExoMechs",
+    bossName: "The Exo Mechs",
+    bossIcon1: "../bossIcons/Resize/Apollo_Phase_1_map.png",
+    bossIcon2: "../bossIcons/Resize/Thanatos_Head_map.png",
+    bossIcon3: "../bossIcons/Resize/Ares_map.png",
+    bossIcon5: "../bossIcons/Resize/Artemis_Phase_1_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Plumed_Helm.png",
+            itemName: "Auric Telsa Plumed Helm",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Body_Armor.png",
+            itemName: "Auric Tesla Body Armor",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Auric_Tesla_Cuisses.png",
+            itemName: "Auric Tesla Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Seared_Pan.png",
+            itemName: "Seared Pan",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Dynamic_Pursuer.png",
+            itemName: "Dynamic Pursuer",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Drew's_Wings.png",
+            itemName: "Drew's Wings",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Angel_Treads.png",
+            itemName: "Angel Treads",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Nanotech.png",
+            itemName: "Nanotech",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Venerated_Locket.png",
+            itemName: "Venerated Locket",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Eclipse_Mirror.png",
+            itemName: "Eclipse Mirror",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/LF2lCfDE41A?si=-9_O_OaTbbWbpTdE&amp;start=1076",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.3",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:41",
+    mnl: `MNL: ${MD_MNL.ExoMechs}`,
+    met: "Met = True",
+    comments: "Comments: sick undertale reference",
+  },
 ];
 
 window.renderBosses = function () {
