@@ -3993,6 +3993,94 @@ var bossesData = [
     comments:
       "Comments: reminder that donald duck is one of the most powerful mages in kingdom hearts",
   },
+  //Scal
+  {
+    bossId: "Scal",
+    bossName: "Supreme Witch, Calamitas",
+    bossIcon1: "../bossIcons/Resize/SCalamitas_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Wire-Hemmed_Visage.png",
+            itemName: "Auric Telsa Wire-Hemmed Visage",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Body_Armor.png",
+            itemName: "Auric Tesla Body Armor",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Auric_Tesla_Cuisses.png",
+            itemName: "Auric Tesla Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Subsuming_Vortex.png",
+            itemName: "Subsuming Vortex",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Seraph_Tracers.png",
+            itemName: "Seraph Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Ethereal_Talisman.png",
+            itemName: "Ethereal Talisman",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Chaos_Stone.png",
+            itemName: "Chaos Stone",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Occult_Skull_Crown.png",
+            itemName: "Occult Skull Crown",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Z6QvhOjtURk?si=mIMbh14fYaLvt_Hl&amp;start=574",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.3",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 4:05",
+    mnl: `MNL: ${MD_MNL.SCal}`,
+    met: "Met = True",
+    comments: "Comments: none",
+  },
 ];
 
 window.renderBosses = function () {

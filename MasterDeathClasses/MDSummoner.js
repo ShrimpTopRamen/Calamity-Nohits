@@ -4283,6 +4283,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: kindle staff for artemis/apollo phase",
   },
+  //Scal
+  {
+    bossId: "Scal",
+    bossName: "Supreme Witch, Calamitas",
+    bossIcon1: "../bossIcons/Resize/SCalamitas_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Space_Helmet.png",
+            itemName: "Auric Telsa Space Helmet",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Body_Armor.png",
+            itemName: "Auric Tesla Body Armor",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Auric_Tesla_Cuisses.png",
+            itemName: "Auric Tesla Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Cosmic_Immaterializer.png",
+            itemName: "Cosmic Immaterializer",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Staff_of_the_Mechworm.png",
+            itemName: "Staff of the Mechworm",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Seraph_Tracers.png",
+            itemName: "Seraph Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Nucleogenesis.png",
+            itemName: "Nucleogenesis",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dark_Sun_Ring.png",
+            itemName: "Dark Sun Ring",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Occult_Skull_Crown.png",
+            itemName: "Occult Skull Crown",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Z6QvhOjtURk?si=L5FzuRZQd8HX6ncS&amp;start=855",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.3",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:54",
+    mnl: `MNL: ${MD_MNL.SCal}`,
+    met: "Met = True",
+    comments: "Comments: probably the easiest for this fight",
+  },
 ];
 
 window.renderBosses = function () {

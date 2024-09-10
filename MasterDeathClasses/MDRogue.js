@@ -3949,6 +3949,99 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: sick undertale reference",
   },
+  //Scal
+  {
+    bossId: "Scal",
+    bossName: "Supreme Witch, Calamitas",
+    bossIcon1: "../bossIcons/Resize/SCalamitas_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Plumed_Helm.png",
+            itemName: "Auric Telsa Plumed Helm",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Body_Armor.png",
+            itemName: "Auric Tesla Body Armor",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Auric_Tesla_Cuisses.png",
+            itemName: "Auric Tesla Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../weapons/final/Supernova.png",
+            itemName: "Supernova",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Celestus.png",
+            itemName: "Celestus",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Seraph_Tracers.png",
+            itemName: "Seraph Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Nanotech.png",
+            itemName: "Nanotech",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Venerated_Locket.png",
+            itemName: "Venerated Locket",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Eclipse_Mirror.png",
+            itemName: "Eclipse Mirror",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Occult_Skull_Crown.png",
+            itemName: "Occult Skull Crown",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc:
+      "https://www.youtube.com/embed/Z6QvhOjtURk?si=-zEpBYvKARWWbLX0&amp;start=1117",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.3",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:45",
+    mnl: `MNL: ${MD_MNL.SCal}`,
+    met: "Met = True",
+    comments: "Comments: supernova stealth strike on seekers",
+  },
 ];
 
 window.renderBosses = function () {

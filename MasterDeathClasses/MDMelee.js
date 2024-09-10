@@ -3903,6 +3903,98 @@ var bossesData = [
     met: "Met = True",
     comments: "Comments: nadir for thanatos",
   },
+  //Scal
+  {
+    bossId: "Scal",
+    bossName: "Supreme Witch, Calamitas",
+    bossIcon1: "../bossIcons/Resize/SCalamitas_map.png",
+    categories: [
+      {
+        categoryName: "Armour",
+        items: [
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Royal_Helm.png",
+            itemName: "Auric Tesla Royal Helm",
+          },
+          {
+            cssClass: "legs",
+            imageUrl: "../armor/final/Auric_Tesla_Body_Armor.png",
+            itemName: "Auric Tesla Body Armor",
+          },
+          {
+            cssClass: "weapons-boomer",
+            imageUrl: "../armor/final/Auric_Tesla_Cuisses.png",
+            itemName: "Auric Tesla Cuisses",
+          },
+        ],
+      },
+      {
+        categoryName: "Weapon(s)",
+        items: [
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Exoblade.png",
+            itemName: "Exoblade",
+          },
+          {
+            cssClass: "weapons",
+            imageUrl: "../weapons/final/Dragon_Rage.png",
+            itemName: "Dragon Rage",
+          },
+        ],
+      },
+      {
+        categoryName: "Accessories",
+        items: [
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Seraph_Tracers.png",
+            itemName: "Seraph Tracers",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Dimensional_Soul_Artifact.png",
+            itemName: "Dimensional Soul Artifact",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Elemental_Gauntlet.png",
+            itemName: "Elemental Gauntlet",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Badge_of_Bravery.png",
+            itemName: "Badge of Bravery",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Reaper_Tooth_Necklace.png",
+            itemName: "Reaper Tooth Necklace",
+          },
+          {
+            cssClass: "accessories",
+            imageUrl: "../accessories/final/Asgardian_Aegis.png",
+            itemName: "Asgardian Aegis",
+          },
+          {
+            cssClass: "weapons-ammo",
+            imageUrl: "../accessories/final/Occult_Skull_Crown.png",
+            itemName: "Occult Skull Crown",
+          },
+        ],
+      },
+    ],
+    moreInformationHeader: "More Information",
+    videoSrc: "https://www.youtube.com/embed/Z6QvhOjtURk?si=SGSBiFWbBTvix7Df",
+    videoCaption: "YouTube Video",
+    calamityVersion: "Calamity Version: 2.0.4.3",
+    terrariaVersion: "Terraria Version: 1.4.4.9",
+    timeTaken: "Time Taken: 3:49",
+    mnl: `MNL: ${MD_MNL.SCal}`,
+    met: "Met = True",
+    comments: "Comments: dragon rage for hearts",
+  },
 ];
 
 window.renderBosses = function () {
